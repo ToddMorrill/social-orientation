@@ -1,0 +1,3034 @@
+conversation_id,chunk_id,utterance_id,speaker,social_orientation
+103354968.15189.15189,0,1,Daizus,Warm-Agreeable
+103354968.15189.15189,0,2,Vintila Barbu,Warm-Agreeable
+103354968.15189.15189,1,3,Daizus,Unassuming-Ingenuous
+103354968.15189.15189,2,4,Vintila Barbu,Warm-Agreeable
+103354968.15189.15189,2,5,Daizus,Warm-Agreeable
+103354968.15189.15189,2,6,John K,Warm-Agreeable
+103354968.15189.15189,3,7,Daizus,Warm-Agreeable
+103354968.15189.15189,4,8,John K,Warm-Agreeable
+106917469.75842.75842,0,1,Maurice27,Assured-Dominant
+106917469.75842.75842,0,2,Martorell,Unassuming-Ingenuous
+106917469.75842.75842,1,3,Martorell,Not Available
+106917469.75842.75842,1,4,Martorell,Warm-Agreeable
+106917469.75842.75842,1,5,Martorell,Warm-Agreeable
+106917469.75842.75842,1,6,Maurice27,Cold
+106929028.0.0,0,1,Mudaliar,Warm-Agreeable
+106929028.0.0,0,2,Mudaliar,Warm-Agreeable
+106929028.0.0,0,3,Mel Etitis,Unassuming-Ingenuous
+106929028.0.0,1,4,Mel Etitis,Unassuming-Ingenuous
+106929028.0.0,1,5,ExtraDry,Warm-Agreeable
+107174613.31450.31450,0,1,NYScholar,Warm-Agreeable
+107174613.31450.31450,0,2,Annoynmous,Unassured-Submissive
+107174613.31450.31450,0,3,Tewfik,Unassuming-Ingenuous
+107174613.31450.31450,0,4,Annoynmous,Unassured-Submissive
+107174613.31450.31450,0,5,Former user 2,Unassuming-Ingenuous
+107174613.31450.31450,1,6,Annoynmous,Arrogant-Calculating
+107174613.31450.31450,1,7,Former user 2,Warm-Agreeable
+107174613.31450.31450,1,8,Annoynmous,Cold
+107174613.31450.31450,1,9,Former user 2,Assured-Dominant
+10749910.44464.44464,0,1,Skyring,Warm-Agreeable
+10749910.44464.44464,0,2,Adam Carr,Assured-Dominant
+10749910.44464.44464,0,3,Skyring,Unassuming-Ingenuous
+10749910.44464.44464,0,4,Robert Merkel,Cold
+10749910.44464.44464,0,5,Skyring,Unassured-Submissive
+10749910.44464.44464,0,6,Adam Carr,Assured-Dominant
+10749910.44464.44464,1,7,Skyring,Unassured-Submissive
+10749910.44464.44464,1,8,Adam Carr,Cold
+109626944.13153.13153,0,1,MamaGeek,Warm-Agreeable
+109626944.13153.13153,0,2,17Drew,Unassuming-Ingenuous
+109626944.13153.13153,0,3,Kaldari,Unassuming-Ingenuous
+109626944.13153.13153,0,4,216.201.33.10,Arrogant-Calculating
+109626944.13153.13153,1,5,216.201.33.10,Unassured-Submissive
+109626944.13153.13153,1,6,216.201.33.10,Cold
+11226438.3851.3789,0,1,Random account 47,Assured-Dominant
+11226438.3851.3789,0,2,PBS,Unassuming-Ingenuous
+11226438.3851.3789,0,3,Random account 47,Warm-Agreeable
+11226438.3851.3789,0,4,Random account 47,Warm-Agreeable
+11226438.3851.3789,0,5,PBS,Unassuming-Ingenuous
+11226438.3851.3789,1,6,Random account 47,Arrogant-Calculating
+112610040.70740.70740,0,1,Hajji Piruz,Warm-Agreeable
+112610040.70740.70740,0,2,Nepaheshgar,Unassuming-Ingenuous
+112610040.70740.70740,0,3,Asabbagh,Warm-Agreeable
+112610040.70740.70740,0,4,Nepaheshgar,Unassuming-Ingenuous
+112610040.70740.70740,0,5,Asabbagh,Unassured-Submissive
+112610040.70740.70740,0,6,Nepaheshgar,Warm-Agreeable
+112610040.70740.70740,0,7,Asabbagh,Unassured-Submissive
+112610040.70740.70740,0,8,Nepaheshgar,Warm-Agreeable
+112610040.70740.70740,0,9,Nepaheshgar,Not Available
+112610040.70740.70740,1,10,Asabbagh,Warm-Agreeable
+112610040.70740.70740,1,11,Nepaheshgar,Warm-Agreeable
+112610040.70740.70740,1,12,Asabbagh,Unassured-Submissive
+112610040.70740.70740,1,13,Nepaheshgar,Warm-Agreeable
+112610040.70740.70740,1,14,Asabbagh,Unassuming-Ingenuous
+112610040.70740.70740,1,15,Rayis,Cold
+112610040.70740.70740,1,16,Asabbagh,Unassured-Submissive
+11374569.90805.90805,0,1,JMaxwell,Warm-Agreeable
+11374569.90805.90805,0,2,Mattley,Warm-Agreeable
+11374569.90805.90805,0,3,Luis rib,Unassuming-Ingenuous
+11374569.90805.90805,0,4,Luis rib,Arrogant-Calculating
+11374569.90805.90805,0,5,JMaxwell,Warm-Agreeable
+11374569.90805.90805,0,6,Ultramarine,Cold
+11374569.90805.90805,1,7,JMaxwell,Warm-Agreeable
+11374569.90805.90805,1,8,Ultramarine,Arrogant-Calculating
+115722135.22825.22815,0,1,Shanlung,Arrogant-Calculating
+115722135.22825.22815,0,2,Sabine's Sunbird,Warm-Agreeable
+115722135.22825.22815,0,3,Shanlung,Arrogant-Calculating
+115722135.22825.22815,0,4,Sabine's Sunbird,Unassuming-Ingenuous
+115722135.22825.22815,0,5,Shanlung,Arrogant-Calculating
+115722135.22825.22815,0,6,Sabine's Sunbird,Unassuming-Ingenuous
+115722135.22825.22815,0,7,Shanlung,Arrogant-Calculating
+115722135.22825.22815,0,8,Shanlung,Arrogant-Calculating
+115722135.22825.22815,1,9,Sabine's Sunbird,Unassuming-Ingenuous
+115722135.22825.22815,1,10,Shanlung,Cold
+118488229.39633.39633,0,1,Johan Lont,Unassured-Submissive
+118488229.39633.39633,0,2,203.200.236.205,Warm-Agreeable
+118488229.39633.39633,0,3,203.200.236.205,Warm-Agreeable
+118488229.39633.39633,1,4,90.192.34.44,Gregarious-Extraverted
+118488229.39633.39633,1,5,90.192.34.44,Cold
+118510990.35344.35344,0,1,SocJan,Warm-Agreeable
+118510990.35344.35344,0,2,Deor,Unassuming-Ingenuous
+118510990.35344.35344,0,3,SocJan,Warm-Agreeable
+118510990.35344.35344,1,4,Deor,Unassuming-Ingenuous
+118510990.35344.35344,1,5,SocJan,Warm-Agreeable
+118510990.35344.35344,1,6,Deor,Cold
+118510990.35344.35344,1,7,SocJan,Warm-Agreeable
+118510990.35344.35344,1,8,SethTisue,Warm-Agreeable
+118619412.30891.30891,0,1,Adavidb,Unassuming-Ingenuous
+118619412.30891.30891,0,2,Grayghost01,Warm-Agreeable
+118619412.30891.30891,0,3,Antandrus,Unassured-Submissive
+118619412.30891.30891,0,4,Antandrus,Arrogant-Calculating
+118619412.30891.30891,0,5,Antandrus,Warm-Agreeable
+118619412.30891.30891,1,6,Adavidb,Unassuming-Ingenuous
+118619412.30891.30891,1,7,Blondiegoode,Warm-Agreeable
+12310624.80526.80526,0,1,Sciurinæ,Assured-Dominant
+12310624.80526.80526,0,2,Sciurinæ,Not Available
+12310624.80526.80526,0,3,203.103.57.22,Warm-Agreeable
+12310624.80526.80526,1,4,203.103.57.22,Warm-Agreeable
+12310624.80526.80526,1,5,Linuxbeak,Unassuming-Ingenuous
+12310624.80526.80526,2,6,Sciurinæ,Cold
+12310624.80526.80526,2,7,Linuxbeak,Warm-Agreeable
+127102700.50633.50633,0,1,Bluerfn,Warm-Agreeable
+127102700.50633.50633,0,2,Teggles,Warm-Agreeable
+127102700.50633.50633,0,3,Movellon,Gregarious-Extraverted
+127102700.50633.50633,0,4,Teggles,Unassuming-Ingenuous
+127102700.50633.50633,0,5,Bluerfn,Unassured-Submissive
+127102700.50633.50633,0,6,Teggles,Unassuming-Ingenuous
+127102700.50633.50633,0,7,Movellon,Arrogant-Calculating
+127102700.50633.50633,0,8,Bluerfn,Warm-Agreeable
+127102700.50633.50633,1,9,Movellon,Gregarious-Extraverted
+127102700.50633.50633,1,10,Bluerfn,Assured-Dominant
+129847853.105738.105738,0,1,Folken de Fanel,Warm-Agreeable
+129847853.105738.105738,0,2,Daggoth,Unassuming-Ingenuous
+129847853.105738.105738,0,3,Folken de Fanel,Warm-Agreeable
+129847853.105738.105738,0,4,Sandpiper,Arrogant-Calculating
+129847853.105738.105738,0,5,Sandpiper,Assured-Dominant
+129847853.105738.105738,0,6,Folken de Fanel,Cold
+129847853.105738.105738,0,7,Folken de Fanel,Unassured-Submissive
+129847853.105738.105738,0,8,Sandpiper,Cold
+129847853.105738.105738,1,9,Folken de Fanel,Cold
+134073670.131794.131794,0,1,193.198.2.9,Gregarious-Extraverted
+134073670.131794.131794,0,2,24.86.110.10,Cold
+134073670.131794.131794,0,3,84.217.47.194,Warm-Agreeable
+134073670.131794.131794,1,4,64.114.128.38,Arrogant-Calculating
+134073670.131794.131794,1,5,Aradic-en,Unassuming-Ingenuous
+134073670.131794.131794,1,6,Aradic-en,Cold
+134588266.14633.14633,0,1,72.49.194.145,Unassured-Submissive
+134588266.14633.14633,0,2,Corpsedust,Unassured-Submissive
+134588266.14633.14633,0,3,NicholaiDaedalus,Warm-Agreeable
+134588266.14633.14633,0,4,72.49.194.145,Unassured-Submissive
+134588266.14633.14633,0,5,72.49.194.145,Unassured-Submissive
+134588266.14633.14633,0,6,NicholaiDaedalus,Warm-Agreeable
+134588266.14633.14633,0,7,Bluerfn,Unassuming-Ingenuous
+134588266.14633.14633,1,8,72.49.194.145,Warm-Agreeable
+13533876.64395.64395,0,1,Mia-Cle,Warm-Agreeable
+13533876.64395.64395,0,2,GordonWatts,Gregarious-Extraverted
+13533876.64395.64395,0,3,FuelWagon,Arrogant-Calculating
+13533876.64395.64395,1,4,GordonWatts,Not Available
+13533876.64395.64395,1,5,A ghost,Warm-Agreeable
+13533876.64395.64395,1,6,GordonWatts,Unassured-Submissive
+13533876.64395.64395,1,7,FuelWagon,Cold
+13533876.64395.64395,1,8,GordonWatts,Warm-Agreeable
+13533876.64395.64395,1,9,FuelWagon,Cold
+13565937.66554.66554,0,1,Jredmond,Warm-Agreeable
+13565937.66554.66554,0,2,Duckecho,Unassuming-Ingenuous
+13565937.66554.66554,0,3,GordonWatts,Unassured-Submissive
+13565937.66554.66554,1,4,Wjbean,Warm-Agreeable
+13565937.66554.66554,2,5,Duckecho,Warm-Agreeable
+13565937.66554.66554,3,6,172.158.130.245,Unassured-Submissive
+13565937.66554.66554,3,7,GordonWatts,Warm-Agreeable
+13565937.66554.66554,3,8,GordonWatts,Warm-Agreeable
+13565937.66554.66554,3,9,Grace Note,Warm-Agreeable
+13690319.3754.3754,0,1,Telsa,Warm-Agreeable
+13690319.3754.3754,0,2,EldKatt,Unassuming-Ingenuous
+13690319.3754.3754,0,3,Telsa,Warm-Agreeable
+13690319.3754.3754,0,4,EldKatt,Warm-Agreeable
+13690319.3754.3754,0,5,Alai,Unassuming-Ingenuous
+13690319.3754.3754,0,6,Josquius,Unassuming-Ingenuous
+13690319.3754.3754,0,7,EldKatt,Warm-Agreeable
+13690319.3754.3754,1,8,KaisaL,Unassuming-Ingenuous
+13690319.3754.3754,1,9,EldKatt,Warm-Agreeable
+13690319.3754.3754,1,10,KaisaL,Unassured-Submissive
+13907304.25186.25186,0,1,Jtdirl,Assured-Dominant
+13907304.25186.25186,0,2,Skyring,Warm-Agreeable
+13907304.25186.25186,1,3,Jtdirl,Cold
+13907304.25186.25186,1,4,Jtdirl,Arrogant-Calculating
+13907304.25186.25186,1,5,Skyring,Unassuming-Ingenuous
+13907304.25186.25186,1,6,Jtdirl,Cold
+13907304.25186.25186,2,7,John K,Warm-Agreeable
+13907304.25186.25186,2,8,El C,Warm-Agreeable
+13907304.25186.25186,2,9,Skyring,Unassuming-Ingenuous
+13907304.25186.25186,2,10,Skyring,Unassuming-Ingenuous
+139407294.103416.103416,0,1,Alteripse,Warm-Agreeable
+139407294.103416.103416,0,2,Cosmochao,Unassuming-Ingenuous
+139407294.103416.103416,1,3,Cosmochao,Unassured-Submissive
+139407294.103416.103416,1,4,Cosmochao,Unassured-Submissive
+139407294.103416.103416,1,5,Alteripse,Warm-Agreeable
+139407294.103416.103416,1,6,Alteripse,Cold
+139791766.42165.42165,0,1,Good friend100,Assured-Dominant
+139791766.42165.42165,0,2,Ksyrie,Warm-Agreeable
+139791766.42165.42165,0,3,Jiejunkong,Cold
+139791766.42165.42165,1,4,Good friend100,Warm-Agreeable
+139791766.42165.42165,1,5,Good friend100,Arrogant-Calculating
+139791766.42165.42165,1,6,Wikimachine,Unassuming-Ingenuous
+139791766.42165.42165,1,7,Jiejunkong,Unassured-Submissive
+141912964.35.35,0,1,Garzo,Unassuming-Ingenuous
+141912964.35.35,0,2,EliasAlucard,Unassured-Submissive
+141912964.35.35,0,3,EliasAlucard,Unassuming-Ingenuous
+141912964.35.35,0,4,Garzo,Warm-Agreeable
+141912964.35.35,0,5,Šarukinu,Warm-Agreeable
+141912964.35.35,0,6,EliasAlucard,Arrogant-Calculating
+141912964.35.35,0,7,EliasAlucard,Gregarious-Extraverted
+141912964.35.35,0,8,Garzo,Unassuming-Ingenuous
+141912964.35.35,1,9,EliasAlucard,Warm-Agreeable
+144527977.38033.38186,0,1,Spuddy 17,Unassuming-Ingenuous
+144527977.38033.38186,0,2,Indubitably,Arrogant-Calculating
+144527977.38033.38186,0,3,Spuddy 17,Unassured-Submissive
+144527977.38033.38186,0,4,J-stan,Warm-Agreeable
+144527977.38033.38186,0,5,Indubitably,Arrogant-Calculating
+144527977.38033.38186,0,6,J-stan,Warm-Agreeable
+144527977.38033.38186,1,7,Spuddy 17,Arrogant-Calculating
+145647560.8711.8711,0,1,Blue-Haired Lawyer,Warm-Agreeable
+145647560.8711.8711,0,2,Gaimhreadhan,Unassuming-Ingenuous
+145647560.8711.8711,0,3,Blue-Haired Lawyer,Warm-Agreeable
+145647560.8711.8711,0,4,Gaimhreadhan,Unassuming-Ingenuous
+145647560.8711.8711,1,5,Blue-Haired Lawyer,Warm-Agreeable
+145647560.8711.8711,1,6,Gaimhreadhan,Unassuming-Ingenuous
+145647560.8711.8711,1,7,Blue-Haired Lawyer,Assured-Dominant
+145647560.8711.8711,1,8,194.46.176.174,Unassuming-Ingenuous
+14956234.119306.119306,0,1,Hogeye,Assured-Dominant
+14956234.119306.119306,0,2,Hogeye,Arrogant-Calculating
+14956234.119306.119306,0,3,Tothebarricades.tk,Warm-Agreeable
+14956234.119306.119306,1,4,Hogeye,Warm-Agreeable
+14956234.119306.119306,1,5,Kevehs,Unassuming-Ingenuous
+14956234.119306.119306,1,6,Kevehs,Arrogant-Calculating
+153345624.117895.117643,0,1,Giovanni Giove,Arrogant-Calculating
+153345624.117895.117643,0,2,DalmatinoA,Warm-Agreeable
+153345624.117895.117643,0,3,Adam Bishop,Unassuming-Ingenuous
+153345624.117895.117643,0,4,Director,Warm-Agreeable
+153345624.117895.117643,0,5,DalmatinoA,Warm-Agreeable
+153345624.117895.117643,1,6,Zenanarh,Warm-Agreeable
+153345624.117895.117643,1,7,Director,Unassuming-Ingenuous
+153345624.117895.117643,1,8,Adam Bishop,Unassured-Submissive
+153345624.117895.117643,1,9,Director,Warm-Agreeable
+153345624.117895.117643,1,10,Str1977,Assured-Dominant
+153345624.117895.117643,1,11,Director,Warm-Agreeable
+153345624.117895.117643,1,12,Adam Bishop,Aloof-Introverted
+154881785.3042.3042,0,1,Jim Stinson,Unassured-Submissive
+154881785.3042.3042,0,2,DionysosProteus,Assured-Dominant
+154881785.3042.3042,0,3,Jim Stinson,Unassured-Submissive
+154881785.3042.3042,1,4,DionysosProteus,Warm-Agreeable
+154881785.3042.3042,1,5,Jim Stinson,Gregarious-Extraverted
+155919329.61331.61331,0,1,Peterlewis,Warm-Agreeable
+155919329.61331.61331,0,2,William M. Connolley,Unassuming-Ingenuous
+155919329.61331.61331,0,3,Minasbeede,Warm-Agreeable
+155919329.61331.61331,0,4,Raymond arritt,Unassuming-Ingenuous
+155919329.61331.61331,0,5,Minasbeede,Warm-Agreeable
+155919329.61331.61331,0,6,Restepc,Unassured-Submissive
+155919329.61331.61331,0,7,Restepc,Warm-Agreeable
+155919329.61331.61331,0,8,Minasbeede,Warm-Agreeable
+155919329.61331.61331,1,9,Restepc,Cold
+160894688.45391.45391,0,1,Sallieparker,Warm-Agreeable
+160894688.45391.45391,0,2,Neale Monks,Unassuming-Ingenuous
+160894688.45391.45391,0,3,Bluap,Unassuming-Ingenuous
+160894688.45391.45391,0,4,Sallieparker,Warm-Agreeable
+160894688.45391.45391,0,5,Neale Monks,Warm-Agreeable
+160894688.45391.45391,1,6,Allstarecho,Unassuming-Ingenuous
+165311948.16038.16038,0,1,Jim Stinson,Warm-Agreeable
+165311948.16038.16038,0,2,Baseball Bugs,Unassuming-Ingenuous
+165311948.16038.16038,1,3,DionysosProteus,Assured-Dominant
+165311948.16038.16038,2,4,Jim Stinson,Arrogant-Calculating
+165311948.16038.16038,2,5,DionysosProteus,Cold
+168255106.71053.71053,0,1,Muntuwandi,Gregarious-Extraverted
+168255106.71053.71053,0,2,Taharqa,Warm-Agreeable
+168255106.71053.71053,0,3,Taharqa,Cold
+168255106.71053.71053,0,4,John Carter,Unassuming-Ingenuous
+168255106.71053.71053,0,5,Taharqa,Arrogant-Calculating
+168255106.71053.71053,0,6,Twthmoses,Cold
+168255106.71053.71053,0,7,John Carter,Unassuming-Ingenuous
+168255106.71053.71053,1,8,74.133.108.59,Gregarious-Extraverted
+168315268.90072.90072,0,1,Picaroon,Warm-Agreeable
+168315268.90072.90072,0,2,Wikidudeman,Unassured-Submissive
+168315268.90072.90072,0,3,Taharqa,Warm-Agreeable
+168315268.90072.90072,0,4,207.14.131.239,Unassuming-Ingenuous
+168315268.90072.90072,0,5,Taharqa,Warm-Agreeable
+168315268.90072.90072,0,6,Taharqa,Warm-Agreeable
+168315268.90072.90072,0,7,John Carter,Cold
+168315268.90072.90072,1,8,Taharqa,Arrogant-Calculating
+169150061.91723.91723,0,1,Paul Barlow,Unassured-Submissive
+169150061.91723.91723,0,2,Rokus01,Warm-Agreeable
+169150061.91723.91723,0,3,Paul Barlow,Arrogant-Calculating
+169150061.91723.91723,0,4,Dbachmann,Cold
+169150061.91723.91723,0,5,Paul Barlow,Unassured-Submissive
+169150061.91723.91723,0,6,Rokus01,Warm-Agreeable
+169150061.91723.91723,1,7,Dbachmann,Arrogant-Calculating
+170428607.129367.129367,0,1,Eleland,Warm-Agreeable
+170428607.129367.129367,0,2,Rjecina,Warm-Agreeable
+170428607.129367.129367,0,3,Eleland,Unassuming-Ingenuous
+170428607.129367.129367,0,4,Rjecina,Warm-Agreeable
+170428607.129367.129367,0,5,Okedem,Warm-Agreeable
+170428607.129367.129367,0,6,Beit Or,Unassuming-Ingenuous
+170428607.129367.129367,1,7,G-Dett,Warm-Agreeable
+170428607.129367.129367,1,8,Beit Or,Arrogant-Calculating
+170428607.129367.129367,1,9,Eleland,Cold
+171244678.187418.187418,0,1,DGG,Unassuming-Ingenuous
+171244678.187418.187418,0,2,DGG,Warm-Agreeable
+171244678.187418.187418,0,3,Burgas00,Warm-Agreeable
+171244678.187418.187418,0,4,Armon,Unassured-Submissive
+171244678.187418.187418,0,5,CasualObserver'48,Unassured-Submissive
+171244678.187418.187418,0,6,Tewfik,Warm-Agreeable
+171244678.187418.187418,0,7,Eleland,Arrogant-Calculating
+171244678.187418.187418,0,8,Tewfik,Unassuming-Ingenuous
+171244678.187418.187418,1,9,G-Dett,Warm-Agreeable
+171244678.187418.187418,1,10,Tewfik,Unassured-Submissive
+171244678.187418.187418,1,11,G-Dett,Warm-Agreeable
+171244678.187418.187418,1,12,Tewfik,Cold
+172496084.48281.47463,0,1,Kemal2,Arrogant-Calculating
+172496084.48281.47463,0,2,Nat,Warm-Agreeable
+172496084.48281.47463,0,3,Kemal2,Unassured-Submissive
+172496084.48281.47463,0,4,AdrianTM,Warm-Agreeable
+172496084.48281.47463,0,5,Kemal2,Arrogant-Calculating
+172496084.48281.47463,0,6,Kimon,Warm-Agreeable
+172496084.48281.47463,0,7,Kemal2,Unassured-Submissive
+172496084.48281.47463,0,8,Noclador,Assured-Dominant
+172496084.48281.47463,1,9,Kemal2,Unassuming-Ingenuous
+172874568.48377.48377,0,1,Taulant23,Gregarious-Extraverted
+172874568.48377.48377,0,2,Dbachmann,Unassuming-Ingenuous
+172874568.48377.48377,0,3,Deucalionite,Warm-Agreeable
+172874568.48377.48377,0,4,Dbachmann,Unassuming-Ingenuous
+172874568.48377.48377,0,5,Deucalionite,Warm-Agreeable
+172874568.48377.48377,1,6,Dbachmann,Unassuming-Ingenuous
+173258711.27876.27876,0,1,Aigest,Warm-Agreeable
+173258711.27876.27876,0,2,Megistias,Arrogant-Calculating
+173258711.27876.27876,0,3,Aigest,Unassuming-Ingenuous
+173258711.27876.27876,0,4,Megistias,Cold
+173258711.27876.27876,0,5,Aigest,Warm-Agreeable
+173258711.27876.27876,0,6,Megistias,Arrogant-Calculating
+173258711.27876.27876,0,7,Aigest,Unassuming-Ingenuous
+173258711.27876.27876,0,8,Megistias,Cold
+173258711.27876.27876,0,9,Aigest,Warm-Agreeable
+173258711.27876.27876,1,10,Megistias,Unassuming-Ingenuous
+173258711.27876.27876,1,11,Aigest,Warm-Agreeable
+173258711.27876.27876,1,12,Megistias,Cold
+173258711.27876.27876,1,13,Aigest,Warm-Agreeable
+173258711.27876.27876,1,14,Megistias,Arrogant-Calculating
+174477823.48508.48460,0,1,Kemal2,Not Available
+174477823.48508.48460,0,2,AdrianTM,Warm-Agreeable
+174477823.48508.48460,0,3,Ioannes Tzimiskes,Arrogant-Calculating
+174477823.48508.48460,0,4,Noclador,Warm-Agreeable
+174477823.48508.48460,0,5,Cplakidas,Warm-Agreeable
+174477823.48508.48460,0,6,216.77.23.98,Unassured-Submissive
+174477823.48508.48460,0,7,Ioannes Tzimiskes,Cold
+174477823.48508.48460,1,8,Cherso,Warm-Agreeable
+174477823.48508.48460,1,9,AdrianTM,Gregarious-Extraverted
+174477823.48508.48460,1,10,Cherso,Arrogant-Calculating
+176089145.1219.1219,0,1,Xezlec,Warm-Agreeable
+176089145.1219.1219,0,2,Ixkeys,Unassuming-Ingenuous
+176089145.1219.1219,0,3,Ixkeys,Unassured-Submissive
+176089145.1219.1219,0,4,Xezlec,Warm-Agreeable
+176089145.1219.1219,1,5,Ixkeys,Warm-Agreeable
+176089145.1219.1219,1,6,Xezlec,Unassured-Submissive
+176089145.1219.1219,1,7,99.153.53.150,Cold
+176089145.1219.1219,1,8,Ixkeys,Cold
+17742281.3575.3575,0,1,Dbachmann,Gregarious-Extraverted
+17742281.3575.3575,0,2,Alex '05,Warm-Agreeable
+17742281.3575.3575,0,3,Alex '05,Unassuming-Ingenuous
+17742281.3575.3575,0,4,Dbachmann,Warm-Agreeable
+17742281.3575.3575,0,5,Alex '05,Unassured-Submissive
+17742281.3575.3575,0,6,Dbachmann,Warm-Agreeable
+17742281.3575.3575,0,7,Alex '05,Unassuming-Ingenuous
+17742281.3575.3575,0,8,Chronographos,Unassured-Submissive
+17742281.3575.3575,1,9,Alex '05,Unassuming-Ingenuous
+177549154.47626.47626,0,1,Virgil Vaduva,Warm-Agreeable
+177549154.47626.47626,0,2,Gump~enwiki,Arrogant-Calculating
+177549154.47626.47626,0,3,Lyonscc,Warm-Agreeable
+177549154.47626.47626,0,4,Gump~enwiki,Cold
+177549154.47626.47626,0,5,Lyonscc,Unassuming-Ingenuous
+177549154.47626.47626,1,6,Gump~enwiki,Arrogant-Calculating
+17873587.67449.67449,0,1,Zeno of Elea,Warm-Agreeable
+17873587.67449.67449,0,2,Anonymous editor,Unassured-Submissive
+17873587.67449.67449,0,3,Zeno of Elea,Unassuming-Ingenuous
+17873587.67449.67449,0,4,BrandonYusufToropov,Cold
+17873587.67449.67449,1,5,Zeno of Elea,Arrogant-Calculating
+17873587.67449.67449,1,6,Zeno of Elea,Cold
+17873587.67449.67449,1,7,Zeno of Elea,Arrogant-Calculating
+181655527.1162.1162,0,1,Tony Sidaway,Warm-Agreeable
+181655527.1162.1162,0,2,Noor Aalam,Unassured-Submissive
+181655527.1162.1162,0,3,24.147.86.187,Unassuming-Ingenuous
+181655527.1162.1162,0,4,Green Giant,Warm-Agreeable
+181655527.1162.1162,0,5,Nikkul,Gregarious-Extraverted
+181655527.1162.1162,1,6,Pahari Sahib,Warm-Agreeable
+181655527.1162.1162,1,7,Nikkul,Unassuming-Ingenuous
+181655527.1162.1162,2,8,Zaindy,Warm-Agreeable
+181655527.1162.1162,2,9,Fowler&fowler,Unassuming-Ingenuous
+181655527.1162.1162,2,10,Nikkul,Cold
+184937853.13498.13498,0,1,Bosnianjustice,Warm-Agreeable
+184937853.13498.13498,0,2,Bosnianjustice,Warm-Agreeable
+184937853.13498.13498,0,3,Bosnianjustice,Warm-Agreeable
+184937853.13498.13498,1,4,Bosnianjustice,Warm-Agreeable
+184937853.13498.13498,1,5,Ceha,Unassuming-Ingenuous
+184937853.13498.13498,1,6,JdeJ,Warm-Agreeable
+184937853.13498.13498,1,7,Bosnianjustice,Arrogant-Calculating
+185391688.22499.22499,0,1,NJA,Warm-Agreeable
+185391688.22499.22499,0,2,82.35.207.120,Unassured-Submissive
+185391688.22499.22499,0,3,NJA,Warm-Agreeable
+185391688.22499.22499,0,4,Aluvus,Unassuming-Ingenuous
+185391688.22499.22499,0,5,NJA,Unassured-Submissive
+185391688.22499.22499,0,6,Aluvus,Arrogant-Calculating
+185391688.22499.22499,0,7,209.244.187.252,Unassured-Submissive
+185391688.22499.22499,1,8,Lloyd Wood,Warm-Agreeable
+185391688.22499.22499,1,9,Brandon,Warm-Agreeable
+185391688.22499.22499,1,10,Brandon,Warm-Agreeable
+185481000.194326.194326,0,1,GabrielVelasquez,Unassured-Submissive
+185481000.194326.194326,0,2,GabrielVelasquez,Not Available
+185481000.194326.194326,0,3,GabrielVelasquez,Unassured-Submissive
+185481000.194326.194326,0,4,BobGreenwade,Warm-Agreeable
+185481000.194326.194326,1,5,Rdfox 76,Warm-Agreeable
+185481000.194326.194326,1,6,JerryFriedman,Warm-Agreeable
+185481000.194326.194326,1,7,JerryFriedman,Unassuming-Ingenuous
+185481000.194326.194326,2,8,Cyclopia,Warm-Agreeable
+186677272.300752.300752,0,1,Raggz,Unassuming-Ingenuous
+186677272.300752.300752,0,2,Pexise,Warm-Agreeable
+186677272.300752.300752,0,3,Raggz,Unassured-Submissive
+186677272.300752.300752,0,4,Raggz,Gregarious-Extraverted
+186677272.300752.300752,0,5,Viriditas,Warm-Agreeable
+186677272.300752.300752,1,6,Pexise,Warm-Agreeable
+186677272.300752.300752,1,7,Raggz,Unassured-Submissive
+186677272.300752.300752,1,8,Raggz,Aloof-Introverted
+187452023.186350.186350,0,1,Toniher,Warm-Agreeable
+187452023.186350.186350,0,2,Mountolive,Unassuming-Ingenuous
+187452023.186350.186350,0,3,161.111.136.166,Gregarious-Extraverted
+187452023.186350.186350,1,4,Maurice27,Cold
+187452023.186350.186350,2,5,161.111.136.166,Arrogant-Calculating
+187452023.186350.186350,2,6,Maurice27,Cold
+187452023.186350.186350,2,7,Toniher,Warm-Agreeable
+187452023.186350.186350,2,8,Mountolive,Unassuming-Ingenuous
+187452023.186350.186350,3,9,Toniher,Unassuming-Ingenuous
+187452023.186350.186350,3,10,Maurice27,Cold
+187592276.109067.111222,0,1,Fowler&fowler,Arrogant-Calculating
+187592276.109067.111222,0,2,Bellwether BC,Cold
+187592276.109067.111222,0,3,Fowler&fowler,Arrogant-Calculating
+187592276.109067.111222,0,4,Bellwether BC,Cold
+187592276.109067.111222,0,5,Dunkelweizen,Warm-Agreeable
+187592276.109067.111222,0,6,Fowler&fowler,Arrogant-Calculating
+187592276.109067.111222,0,7,Tvoz,Warm-Agreeable
+187592276.109067.111222,1,8,Fowler&fowler,Arrogant-Calculating
+187592276.109067.111222,1,9,Bellwether BC,Cold
+188051991.7650.7650,0,1,Sesshomaru,Warm-Agreeable
+188051991.7650.7650,0,2,VorangorTheDemon,Gregarious-Extraverted
+188051991.7650.7650,0,3,Sesshomaru,Unassured-Submissive
+188051991.7650.7650,0,4,VorangorTheDemon,Arrogant-Calculating
+188051991.7650.7650,0,5,Sesshomaru,Unassuming-Ingenuous
+188051991.7650.7650,1,6,VorangorTheDemon,Cold
+188484284.217101.217101,0,1,Dúnadan,Warm-Agreeable
+188484284.217101.217101,0,2,Maurice27,Unassuming-Ingenuous
+188484284.217101.217101,0,3,Dúnadan,Unassuming-Ingenuous
+188484284.217101.217101,1,4,Maurice27,Warm-Agreeable
+188484284.217101.217101,1,5,85.58.42.28,Cold
+188484284.217101.217101,1,6,Maurice27,Unassuming-Ingenuous
+188484284.217101.217101,2,7,85.58.42.28,Arrogant-Calculating
+188484284.217101.217101,2,8,Maurice27,Unassuming-Ingenuous
+188484284.217101.217101,2,9,85.58.42.28,Cold
+188484284.217101.217101,2,10,Marcbel,Warm-Agreeable
+1902810.120015.120015,0,1,VeryVerily,Arrogant-Calculating
+1902810.120015.120015,0,2,Kevehs,Unassured-Submissive
+1902810.120015.120015,0,3,AaronS,Assured-Dominant
+1902810.120015.120015,1,4,VeryVerily,Arrogant-Calculating
+1902810.120015.120015,1,5,AaronS,Warm-Agreeable
+1902810.120015.120015,2,6,AaronS,Unassured-Submissive
+1902810.120015.120015,2,7,AaronS,Warm-Agreeable
+19261740.8675.8675,0,1,TJive,Warm-Agreeable
+19261740.8675.8675,0,2,Trey Stone,Unassuming-Ingenuous
+19261740.8675.8675,0,3,172,Unassured-Submissive
+19261740.8675.8675,0,4,172,Cold
+19261740.8675.8675,0,5,172,Arrogant-Calculating
+19261740.8675.8675,1,6,TJive,Warm-Agreeable
+1934376.41994.41994,0,1,Radgeek,Warm-Agreeable
+1934376.41994.41994,0,2,VeryVerily,Unassuming-Ingenuous
+1934376.41994.41994,1,3,Kevehs,Warm-Agreeable
+1934376.41994.41994,2,4,VeryVerily,Unassuming-Ingenuous
+1934376.41994.41994,2,5,Kevehs,Arrogant-Calculating
+1934376.41994.41994,2,6,Kevehs,Unassured-Submissive
+1934376.41994.41994,2,7,Kevehs,Arrogant-Calculating
+1934376.41994.41994,2,8,Kevehs,Unassuming-Ingenuous
+1934376.41994.41994,2,9,VeryVerily,Cold
+19343936.125194.125194,0,1,BernardL,Warm-Agreeable
+19343936.125194.125194,0,2,TJive,Unassuming-Ingenuous
+19343936.125194.125194,0,3,BernardL,Unassured-Submissive
+19343936.125194.125194,0,4,TJive,Arrogant-Calculating
+19343936.125194.125194,0,5,Trey Stone,Cold
+19343936.125194.125194,0,6,Trey Stone,Arrogant-Calculating
+19343936.125194.125194,1,7,BernardL,Arrogant-Calculating
+19343936.125194.125194,1,8,TJive,Unassuming-Ingenuous
+19343936.125194.125194,1,9,BernardL,Gregarious-Extraverted
+194122017.19795.19795,0,1,Nil Einne,Unassuming-Ingenuous
+194122017.19795.19795,0,2,Leladax,Arrogant-Calculating
+194122017.19795.19795,0,3,ClueBot,Warm-Agreeable
+194122017.19795.19795,0,4,ClueBot,Warm-Agreeable
+194122017.19795.19795,1,5,ClueBot,Warm-Agreeable
+194122017.19795.19795,1,6,ClueBot,Warm-Agreeable
+19684369.2550.2550,0,1,Ruy Lopez,Gregarious-Extraverted
+19684369.2550.2550,0,2,Cberlet,Warm-Agreeable
+19684369.2550.2550,0,3,Jnc,Assured-Dominant
+19684369.2550.2550,1,4,TJive,Gregarious-Extraverted
+19684369.2550.2550,2,5,Nobs01,Unassuming-Ingenuous
+19684369.2550.2550,2,6,Ruy Lopez,Warm-Agreeable
+19684369.2550.2550,3,7,Nobs01,Warm-Agreeable
+19703427.11295.11295,0,1,Dbachmann,Warm-Agreeable
+19703427.11295.11295,0,2,Chronographos,Warm-Agreeable
+19703427.11295.11295,0,3,Dbachmann,Unassuming-Ingenuous
+19703427.11295.11295,0,4,Chronographos,Warm-Agreeable
+19703427.11295.11295,0,5,Dbachmann,Gregarious-Extraverted
+19703427.11295.11295,0,6,Chronographos,Warm-Agreeable
+19703427.11295.11295,0,7,Alex '05,Cold
+19703427.11295.11295,0,8,Dbachmann,Warm-Agreeable
+19703427.11295.11295,1,9,Chronographos,Cold
+197971268.112783.112758,0,1,Avala,Gregarious-Extraverted
+197971268.112783.112758,0,2,Mareklug,Warm-Agreeable
+197971268.112783.112758,0,3,Avala,Unassured-Submissive
+197971268.112783.112758,0,4,Mareklug,Warm-Agreeable
+197971268.112783.112758,0,5,Avala,Unassured-Submissive
+197971268.112783.112758,0,6,Mareklug,Unassuming-Ingenuous
+197971268.112783.112758,1,7,Avala,Arrogant-Calculating
+197971268.112783.112758,1,8,Mareklug,Warm-Agreeable
+197971268.112783.112758,1,9,Avala,Arrogant-Calculating
+197971268.112783.112758,1,10,Mareklug,Unassured-Submissive
+198688208.49744.49744,0,1,Doncram,Unassured-Submissive
+198688208.49744.49744,0,2,Doncram,Warm-Agreeable
+198688208.49744.49744,0,3,Mattisse,Warm-Agreeable
+198688208.49744.49744,0,4,SEWilco,Unassuming-Ingenuous
+198688208.49744.49744,0,5,SEWilco,Arrogant-Calculating
+198688208.49744.49744,0,6,Doncram,Unassured-Submissive
+198688208.49744.49744,0,7,SEWilco,Cold
+198688208.49744.49744,0,8,Doncram,Unassured-Submissive
+198688208.49744.49744,0,9,Doncram,Unassuming-Ingenuous
+198688208.49744.49744,0,10,SEWilco,Cold
+198688208.49744.49744,0,11,Doncram,Unassured-Submissive
+198688208.49744.49744,1,12,SEWilco,Assured-Dominant
+200634239.56463.56463,0,1,Doncram,Warm-Agreeable
+200634239.56463.56463,0,2,Mattisse,Warm-Agreeable
+200634239.56463.56463,0,3,Doncram,Warm-Agreeable
+200634239.56463.56463,0,4,Mattisse,Warm-Agreeable
+200634239.56463.56463,0,5,SEWilco,Unassured-Submissive
+200634239.56463.56463,1,6,Doncram,Warm-Agreeable
+200634239.56463.56463,1,7,Mattisse,Gregarious-Extraverted
+200634239.56463.56463,1,8,SEWilco,Unassuming-Ingenuous
+200634239.56463.56463,1,9,Doncram,Unassured-Submissive
+200634239.56463.56463,1,10,Mattisse,Warm-Agreeable
+206795682.49712.49712,0,1,Tedmoseby,Warm-Agreeable
+206795682.49712.49712,0,2,Tool2Die4,Unassuming-Ingenuous
+206795682.49712.49712,0,3,Tedmoseby,Warm-Agreeable
+206795682.49712.49712,0,4,Sensei48,Warm-Agreeable
+206795682.49712.49712,0,5,Tedmoseby,Warm-Agreeable
+206795682.49712.49712,0,6,Sensei48,Warm-Agreeable
+206795682.49712.49712,1,7,Tool2Die4,Cold
+206795682.49712.49712,1,8,Tedmoseby,Arrogant-Calculating
+209122887.102328.102328,0,1,The Red Hat of Pat Ferrick,Assured-Dominant
+209122887.102328.102328,0,2,Red4tribe,Unassured-Submissive
+209122887.102328.102328,0,3,The Red Hat of Pat Ferrick,Warm-Agreeable
+209122887.102328.102328,0,4,Red4tribe,Unassured-Submissive
+209122887.102328.102328,0,5,Kirkoconnell,Warm-Agreeable
+209122887.102328.102328,0,6,Red4tribe,Unassured-Submissive
+209122887.102328.102328,0,7,Kirkoconnell,Assured-Dominant
+209122887.102328.102328,0,8,Red4tribe,Unassured-Submissive
+209122887.102328.102328,1,9,Kirkoconnell,Assured-Dominant
+209122887.102328.102328,1,10,Red4tribe,Cold
+211681199.79782.78051,0,1,Bandurist,Warm-Agreeable
+211681199.79782.78051,0,2,Merzbow,Unassuming-Ingenuous
+211681199.79782.78051,1,3,Hodja Nasreddin,Warm-Agreeable
+211681199.79782.78051,1,4,Relata refero,Warm-Agreeable
+211681199.79782.78051,1,5,Bandurist,Unassuming-Ingenuous
+211715663.85849.85849,0,1,Bandurist,Warm-Agreeable
+211715663.85849.85849,0,2,Relata refero,Unassuming-Ingenuous
+211715663.85849.85849,0,3,Bandurist,Warm-Agreeable
+211715663.85849.85849,0,4,Relata refero,Unassuming-Ingenuous
+211715663.85849.85849,0,5,Bandurist,Unassured-Submissive
+211715663.85849.85849,1,6,Jo0doe,Arrogant-Calculating
+211715663.85849.85849,1,7,Bandurist,Cold
+21507950.14018.14018,0,1,Bradeos Graphon,Warm-Agreeable
+21507950.14018.14018,0,2,Bradeos Graphon,Unassuming-Ingenuous
+21507950.14018.14018,0,3,84.133.33.229,Warm-Agreeable
+21507950.14018.14018,0,4,Bradeos Graphon,Warm-Agreeable
+21507950.14018.14018,1,5,211.30.205.254,Unassured-Submissive
+21507950.14018.14018,1,6,Bradeos Graphon,Warm-Agreeable
+21507950.14018.14018,1,7,213.23.211.8,Unassuming-Ingenuous
+21507950.14018.14018,1,8,213.23.211.8,Unassured-Submissive
+21507950.14018.14018,1,9,Bradeos Graphon,Warm-Agreeable
+21507950.14018.14018,2,10,211.30.205.254,Cold
+215769944.19364.19364,0,1,Warren,Warm-Agreeable
+215769944.19364.19364,0,2,Ahunt,Unassuming-Ingenuous
+215769944.19364.19364,0,3,Warren,Arrogant-Calculating
+215769944.19364.19364,0,4,Ahunt,Unassuming-Ingenuous
+215769944.19364.19364,1,5,Warren,Unassuming-Ingenuous
+215769944.19364.19364,2,6,Ahunt,Unassuming-Ingenuous
+215769944.19364.19364,3,7,Warren,Cold
+217350683.16260.16260,0,1,AvantVenger,Unassured-Submissive
+217350683.16260.16260,0,2,SteveBaker,Warm-Agreeable
+217350683.16260.16260,1,3,AvantVenger,Arrogant-Calculating
+217350683.16260.16260,2,4,AvantVenger,Arrogant-Calculating
+217350683.16260.16260,2,5,AvantVenger,Unassuming-Ingenuous
+217350683.16260.16260,3,6,AvantVenger,Cold
+217350683.16260.16260,3,7,SteveBaker,Warm-Agreeable
+217350683.16260.16260,4,8,AvantVenger,Arrogant-Calculating
+220873646.265567.259050,0,1,Coppertwig,Warm-Agreeable
+220873646.265567.259050,0,2,Dematt,Warm-Agreeable
+220873646.265567.259050,0,3,Coppertwig,Warm-Agreeable
+220873646.265567.259050,0,4,Coppertwig,Unassuming-Ingenuous
+220873646.265567.259050,0,5,DigitalC,Warm-Agreeable
+220873646.265567.259050,0,6,Xavexgoem,Unassuming-Ingenuous
+220873646.265567.259050,0,7,Coppertwig,Warm-Agreeable
+220873646.265567.259050,1,8,Xavexgoem,Warm-Agreeable
+220873646.265567.259050,2,9,Coppertwig,Unassuming-Ingenuous
+220873646.265567.259050,2,10,QuackGuru,Unassured-Submissive
+220873646.265567.259050,2,11,DigitalC,Warm-Agreeable
+224521275.632426.632426,0,1,Newross,Warm-Agreeable
+224521275.632426.632426,0,2,Wikidemon,Warm-Agreeable
+224521275.632426.632426,0,3,Newross,Warm-Agreeable
+224521275.632426.632426,1,4,Tvoz,Warm-Agreeable
+224521275.632426.632426,1,5,Noroton,Unassuming-Ingenuous
+224521275.632426.632426,1,6,Tvoz,Warm-Agreeable
+224597043.604665.604665,0,1,Bobblehead,Warm-Agreeable
+224597043.604665.604665,0,2,Noroton,Unassuming-Ingenuous
+224597043.604665.604665,0,3,Bobblehead,Unassured-Submissive
+224597043.604665.604665,0,4,Tvoz,Warm-Agreeable
+224597043.604665.604665,0,5,Noroton,Unassuming-Ingenuous
+224597043.604665.604665,0,6,Scjessey,Assured-Dominant
+224597043.604665.604665,0,7,Noroton,Unassuming-Ingenuous
+224597043.604665.604665,0,8,Scjessey,Assured-Dominant
+224597043.604665.604665,0,9,Scjessey,Warm-Agreeable
+224597043.604665.604665,1,10,Bobblehead,Arrogant-Calculating
+228590201.10821.10821,0,1,Mayankeagle,Gregarious-Extraverted
+228590201.10821.10821,0,2,Darrenhusted,Unassuming-Ingenuous
+228590201.10821.10821,0,3,Mayankeagle,Warm-Agreeable
+228590201.10821.10821,1,4,Darrenhusted,Unassuming-Ingenuous
+228590201.10821.10821,1,5,Mayankeagle,Warm-Agreeable
+228590201.10821.10821,1,6,Darrenhusted,Unassuming-Ingenuous
+228590201.10821.10821,1,7,Mayankeagle,Warm-Agreeable
+228590201.10821.10821,2,8,Extransit,Warm-Agreeable
+228590201.10821.10821,2,9,Extransit,Unassuming-Ingenuous
+228590201.10821.10821,3,10,Extransit,Warm-Agreeable
+229002613.333487.333487,0,1,Domniqencore,Arrogant-Calculating
+229002613.333487.333487,0,2,Haiduc,Warm-Agreeable
+229002613.333487.333487,0,3,Aaron Brenneman,Cold
+229002613.333487.333487,0,4,Jack-A-Roe,Unassuming-Ingenuous
+229002613.333487.333487,0,5,Akhilleus,Warm-Agreeable
+229002613.333487.333487,0,6,Aaron Brenneman,Cold
+229002613.333487.333487,1,7,Akhilleus,Warm-Agreeable
+229002613.333487.333487,1,8,Aaron Brenneman,Unassured-Submissive
+229002613.333487.333487,1,9,Akhilleus,Cold
+229002613.333487.333487,1,10,Aaron Brenneman,Cold
+23046139.195379.195362,0,1,70.48.46.34,Arrogant-Calculating
+23046139.195379.195362,0,2,202.62.94.8,Warm-Agreeable
+23046139.195379.195362,0,3,12.10.219.37,Unassuming-Ingenuous
+23046139.195379.195362,0,4,12.10.219.37,Unassured-Submissive
+23046139.195379.195362,0,5,Wisesabre,Warm-Agreeable
+23046139.195379.195362,0,6,67.68.42.207,Cold
+23046139.195379.195362,0,7,202.62.94.8,Warm-Agreeable
+23046139.195379.195362,1,8,12.10.219.37,Warm-Agreeable
+230666437.27902.27902,0,1,Mactruth,Gregarious-Extraverted
+230666437.27902.27902,0,2,Crossthets,Warm-Agreeable
+230666437.27902.27902,0,3,BalkanFever,Unassured-Submissive
+230666437.27902.27902,1,4,209.161.240.159,Arrogant-Calculating
+230666437.27902.27902,1,5,BalkanFever,Cold
+232095869.2603.2603,0,1,Anetode,Warm-Agreeable
+232095869.2603.2603,0,2,Trekphiler,Assured-Dominant
+232095869.2603.2603,0,3,Zerocannon,Arrogant-Calculating
+232095869.2603.2603,0,4,Anetode,Warm-Agreeable
+232095869.2603.2603,0,5,Trekphiler,Assured-Dominant
+232095869.2603.2603,1,6,Trekphiler,Unassuming-Ingenuous
+232095869.2603.2603,1,7,Zerocannon,Arrogant-Calculating
+232095869.2603.2603,1,8,Anetode,Warm-Agreeable
+232095869.2603.2603,2,9,Trekphiler,Arrogant-Calculating
+232095869.2603.2603,2,10,Zerocannon,Cold
+233293571.36736.36736,0,1,Andrew Lancaster,Assured-Dominant
+233293571.36736.36736,0,2,Causteau,Unassuming-Ingenuous
+233293571.36736.36736,0,3,81.246.46.114,Arrogant-Calculating
+233293571.36736.36736,0,4,81.241.55.117,Assured-Dominant
+233293571.36736.36736,1,5,81.241.55.117,Cold
+233293571.36736.36736,1,6,81.241.55.117,Unassuming-Ingenuous
+233293571.36736.36736,1,7,81.241.55.117,Unassured-Submissive
+233293571.36736.36736,1,8,Andrew Lancaster,Warm-Agreeable
+233293571.36736.36736,1,9,Andrew Lancaster,Unassuming-Ingenuous
+233293571.36736.36736,1,10,Andrew Lancaster,Cold
+233570305.17854.17854,0,1,Elonka,Warm-Agreeable
+233570305.17854.17854,0,2,Causteau,Warm-Agreeable
+233570305.17854.17854,0,3,81.241.55.117,Cold
+233570305.17854.17854,0,4,Elonka,Unassuming-Ingenuous
+233570305.17854.17854,1,5,217.136.97.176,Arrogant-Calculating
+235563014.4360.4360,0,1,Reachtests,Arrogant-Calculating
+235563014.4360.4360,0,2,193.75.53.9,Warm-Agreeable
+235563014.4360.4360,0,3,Reachtests,Unassuming-Ingenuous
+235563014.4360.4360,1,4,Drmies,Unassuming-Ingenuous
+235563014.4360.4360,1,5,85.167.187.129,Unassuming-Ingenuous
+238516602.70197.70197,0,1,Skoojal,Unassuming-Ingenuous
+238516602.70197.70197,0,2,DionysosProteus,Arrogant-Calculating
+238516602.70197.70197,0,3,Skoojal,Warm-Agreeable
+238516602.70197.70197,1,4,DionysosProteus,Assured-Dominant
+238516602.70197.70197,1,5,Skoojal,Warm-Agreeable
+240290940.16207.16207,0,1,Penguins Are Animals 5327,Warm-Agreeable
+240290940.16207.16207,0,2,Thirteen squared,Assured-Dominant
+240290940.16207.16207,0,3,Penguins Are Animals 5327,Unassuming-Ingenuous
+240290940.16207.16207,0,4,Thirteen squared,Cold
+240290940.16207.16207,1,5,Penguins Are Animals 5327,Warm-Agreeable
+240290940.16207.16207,1,6,Thirteen squared,Assured-Dominant
+24118781.37.37,0,1,Curps,Warm-Agreeable
+24118781.37.37,0,2,Pavel Vozenilek,Unassuming-Ingenuous
+24118781.37.37,0,3,Juro,Gregarious-Extraverted
+24118781.37.37,0,4,Curps,Warm-Agreeable
+24118781.37.37,1,5,Juro,Unassuming-Ingenuous
+24118781.37.37,1,6,Curps,Unassured-Submissive
+24118781.37.37,1,7,Caroig,Warm-Agreeable
+24118781.37.37,1,8,207.200.116.10,Cold
+24118781.37.37,1,9,Basser g,Warm-Agreeable
+24319777.0.0,0,1,Tony Sidaway,Warm-Agreeable
+24319777.0.0,0,2,Fridgemagnet,Warm-Agreeable
+24319777.0.0,0,3,Francs2000,Unassuming-Ingenuous
+24319777.0.0,1,4,Tony Sidaway,Unassuming-Ingenuous
+24319777.0.0,1,5,Tony Sidaway,Cold
+24319777.0.0,1,6,Tony Sidaway,Arrogant-Calculating
+245458714.96186.96186,0,1,Vivaldi27,Arrogant-Calculating
+245458714.96186.96186,0,2,Orderinchaos,Warm-Agreeable
+245458714.96186.96186,0,3,122.108.212.241,Gregarious-Extraverted
+245458714.96186.96186,0,4,Timeshift9,Cold
+245458714.96186.96186,0,5,Orderinchaos,Warm-Agreeable
+245458714.96186.96186,0,6,220.245.98.47,Unassured-Submissive
+245458714.96186.96186,1,7,203.48.59.60,Cold
+245458714.96186.96186,1,8,203.48.59.60,Cold
+246036898.35970.35970,0,1,Commking,Warm-Agreeable
+246036898.35970.35970,0,2,InputPoem,Unassuming-Ingenuous
+246036898.35970.35970,0,3,Commking,Gregarious-Extraverted
+246036898.35970.35970,0,4,Agha Nader,Unassuming-Ingenuous
+246036898.35970.35970,0,5,Commking,Warm-Agreeable
+246036898.35970.35970,0,6,Axamir,Unassured-Submissive
+246036898.35970.35970,0,7,Commking,Arrogant-Calculating
+246036898.35970.35970,1,8,Axamir,Arrogant-Calculating
+247472127.253579.253579,0,1,Collect,Warm-Agreeable
+247472127.253579.253579,0,2,Theresa knott,Unassuming-Ingenuous
+247472127.253579.253579,0,3,Collect,Warm-Agreeable
+247472127.253579.253579,0,4,72.241.227.151,Unassuming-Ingenuous
+247472127.253579.253579,0,5,Collect,Warm-Agreeable
+247472127.253579.253579,0,6,Robofish,Warm-Agreeable
+247472127.253579.253579,0,7,Ikip,Arrogant-Calculating
+247472127.253579.253579,0,8,Ikip,Cold
+247472127.253579.253579,1,9,Collect,Unassured-Submissive
+247472127.253579.253579,1,10,Theresa knott,Assured-Dominant
+249074806.43756.43756,0,1,KrytenKoro,Unassuming-Ingenuous
+249074806.43756.43756,0,2,New Age Retro Hippie,Arrogant-Calculating
+249074806.43756.43756,0,3,KrytenKoro,Warm-Agreeable
+249074806.43756.43756,0,4,New Age Retro Hippie,Cold
+249074806.43756.43756,0,5,KrytenKoro,Unassured-Submissive
+249074806.43756.43756,0,6,New Age Retro Hippie,Arrogant-Calculating
+249074806.43756.43756,0,7,KrytenKoro,Cold
+249074806.43756.43756,1,8,New Age Retro Hippie,Cold
+250215222.88739.88739,0,1,The TriZ,Arrogant-Calculating
+250215222.88739.88739,0,2,Dbachmann,Warm-Agreeable
+250215222.88739.88739,0,3,The TriZ,Unassured-Submissive
+250215222.88739.88739,0,4,Chaldean,Warm-Agreeable
+250215222.88739.88739,0,5,The TriZ,Unassured-Submissive
+250215222.88739.88739,0,6,Dbachmann,Warm-Agreeable
+250215222.88739.88739,1,7,Dbachmann,Warm-Agreeable
+252665251.20447.20447,0,1,Sandpiper,Warm-Agreeable
+252665251.20447.20447,0,2,Martin Hogbin,Gregarious-Extraverted
+252665251.20447.20447,0,3,DGG,Warm-Agreeable
+252665251.20447.20447,0,4,Martin Hogbin,Warm-Agreeable
+252665251.20447.20447,0,5,MaxVT,Warm-Agreeable
+252665251.20447.20447,0,6,Kevin Baas,Warm-Agreeable
+252665251.20447.20447,0,7,WhatamIdoing,Warm-Agreeable
+252665251.20447.20447,0,8,Trekphiler,Warm-Agreeable
+252665251.20447.20447,1,9,Cool Hand Luke,Warm-Agreeable
+253033903.60574.60574,0,1,Mad Hatter,Warm-Agreeable
+253033903.60574.60574,0,2,70.21.58.96,Cold
+253033903.60574.60574,0,3,70.21.58.96,Arrogant-Calculating
+253033903.60574.60574,0,4,Mad Hatter,Unassuming-Ingenuous
+253033903.60574.60574,1,5,70.21.58.96,Warm-Agreeable
+253033903.60574.60574,1,6,Sidney West,Aloof-Introverted
+253033903.60574.60574,1,7,Papa November,Unassuming-Ingenuous
+253033903.60574.60574,1,8,Zazaban,Gregarious-Extraverted
+25365808.118071.118071,0,1,Fvw,Unassured-Submissive
+25365808.118071.118071,0,2,DESiegel,Warm-Agreeable
+25365808.118071.118071,0,3,Ed Poor,Warm-Agreeable
+25365808.118071.118071,0,4,DESiegel,Unassuming-Ingenuous
+25365808.118071.118071,1,5,JackSarfatti,Arrogant-Calculating
+25365808.118071.118071,2,6,JackSarfatti,Cold
+253888447.46368.46368,0,1,Tmtoulouse,Not Available
+253888447.46368.46368,0,2,92.20.9.53,Arrogant-Calculating
+253888447.46368.46368,0,3,Scott,Cold
+253888447.46368.46368,0,4,92.20.9.53,Unassured-Submissive
+253888447.46368.46368,0,5,Scott,Cold
+253888447.46368.46368,0,6,Smidgy,Unassured-Submissive
+253888447.46368.46368,0,7,Scott,Cold
+253888447.46368.46368,0,8,Smidgy,Unassured-Submissive
+253888447.46368.46368,1,9,Scott,Arrogant-Calculating
+253888447.46368.46368,1,10,Smidgy,Warm-Agreeable
+257127398.62541.62541,0,1,TraceyR,Warm-Agreeable
+257127398.62541.62541,0,2,Rhode Island Red,Unassuming-Ingenuous
+257127398.62541.62541,0,3,TraceyR,Unassured-Submissive
+257127398.62541.62541,0,4,68.231.207.246,Unassuming-Ingenuous
+257127398.62541.62541,0,5,Shell Kinney,Warm-Agreeable
+257127398.62541.62541,0,6,TraceyR,Unassured-Submissive
+257127398.62541.62541,0,7,Shell Kinney,Warm-Agreeable
+257127398.62541.62541,1,8,BullRangifer,Warm-Agreeable
+2586406.3018.3013,0,1,David Newton,Unassuming-Ingenuous
+2586406.3018.3013,0,2,Ihcoyc,Warm-Agreeable
+2586406.3018.3013,0,3,Ihcoyc,Warm-Agreeable
+2586406.3018.3013,1,4,Hoshie,Warm-Agreeable
+2586406.3018.3013,1,5,David Newton,Warm-Agreeable
+2586406.3018.3013,1,6,172.193.54.149,Aloof-Introverted
+26096762.44024.44024,0,1,172.193.242.202,Gregarious-Extraverted
+26096762.44024.44024,0,2,172.193.242.202,Gregarious-Extraverted
+26096762.44024.44024,0,3,172.185.51.121,Gregarious-Extraverted
+26096762.44024.44024,1,4,172.199.145.92,Unassuming-Ingenuous
+26096762.44024.44024,1,5,172.192.78.130,Unassuming-Ingenuous
+26096762.44024.44024,2,6,172.199.60.222,Assured-Dominant
+26096762.44024.44024,2,7,172.199.60.222,Assured-Dominant
+26096762.44024.44024,3,8,172.190.120.70,Arrogant-Calculating
+26096762.44024.44024,3,9,Clawson,Arrogant-Calculating
+262628360.24230.24230,0,1,JamieS93,Warm-Agreeable
+262628360.24230.24230,0,2,SilkTork,Unassuming-Ingenuous
+262628360.24230.24230,0,3,SilkTork,Warm-Agreeable
+262628360.24230.24230,0,4,JamieS93,Warm-Agreeable
+262628360.24230.24230,1,5,SilkTork,Unassuming-Ingenuous
+263251789.19204.19204,0,1,Mattisse,Warm-Agreeable
+263251789.19204.19204,0,2,Mattisse,Warm-Agreeable
+263251789.19204.19204,0,3,CvyvvZkmSUDowVf,Unassured-Submissive
+263251789.19204.19204,1,4,Mattisse,Unassuming-Ingenuous
+263251789.19204.19204,2,5,Mattisse,Warm-Agreeable
+268160746.173678.173678,0,1,Russavia,Warm-Agreeable
+268160746.173678.173678,0,2,Nanobear~enwiki,Warm-Agreeable
+268160746.173678.173678,0,3,Grey Fox-9589,Unassuming-Ingenuous
+268160746.173678.173678,0,4,Russavia,Unassuming-Ingenuous
+268160746.173678.173678,0,5,Russavia,Unassuming-Ingenuous
+268160746.173678.173678,1,6,Grey Fox-9589,Warm-Agreeable
+27097866.7157.7157,0,1,Spangineer,Warm-Agreeable
+27097866.7157.7157,0,2,Gibraltarian,Unassured-Submissive
+27097866.7157.7157,0,3,Spangineer,Warm-Agreeable
+27097866.7157.7157,0,4,Gibraltarian,Unassured-Submissive
+27097866.7157.7157,0,5,Ecemaml,Arrogant-Calculating
+27097866.7157.7157,1,6,Ecemaml,Warm-Agreeable
+27097866.7157.7157,1,7,Gibraltarian,Cold
+272601117.6008.6008,0,1,Hippo43,Arrogant-Calculating
+272601117.6008.6008,0,2,Fishiehelper2,Warm-Agreeable
+272601117.6008.6008,0,3,Hippo43,Warm-Agreeable
+272601117.6008.6008,0,4,NewTestLeper79,Unassuming-Ingenuous
+272601117.6008.6008,0,5,Escape Orbit,Warm-Agreeable
+272601117.6008.6008,0,6,Hippo43,Arrogant-Calculating
+272601117.6008.6008,0,7,Escape Orbit,Unassuming-Ingenuous
+272601117.6008.6008,0,8,Rockpocket,Warm-Agreeable
+272601117.6008.6008,1,9,Rockpocket,Unassuming-Ingenuous
+273253859.20177.20177,0,1,Thumperward,Aloof-Introverted
+273253859.20177.20177,0,2,Hippo43,Warm-Agreeable
+273253859.20177.20177,0,3,Thumperward,Cold
+273253859.20177.20177,0,4,Escape Orbit,Warm-Agreeable
+273253859.20177.20177,0,5,Thumperward,Unassuming-Ingenuous
+273253859.20177.20177,0,6,Escape Orbit,Unassuming-Ingenuous
+273253859.20177.20177,1,7,Jack forbes (renamed),Unassuming-Ingenuous
+273253859.20177.20177,1,8,Hippo43,Warm-Agreeable
+273253859.20177.20177,1,9,Hippo43,Unassuming-Ingenuous
+273791406.26159.26159,0,1,Eye.earth,Warm-Agreeable
+273791406.26159.26159,0,2,Jezhotwells,Warm-Agreeable
+273791406.26159.26159,0,3,NYScholar,Unassuming-Ingenuous
+273791406.26159.26159,0,4,NYScholar,Warm-Agreeable
+273791406.26159.26159,0,5,NYScholar,Warm-Agreeable
+273791406.26159.26159,0,6,Eye.earth,Unassuming-Ingenuous
+273791406.26159.26159,0,7,Eye.earth,Not Available
+273791406.26159.26159,1,8,NYScholar,Warm-Agreeable
+273791406.26159.26159,1,9,NYScholar,Unassuming-Ingenuous
+273826842.133960.133960,0,1,Literaturegeek,Warm-Agreeable
+273826842.133960.133960,0,2,Doc James,Arrogant-Calculating
+273826842.133960.133960,0,3,Literaturegeek,Unassured-Submissive
+273826842.133960.133960,0,4,Doc James,Assured-Dominant
+273826842.133960.133960,1,5,Literaturegeek,Gregarious-Extraverted
+273826842.133960.133960,2,6,Doc James,Warm-Agreeable
+273826842.133960.133960,2,7,Literaturegeek,Gregarious-Extraverted
+273826842.133960.133960,3,8,Literaturegeek,Cold
+274675523.36205.36205,0,1,92.40.230.193,Warm-Agreeable
+274675523.36205.36205,0,2,Baseball Bugs,Unassuming-Ingenuous
+274675523.36205.36205,0,3,212.12.173.177,Unassured-Submissive
+274675523.36205.36205,1,4,Baseball Bugs,Warm-Agreeable
+274675523.36205.36205,1,5,RaseaC,Unassured-Submissive
+274675523.36205.36205,1,6,Resolute,Assured-Dominant
+274675523.36205.36205,1,7,94.98.60.225,Unassured-Submissive
+274675523.36205.36205,1,8,RaseaC,Arrogant-Calculating
+274927784.32062.32062,0,1,Jezhotwells,Warm-Agreeable
+274927784.32062.32062,0,2,IceCreamEmpress,Warm-Agreeable
+274927784.32062.32062,0,3,NYScholar,Assured-Dominant
+274927784.32062.32062,0,4,NYScholar,Assured-Dominant
+274927784.32062.32062,0,5,NYScholar,Assured-Dominant
+274927784.32062.32062,1,6,NYScholar,Unassuming-Ingenuous
+274927784.32062.32062,1,7,NYScholar,Unassured-Submissive
+274927784.32062.32062,1,8,Jezhotwells,Assured-Dominant
+274927784.32062.32062,1,9,Jezhotwells,Cold
+27907560.6923.6923,0,1,24.200.176.92,Unassured-Submissive
+27907560.6923.6923,0,2,GraemeMcRae,Warm-Agreeable
+27907560.6923.6923,0,3,GraemeMcRae,Warm-Agreeable
+27907560.6923.6923,0,4,Wgsimon,Warm-Agreeable
+27907560.6923.6923,1,5,24.200.176.92,Arrogant-Calculating
+27907560.6923.6923,1,6,ArnoldReinhold,Warm-Agreeable
+27907560.6923.6923,2,7,24.200.176.92,Cold
+279227265.8229.8229,0,1,Guettarda,Warm-Agreeable
+279227265.8229.8229,0,2,Til Eulenspiegel,Gregarious-Extraverted
+279227265.8229.8229,0,3,Til Eulenspiegel,Unassuming-Ingenuous
+279227265.8229.8229,1,4,Til Eulenspiegel,Unassuming-Ingenuous
+279227265.8229.8229,1,5,Guettarda,Warm-Agreeable
+279227265.8229.8229,1,6,Til Eulenspiegel,Cold
+282945883.108975.108975,0,1,TreasuryTag,Warm-Agreeable
+282945883.108975.108975,0,2,Cush,Arrogant-Calculating
+282945883.108975.108975,0,3,TreasuryTag,Warm-Agreeable
+282945883.108975.108975,0,4,Cush,Cold
+282945883.108975.108975,0,5,TreasuryTag,Warm-Agreeable
+282945883.108975.108975,0,6,Cush,Cold
+282945883.108975.108975,1,7,TreasuryTag,Warm-Agreeable
+28475482.19751.19751,0,1,Mikkow,Warm-Agreeable
+28475482.19751.19751,0,2,198.105.45.121,Unassuming-Ingenuous
+28475482.19751.19751,0,3,Milpitas guy,Warm-Agreeable
+28475482.19751.19751,1,4,SillyAlgebraist,Arrogant-Calculating
+28475482.19751.19751,1,5,Chrism07924,Unassured-Submissive
+28475482.19751.19751,1,6,SillyAlgebraist,Assured-Dominant
+284929887.15218.15218,0,1,ASchutz,Cold
+284929887.15218.15218,0,2,ASchutz,Aloof-Introverted
+284929887.15218.15218,0,3,Jonathanbishop,Unassuming-Ingenuous
+284929887.15218.15218,0,4,161.185.150.188,Arrogant-Calculating
+284929887.15218.15218,0,5,Jonathanbishop,Warm-Agreeable
+284929887.15218.15218,0,6,ASchutz,Cold
+284929887.15218.15218,0,7,ASchutz,Cold
+284929887.15218.15218,0,8,ASchutz,Not Available
+284929887.15218.15218,0,9,Jonathanbishop,Arrogant-Calculating
+284929887.15218.15218,1,10,ASchutz,Cold
+285124538.61515.61515,0,1,ChildofMidnight,Warm-Agreeable
+285124538.61515.61515,0,2,Tvoz,Unassuming-Ingenuous
+285124538.61515.61515,0,3,GoodDamon,Warm-Agreeable
+285124538.61515.61515,0,4,Tvoz,Warm-Agreeable
+285124538.61515.61515,0,5,ChildofMidnight,Unassured-Submissive
+285124538.61515.61515,0,6,Wikidemon,Warm-Agreeable
+285124538.61515.61515,0,7,ThuranX,Arrogant-Calculating
+285124538.61515.61515,1,8,ChildofMidnight,Warm-Agreeable
+285124538.61515.61515,1,9,ThuranX,Arrogant-Calculating
+28576936.251426.251426,0,1,62.74.112.4,Aloof-Introverted
+28576936.251426.251426,0,2,Macedonian (usurped),Warm-Agreeable
+28576936.251426.251426,0,3,Makedonas,Cold
+28576936.251426.251426,0,4,Macedonian (usurped),Warm-Agreeable
+28576936.251426.251426,0,5,Makedonas,Cold
+28576936.251426.251426,0,6,217.16.87.44,Gregarious-Extraverted
+28576936.251426.251426,0,7,217.16.87.44,Not Available
+28576936.251426.251426,0,8,Makedonas,Arrogant-Calculating
+28576936.251426.251426,1,9,Makedonec,Arrogant-Calculating
+28576936.251426.251426,1,10,Makedonas,Cold
+286441274.88238.88238,0,1,Hiberniantears,Warm-Agreeable
+286441274.88238.88238,0,2,Jaan,Assured-Dominant
+286441274.88238.88238,0,3,Termer,Warm-Agreeable
+286441274.88238.88238,0,4,Termer,Unassuming-Ingenuous
+286441274.88238.88238,0,5,Oth,Unassuming-Ingenuous
+286441274.88238.88238,1,6,Hiberniantears,Warm-Agreeable
+286441274.88238.88238,1,7,Termer,Warm-Agreeable
+286441274.88238.88238,1,8,Vecrumba,Warm-Agreeable
+286441274.88238.88238,2,9,Vecrumba,Warm-Agreeable
+288655305.38122.38122,0,1,PinoyFilAmPride,Warm-Agreeable
+288655305.38122.38122,0,2,IQfur01,Warm-Agreeable
+288655305.38122.38122,0,3,PinoyFilAmPride,Warm-Agreeable
+288655305.38122.38122,1,4,IQfur01,Unassuming-Ingenuous
+288655305.38122.38122,2,5,PinoyFilAmPride,Arrogant-Calculating
+291124902.14213.14213,0,1,Bigmaninthebox,Unassured-Submissive
+291124902.14213.14213,0,2,Bigmaninthebox,Warm-Agreeable
+291124902.14213.14213,0,3,Bigmaninthebox,Unassured-Submissive
+291124902.14213.14213,0,4,2012Olympian,Warm-Agreeable
+291124902.14213.14213,0,5,Bigmaninthebox,Unassured-Submissive
+291124902.14213.14213,1,6,2012Olympian,Warm-Agreeable
+291124902.14213.14213,1,7,Stismail,Unassuming-Ingenuous
+291255336.112388.112388,0,1,GoldDragon,Unassuming-Ingenuous
+291255336.112388.112388,0,2,Skookum1,Assured-Dominant
+291255336.112388.112388,0,3,Resolute,Warm-Agreeable
+291255336.112388.112388,1,4,Skookum1,Arrogant-Calculating
+291255336.112388.112388,1,5,GoldDragon,Warm-Agreeable
+291255336.112388.112388,1,6,Skookum1,Cold
+296174981.366.366,0,1,RSuser,Warm-Agreeable
+296174981.366.366,0,2,Astynax,Unassuming-Ingenuous
+296174981.366.366,0,3,RSuser,Unassured-Submissive
+296174981.366.366,1,4,RSuser,Warm-Agreeable
+296174981.366.366,1,5,RSuser,Unassuming-Ingenuous
+296174981.366.366,1,6,RSuser,Unassured-Submissive
+296174981.366.366,1,7,RSuser,Warm-Agreeable
+296174981.366.366,1,8,RSuser,Unassuming-Ingenuous
+297033823.130053.130053,0,1,Nemonoman,Warm-Agreeable
+297033823.130053.130053,0,2,RSuser,Unassuming-Ingenuous
+297033823.130053.130053,0,3,Nemonoman,Cold
+297033823.130053.130053,0,4,RSuser,Warm-Agreeable
+297033823.130053.130053,0,5,Nemonoman,Aloof-Introverted
+297033823.130053.130053,1,6,RSuser,Warm-Agreeable
+297033823.130053.130053,1,7,Nemonoman,Arrogant-Calculating
+297725189.64722.64722,0,1,Alexikoua,Warm-Agreeable
+297725189.64722.64722,0,2,Balkanian`s word,Unassuming-Ingenuous
+297725189.64722.64722,0,3,Alexikoua,Unassured-Submissive
+297725189.64722.64722,0,4,Balkanian`s word,Cold
+297725189.64722.64722,0,5,Macrakis,Unassuming-Ingenuous
+297725189.64722.64722,0,6,Balkanian`s word,Arrogant-Calculating
+297725189.64722.64722,0,7,Macrakis,Unassured-Submissive
+297725189.64722.64722,0,8,Khirurg,Unassuming-Ingenuous
+297725189.64722.64722,0,9,Interestedinfairness,Unassured-Submissive
+297725189.64722.64722,0,10,Khirurg,Cold
+297725189.64722.64722,0,11,Alexikoua,Unassuming-Ingenuous
+297725189.64722.64722,0,12,Balkanian`s word,Gregarious-Extraverted
+297725189.64722.64722,0,13,Interestedinfairness,Warm-Agreeable
+297725189.64722.64722,1,14,Khirurg,Unassuming-Ingenuous
+297725189.64722.64722,1,15,Interestedinfairness,Arrogant-Calculating
+297725189.64722.64722,1,16,Balkanian`s word,Cold
+298093721.9238.9238,0,1,Kim-Zhang-Hong,Gregarious-Extraverted
+298093721.9238.9238,0,2,Tameamseo,Warm-Agreeable
+298093721.9238.9238,1,3,Doug Weller,Warm-Agreeable
+298093721.9238.9238,1,4,Tameamseo,Warm-Agreeable
+298093721.9238.9238,1,5,Doug Weller,Warm-Agreeable
+298093721.9238.9238,1,6,Tameamseo,Unassured-Submissive
+2989029.0.0,0,1,XTaran~enwiki,Unassured-Submissive
+2989029.0.0,0,2,XTaran~enwiki,Unassured-Submissive
+2989029.0.0,0,3,Tannin,Warm-Agreeable
+2989029.0.0,0,4,Mackerm,Warm-Agreeable
+2989029.0.0,1,5,Moriori,Gregarious-Extraverted
+2989029.0.0,1,6,Tannin,Unassuming-Ingenuous
+2989029.0.0,1,7,Moriori,Warm-Agreeable
+2989029.0.0,1,8,Tannin,Warm-Agreeable
+2989029.0.0,1,9,TimothyPilgrim,Unassured-Submissive
+2989029.0.0,1,10,TimothyPilgrim,Unassured-Submissive
+301095343.9446.9446,0,1,John Z,Warm-Agreeable
+301095343.9446.9446,0,2,Jalapenos do exist,Unassuming-Ingenuous
+301095343.9446.9446,0,3,John Z,Warm-Agreeable
+301095343.9446.9446,0,4,Jalapenos do exist,Unassuming-Ingenuous
+301095343.9446.9446,1,5,John Z,Warm-Agreeable
+301095343.9446.9446,1,6,John Z,Warm-Agreeable
+303236895.126939.126761,0,1,67.43.136.72,Warm-Agreeable
+303236895.126939.126761,0,2,John Carter,Unassuming-Ingenuous
+303236895.126939.126761,0,3,67.43.136.72,Warm-Agreeable
+303236895.126939.126761,1,4,John Carter,Unassuming-Ingenuous
+303236895.126939.126761,1,5,64.7.157.40,Unassured-Submissive
+303236895.126939.126761,1,6,64.7.157.40,Unassured-Submissive
+303236895.126939.126761,1,7,64.7.157.40,Arrogant-Calculating
+303236895.126939.126761,1,8,John Carter,Unassuming-Ingenuous
+303236895.126939.126761,1,9,64.7.157.40,Cold
+30361704.1760.1760,0,1,Xino,Gregarious-Extraverted
+30361704.1760.1760,0,2,Jacoplane,Warm-Agreeable
+30361704.1760.1760,0,3,Taladar,Warm-Agreeable
+30361704.1760.1760,0,4,ReyBrujo,Unassuming-Ingenuous
+30361704.1760.1760,0,5,222.152.21.61,Unassured-Submissive
+30361704.1760.1760,0,6,Taladar,Warm-Agreeable
+30361704.1760.1760,0,7,ReyBrujo,Warm-Agreeable
+30361704.1760.1760,0,8,Vegasjon,Cold
+30361704.1760.1760,0,9,Smurrayinchester,Unassuming-Ingenuous
+30361704.1760.1760,1,10,Xino,Assured-Dominant
+30361704.1760.1760,1,11,Vegasjon,Cold
+30361704.1760.1760,1,12,Xino,Assured-Dominant
+30361704.1760.1760,1,13,Vegasjon,Cold
+305216336.77708.77708,0,1,VQuakr,Warm-Agreeable
+305216336.77708.77708,0,2,Serouj,Warm-Agreeable
+305216336.77708.77708,0,3,VQuakr,Unassuming-Ingenuous
+305216336.77708.77708,0,4,Serouj,Warm-Agreeable
+305216336.77708.77708,0,5,VQuakr,Unassured-Submissive
+305216336.77708.77708,0,6,Serouj,Warm-Agreeable
+305216336.77708.77708,0,7,Dbachmann,Warm-Agreeable
+305216336.77708.77708,0,8,Vahagn Petrosyan,Gregarious-Extraverted
+305216336.77708.77708,1,9,Serouj,Warm-Agreeable
+305216336.77708.77708,1,10,Serouj,Warm-Agreeable
+305539768.336586.336586,0,1,Bluehotel,Warm-Agreeable
+305539768.336586.336586,0,2,Bluehotel,Unassuming-Ingenuous
+305539768.336586.336586,0,3,Bluehotel,Unassured-Submissive
+305539768.336586.336586,0,4,Atisha's cook,Warm-Agreeable
+305539768.336586.336586,0,5,87.114.18.172,Warm-Agreeable
+305539768.336586.336586,0,6,Emptymountains,Warm-Agreeable
+305539768.336586.336586,0,7,Atisha's cook,Warm-Agreeable
+305539768.336586.336586,1,8,Emptymountains,Warm-Agreeable
+305539768.336586.336586,1,9,Atisha's cook,Unassuming-Ingenuous
+306576529.343728.343728,0,1,Atisha's cook,Warm-Agreeable
+306576529.343728.343728,0,2,Emptymountains,Warm-Agreeable
+306576529.343728.343728,0,3,Andi 3ö,Arrogant-Calculating
+306576529.343728.343728,0,4,Atisha's cook,Warm-Agreeable
+306576529.343728.343728,0,5,Emptymountains,Warm-Agreeable
+306576529.343728.343728,0,6,Atisha's cook,Warm-Agreeable
+306576529.343728.343728,0,7,94.192.139.167,Cold
+306576529.343728.343728,1,8,94.192.139.167,Cold
+306576529.343728.343728,1,9,94.192.139.167,Cold
+30766025.100936.100936,0,1,Flying Jazz,Warm-Agreeable
+30766025.100936.100936,0,2,Iantresman,Unassuming-Ingenuous
+30766025.100936.100936,0,3,Flying Jazz,Warm-Agreeable
+30766025.100936.100936,1,4,ජපස,Warm-Agreeable
+30766025.100936.100936,1,5,Flying Jazz,Arrogant-Calculating
+30766025.100936.100936,1,6,Iantresman,Unassuming-Ingenuous
+30766025.100936.100936,2,7,Iantresman,Unassuming-Ingenuous
+30766025.100936.100936,2,8,Flying Jazz,Cold
+309799694.118610.118610,0,1,SarekOfVulcan,Warm-Agreeable
+309799694.118610.118610,0,2,J~enwiki,Cold
+309799694.118610.118610,0,3,SarekOfVulcan,Warm-Agreeable
+309799694.118610.118610,0,4,ThuranX,Assured-Dominant
+309799694.118610.118610,0,5,Franamax,Unassuming-Ingenuous
+309799694.118610.118610,0,6,Tanthalas39,Aloof-Introverted
+309799694.118610.118610,0,7,Indubitably,Unassured-Submissive
+309799694.118610.118610,1,8,ThuranX,Assured-Dominant
+309799694.118610.118610,1,9,Rvcx,Warm-Agreeable
+309799694.118610.118610,1,10,SarekOfVulcan,Unassuming-Ingenuous
+309799694.118610.118610,1,11,SarekOfVulcan,Warm-Agreeable
+31155802.107911.107911,0,1,68.97.49.51,Warm-Agreeable
+31155802.107911.107911,0,2,68.97.49.51,Unassured-Submissive
+31155802.107911.107911,1,3,Mattley,Warm-Agreeable
+31155802.107911.107911,2,4,KDRGibby,Gregarious-Extraverted
+31155802.107911.107911,3,5,BostonMA,Aloof-Introverted
+312205305.4849.4849,0,1,Smartperson,Warm-Agreeable
+312205305.4849.4849,0,2,Luminifer,Warm-Agreeable
+312205305.4849.4849,0,3,66.234.47.194,Unassured-Submissive
+312205305.4849.4849,0,4,66.234.47.194,Cold
+312205305.4849.4849,0,5,66.234.47.194,Not Available
+312205305.4849.4849,0,6,Falcon8765,Assured-Dominant
+312205305.4849.4849,1,7,66.234.47.194,Arrogant-Calculating
+312857093.338.338,0,1,Historicist,Unassuming-Ingenuous
+312857093.338.338,0,2,Nableezy,Arrogant-Calculating
+312857093.338.338,0,3,Historicist,Warm-Agreeable
+312857093.338.338,0,4,Nableezy,Unassured-Submissive
+312857093.338.338,0,5,Historicist,Unassuming-Ingenuous
+312857093.338.338,0,6,Nableezy,Warm-Agreeable
+312857093.338.338,1,7,Malik Shabazz,Unassuming-Ingenuous
+312857093.338.338,1,8,Crotalus horridus,Unassuming-Ingenuous
+312857093.338.338,1,9,Crotalus horridus,Warm-Agreeable
+312857093.338.338,1,10,Historicist,Unassured-Submissive
+314467639.96173.96173,0,1,E. Ripley,Warm-Agreeable
+314467639.96173.96173,0,2,3RingCircus,Warm-Agreeable
+314467639.96173.96173,0,3,79.97.166.36,Arrogant-Calculating
+314467639.96173.96173,1,4,E. Ripley,Warm-Agreeable
+314467639.96173.96173,1,5,79.97.166.36,Unassuming-Ingenuous
+314467639.96173.96173,1,6,79.97.166.36,Cold
+315287769.101858.101858,0,1,Bonewah,Unassured-Submissive
+315287769.101858.101858,0,2,Jimmuldrow,Unassuming-Ingenuous
+315287769.101858.101858,0,3,Jimmuldrow,Unassuming-Ingenuous
+315287769.101858.101858,0,4,Bonewah,Arrogant-Calculating
+315287769.101858.101858,0,5,Arzel,Warm-Agreeable
+315287769.101858.101858,0,6,Jimmuldrow,Unassuming-Ingenuous
+315287769.101858.101858,0,7,Jimmuldrow,Aloof-Introverted
+315287769.101858.101858,0,8,Jimmuldrow,Cold
+315287769.101858.101858,1,9,Jimmuldrow,Warm-Agreeable
+315287769.101858.101858,1,10,Bonewah,Cold
+318749222.42100.42100,0,1,Blueshirts,Warm-Agreeable
+318749222.42100.42100,0,2,DCTT,Unassuming-Ingenuous
+318749222.42100.42100,1,3,Mafia godfather,Assured-Dominant
+318749222.42100.42100,2,4,Blueshirts,Arrogant-Calculating
+318749222.42100.42100,2,5,Mafia godfather,Warm-Agreeable
+318749222.42100.42100,2,6,Paul Siebert,Unassuming-Ingenuous
+318749222.42100.42100,2,7,151.151.98.234,Unassured-Submissive
+318749222.42100.42100,2,8,Blueshirts,Cold
+318749222.42100.42100,2,9,Paul Siebert,Unassuming-Ingenuous
+320351550.101714.101714,0,1,Arilang1234,Assured-Dominant
+320351550.101714.101714,0,2,Benlisquare,Warm-Agreeable
+320351550.101714.101714,0,3,Blueshirts,Cold
+320351550.101714.101714,0,4,Benlisquare,Unassuming-Ingenuous
+320351550.101714.101714,0,5,Benlisquare,Unassured-Submissive
+320351550.101714.101714,0,6,Benlisquare,Not Available
+320351550.101714.101714,1,7,Blueshirts,Cold
+320351550.101714.101714,1,8,Benlisquare,Arrogant-Calculating
+321528509.87053.87053,0,1,Meieimatai,Unassured-Submissive
+321528509.87053.87053,0,2,ThuranX,Arrogant-Calculating
+321528509.87053.87053,0,3,Meieimatai,Unassured-Submissive
+321528509.87053.87053,0,4,Meieimatai,Unassuming-Ingenuous
+321528509.87053.87053,1,5,Meieimatai,Warm-Agreeable
+322317865.91486.91486,0,1,Wilytilt,Warm-Agreeable
+322317865.91486.91486,0,2,MinisterForBadTimes,Warm-Agreeable
+322317865.91486.91486,0,3,Wilytilt,Warm-Agreeable
+322317865.91486.91486,0,4,93.143.43.119,Unassured-Submissive
+322317865.91486.91486,0,5,Wilytilt,Warm-Agreeable
+322317865.91486.91486,0,6,93.142.147.100,Unassuming-Ingenuous
+322317865.91486.91486,1,7,Simanos,Arrogant-Calculating
+322317865.91486.91486,1,8,Simanos,Cold
+32306131.4451.4451,0,1,Yesselman,Unassuming-Ingenuous
+32306131.4451.4451,0,2,Bobet,Unassuming-Ingenuous
+32306131.4451.4451,0,3,TeaDrinker,Unassuming-Ingenuous
+32306131.4451.4451,1,4,24.0.37.225,Not Available
+32306131.4451.4451,1,5,24.0.37.225,Cold
+323735621.163644.163644,0,1,TraceyR,Warm-Agreeable
+323735621.163644.163644,0,2,Rhode Island Red,Unassuming-Ingenuous
+323735621.163644.163644,0,3,Rhode Island Red,Arrogant-Calculating
+323735621.163644.163644,0,4,TraceyR,Unassured-Submissive
+323735621.163644.163644,0,5,Rhode Island Red,Arrogant-Calculating
+323735621.163644.163644,0,6,TraceyR,Warm-Agreeable
+323735621.163644.163644,0,7,Rhode Island Red,Cold
+323735621.163644.163644,0,8,TraceyR,Warm-Agreeable
+323735621.163644.163644,1,9,Rhode Island Red,Cold
+327675250.79784.79784,0,1,NeilN,Warm-Agreeable
+327675250.79784.79784,0,2,Peter Lee,Warm-Agreeable
+327675250.79784.79784,0,3,4twenty42o,Warm-Agreeable
+327675250.79784.79784,0,4,NeilN,Unassuming-Ingenuous
+327675250.79784.79784,0,5,UsagiM,Gregarious-Extraverted
+327675250.79784.79784,1,6,NeilN,Unassuming-Ingenuous
+327675250.79784.79784,1,7,UsagiM,Gregarious-Extraverted
+328833625.31131.31131,0,1,Paine Ellsworth,Warm-Agreeable
+328833625.31131.31131,0,2,Paine Ellsworth,Unassuming-Ingenuous
+328833625.31131.31131,0,3,Paine Ellsworth,Warm-Agreeable
+328833625.31131.31131,0,4,Bosonic dressing,Arrogant-Calculating
+328833625.31131.31131,0,5,Paine Ellsworth,Warm-Agreeable
+328833625.31131.31131,0,6,Paine Ellsworth,Warm-Agreeable
+328833625.31131.31131,0,7,Paine Ellsworth,Warm-Agreeable
+328833625.31131.31131,0,8,Merbabu,Warm-Agreeable
+328833625.31131.31131,0,9,Bosonic dressing,Arrogant-Calculating
+328833625.31131.31131,1,10,Bosonic dressing,Unassuming-Ingenuous
+328937880.64292.64292,0,1,Hesperian,Warm-Agreeable
+328937880.64292.64292,0,2,Merbabu,Warm-Agreeable
+328937880.64292.64292,0,3,Hesperian,Warm-Agreeable
+328937880.64292.64292,0,4,Merbabu,Warm-Agreeable
+328937880.64292.64292,1,5,Hesperian,Unassured-Submissive
+328937880.64292.64292,1,6,Paine Ellsworth,Warm-Agreeable
+328937880.64292.64292,1,7,Hesperian,Cold
+328937880.64292.64292,1,8,Merbabu,Unassuming-Ingenuous
+328937880.64292.64292,1,9,Paine Ellsworth,Gregarious-Extraverted
+328937880.64292.64292,1,10,Hesperian,Cold
+331905969.37713.37713,0,1,OpinionPerson,Warm-Agreeable
+331905969.37713.37713,0,2,Famousdog,Assured-Dominant
+331905969.37713.37713,1,3,OpinionPerson,Unassuming-Ingenuous
+331905969.37713.37713,2,4,OpinionPerson,Gregarious-Extraverted
+331905969.37713.37713,2,5,BullRangifer,Aloof-Introverted
+331905969.37713.37713,2,6,BullRangifer,Not Available
+331905969.37713.37713,3,7,Mindjuicer,Cold
+331905969.37713.37713,4,8,Mindjuicer,Warm-Agreeable
+331905969.37713.37713,5,9,MrOllie,Warm-Agreeable
+331905969.37713.37713,5,10,MrOllie,Unassuming-Ingenuous
+333679737.393932.393932,0,1,Jzyehoshua,Warm-Agreeable
+333679737.393932.393932,0,2,Róbert Gida,Not Available
+333679737.393932.393932,0,3,Scjessey,Unassuming-Ingenuous
+333679737.393932.393932,0,4,Wikidemon,Warm-Agreeable
+333679737.393932.393932,1,5,Jzyehoshua,Gregarious-Extraverted
+333679737.393932.393932,2,6,Scjessey,Cold
+339476612.25907.25907,0,1,AzureCitizen,Warm-Agreeable
+339476612.25907.25907,0,2,Malleus Fatuorum,Cold
+339476612.25907.25907,0,3,AzureCitizen,Warm-Agreeable
+339476612.25907.25907,0,4,Peter cohen,Warm-Agreeable
+339476612.25907.25907,0,5,Malleus Fatuorum,Cold
+339476612.25907.25907,0,6,Peter cohen,Warm-Agreeable
+339476612.25907.25907,0,7,Malleus Fatuorum,Unassuming-Ingenuous
+339476612.25907.25907,1,8,AzureCitizen,Warm-Agreeable
+339476612.25907.25907,1,9,Malleus Fatuorum,Cold
+340143345.87989.87989,0,1,John Foxe,Warm-Agreeable
+340143345.87989.87989,0,2,114.74.225.203,Arrogant-Calculating
+340143345.87989.87989,0,3,COGDEN,Unassuming-Ingenuous
+340143345.87989.87989,0,4,Storm Rider,Warm-Agreeable
+340143345.87989.87989,0,5,COGDEN,Unassuming-Ingenuous
+340143345.87989.87989,0,6,Storm Rider,Warm-Agreeable
+340143345.87989.87989,1,7,COGDEN,Unassuming-Ingenuous
+340143345.87989.87989,1,8,John Foxe,Cold
+340143345.87989.87989,1,9,Storm Rider,Assured-Dominant
+341617416.168261.168261,0,1,Gandydancer,Warm-Agreeable
+341617416.168261.168261,0,2,BullRangifer,Cold
+341617416.168261.168261,0,3,Ludwigs2,Unassuming-Ingenuous
+341617416.168261.168261,0,4,DavidOaks,Warm-Agreeable
+341617416.168261.168261,0,5,Vitaminman,Unassured-Submissive
+341617416.168261.168261,0,6,Ludwigs2,Warm-Agreeable
+341617416.168261.168261,1,7,Severina123,Unassured-Submissive
+34364810.2636.2636,0,1,Outbackjack,Gregarious-Extraverted
+34364810.2636.2636,0,2,Jiminy Krikkitt,Unassuming-Ingenuous
+34364810.2636.2636,0,3,192.43.227.18,Arrogant-Calculating
+34364810.2636.2636,0,4,Jiminy Krikkitt,Not Available
+34364810.2636.2636,1,5,202.6.138.33,Unassuming-Ingenuous
+34364810.2636.2636,1,6,Jiminy Krikkitt,Not Available
+34364810.2636.2636,1,7,Rogerthat,Warm-Agreeable
+34364810.2636.2636,1,8,202.6.138.33,Unassuming-Ingenuous
+34364810.2636.2636,2,9,Oliyoung,Warm-Agreeable
+347122190.4034.4034,0,1,PericlesofAthens,Warm-Agreeable
+347122190.4034.4034,0,2,Gnip,Warm-Agreeable
+347122190.4034.4034,0,3,PericlesofAthens,Warm-Agreeable
+350236750.83554.83562,0,1,BehnamFarid,Warm-Agreeable
+350236750.83554.83562,0,2,Xashaiar,Unassuming-Ingenuous
+350236750.83554.83562,0,3,BehnamFarid,Warm-Agreeable
+350236750.83554.83562,0,4,Xashaiar,Unassured-Submissive
+350236750.83554.83562,0,5,BehnamFarid,Warm-Agreeable
+350236750.83554.83562,1,6,BehnamFarid,Warm-Agreeable
+350236750.83554.83562,1,7,Xashaiar,Cold
+350236750.83554.83562,1,8,BehnamFarid,Cold
+351794186.44222.44222,0,1,Andy Dingley,Unassured-Submissive
+351794186.44222.44222,0,2,Malleus Fatuorum,Arrogant-Calculating
+351794186.44222.44222,0,3,Andy Dingley,Unassuming-Ingenuous
+351794186.44222.44222,0,4,Malleus Fatuorum,Cold
+351794186.44222.44222,1,5,Andy Dingley,Warm-Agreeable
+351794186.44222.44222,1,6,Malleus Fatuorum,Cold
+351794186.44222.44222,1,7,Malleus Fatuorum,Cold
+354488901.139567.139567,0,1,BigK HeX,Warm-Agreeable
+354488901.139567.139567,0,2,Weakopedia,Arrogant-Calculating
+354488901.139567.139567,0,3,BigK HeX,Unassuming-Ingenuous
+354488901.139567.139567,0,4,BigK HeX,Warm-Agreeable
+354488901.139567.139567,0,5,Weakopedia,Cold
+354488901.139567.139567,0,6,BigK HeX,Unassured-Submissive
+354488901.139567.139567,1,7,Weakopedia,Arrogant-Calculating
+354488901.139567.139567,1,8,BigK HeX,Cold
+356031930.18626.18626,0,1,Student7,Unassuming-Ingenuous
+356031930.18626.18626,0,2,Student7,Warm-Agreeable
+356031930.18626.18626,1,3,Student7,Unassured-Submissive
+356031930.18626.18626,2,4,207.155.20.168,Arrogant-Calculating
+356031930.18626.18626,2,5,Student7,Warm-Agreeable
+356031930.18626.18626,2,6,207.155.20.168,Cold
+35659323.6895.6895,0,1,LukasPietsch,Warm-Agreeable
+35659323.6895.6895,0,2,Shivraj Singh,Arrogant-Calculating
+35659323.6895.6895,1,3,LukasPietsch,Warm-Agreeable
+35659323.6895.6895,1,4,Shivraj Singh,Unassured-Submissive
+35659323.6895.6895,2,5,LukasPietsch,Unassuming-Ingenuous
+362589694.47677.47677,0,1,Bdenis,Unassuming-Ingenuous
+362589694.47677.47677,0,2,Bdenis,Unassured-Submissive
+362589694.47677.47677,0,3,Malleus Fatuorum,Warm-Agreeable
+362589694.47677.47677,0,4,86.206.30.123,Unassured-Submissive
+362589694.47677.47677,0,5,Malleus Fatuorum,Unassuming-Ingenuous
+362589694.47677.47677,0,6,90.27.23.74,Unassured-Submissive
+362589694.47677.47677,0,7,Malleus Fatuorum,Warm-Agreeable
+362589694.47677.47677,1,8,Malleus Fatuorum,Warm-Agreeable
+36268090.17743.17743,0,1,Alyeska,Arrogant-Calculating
+36268090.17743.17743,0,2,AlistairMcMillan,Unassuming-Ingenuous
+36268090.17743.17743,0,3,Alyeska,Arrogant-Calculating
+36268090.17743.17743,0,4,AlistairMcMillan,Unassured-Submissive
+36268090.17743.17743,0,5,Alyeska,Arrogant-Calculating
+36268090.17743.17743,0,6,AlistairMcMillan,Unassured-Submissive
+36268090.17743.17743,0,7,AlistairMcMillan,Gregarious-Extraverted
+36268090.17743.17743,1,8,Hayter,Warm-Agreeable
+36268090.17743.17743,1,9,Alyeska,Cold
+364812646.149316.149316,0,1,Hkwon,Warm-Agreeable
+364812646.149316.149316,0,2,Hkwon,Not Available
+364812646.149316.149316,0,3,Melonbarmonster2,Arrogant-Calculating
+364812646.149316.149316,0,4,Hkwon,Assured-Dominant
+364812646.149316.149316,1,5,Hkwon,Warm-Agreeable
+364812646.149316.149316,1,6,Sennen goroshi,Unassuming-Ingenuous
+364812646.149316.149316,1,7,Hkwon,Warm-Agreeable
+364812646.149316.149316,1,8,Sennen goroshi,Cold
+36513759.34655.34655,0,1,Alyeska,Assured-Dominant
+36513759.34655.34655,0,2,Hayter,Warm-Agreeable
+36513759.34655.34655,1,3,Alyeska,Arrogant-Calculating
+36513759.34655.34655,2,4,Blue387,Warm-Agreeable
+36513759.34655.34655,2,5,Fearghul,Unassuming-Ingenuous
+36513759.34655.34655,2,6,Alyeska,Cold
+36513759.34655.34655,3,7,AlistairMcMillan,Warm-Agreeable
+36513759.34655.34655,3,8,Alyeska,Warm-Agreeable
+36513759.34655.34655,3,9,AlistairMcMillan,Unassuming-Ingenuous
+36774149.13039.13039,0,1,Bronks,Unassured-Submissive
+36774149.13039.13039,0,2,Ultramarine,Cold
+36774149.13039.13039,0,3,Ultramarine,Unassuming-Ingenuous
+36774149.13039.13039,0,4,Ikip,Warm-Agreeable
+36774149.13039.13039,0,5,Ikip,Unassuming-Ingenuous
+36774149.13039.13039,0,6,Ikip,Warm-Agreeable
+36774149.13039.13039,1,7,Ikip,Cold
+369499457.82.82,0,1,Sodapaps,Arrogant-Calculating
+369499457.82.82,0,2,InaMaka,Warm-Agreeable
+369499457.82.82,0,3,Sodapaps,Gregarious-Extraverted
+369499457.82.82,0,4,InaMaka,Warm-Agreeable
+369499457.82.82,0,5,Sodapaps,Unassured-Submissive
+369499457.82.82,1,6,InaMaka,Cold
+369499457.82.82,1,7,64.179.158.185,Unassured-Submissive
+369499457.82.82,1,8,InaMaka,Cold
+37192162.56808.56808,0,1,SeraphimXI,Gregarious-Extraverted
+37192162.56808.56808,0,2,WegianWarrior,Warm-Agreeable
+37192162.56808.56808,0,3,Skull 'n' Femurs,Unassuming-Ingenuous
+37192162.56808.56808,0,4,Blueboar,Unassuming-Ingenuous
+37192162.56808.56808,0,5,MSJapan,Warm-Agreeable
+37192162.56808.56808,0,6,SeraphimXI,Unassured-Submissive
+37192162.56808.56808,0,7,ALR,Unassuming-Ingenuous
+37192162.56808.56808,1,8,SeraphimXI,Gregarious-Extraverted
+37192162.56808.56808,1,9,WegianWarrior,Warm-Agreeable
+37192162.56808.56808,1,10,SeraphimXI,Unassured-Submissive
+37192162.56808.56808,1,11,ALR,Unassuming-Ingenuous
+37192162.56808.56808,1,12,SeraphimXI,Gregarious-Extraverted
+37192162.56808.56808,1,13,ALR,Unassuming-Ingenuous
+372526015.144895.144895,0,1,Melonbarmonster2,Warm-Agreeable
+372526015.144895.144895,0,2,Qwyrxian,Unassuming-Ingenuous
+372526015.144895.144895,0,3,Melonbarmonster2,Warm-Agreeable
+372526015.144895.144895,0,4,Melonbarmonster2,Warm-Agreeable
+372526015.144895.144895,0,5,Qwyrxian,Unassuming-Ingenuous
+372526015.144895.144895,1,6,Melonbarmonster2,Unassuming-Ingenuous
+372526015.144895.144895,1,7,Qwyrxian,Warm-Agreeable
+372526015.144895.144895,1,8,Melonbarmonster2,Unassuming-Ingenuous
+37521511.39383.39383,0,1,Midgley,Warm-Agreeable
+37521511.39383.39383,0,2,Whaleto,Cold
+37521511.39383.39383,0,3,CDN99,Unassuming-Ingenuous
+37521511.39383.39383,0,4,Midgley,Arrogant-Calculating
+37521511.39383.39383,0,5,Midgley,Cold
+37521511.39383.39383,1,6,Whaleto,Unassuming-Ingenuous
+37521511.39383.39383,1,7,Midgley,Cold
+37521511.39383.39383,1,8,Midgley,Warm-Agreeable
+37521511.39383.39383,1,9,Midgley,Arrogant-Calculating
+37521511.39383.39383,1,10,Whaleto,Unassured-Submissive
+37521511.39383.39383,1,11,Whaleto,Warm-Agreeable
+376718309.90935.90935,0,1,David J Wilson,Warm-Agreeable
+376718309.90935.90935,0,2,Chris55,Warm-Agreeable
+376718309.90935.90935,0,3,TomS TDotO,Unassuming-Ingenuous
+376718309.90935.90935,1,4,Chris55,Warm-Agreeable
+376718309.90935.90935,1,5,TomS TDotO,Unassuming-Ingenuous
+376718309.90935.90935,1,6,Chris55,Warm-Agreeable
+376899200.195550.195550,0,1,Protonk,Warm-Agreeable
+376899200.195550.195550,0,2,GabeMc,Warm-Agreeable
+376899200.195550.195550,0,3,GabeMc,Unassured-Submissive
+376899200.195550.195550,0,4,Malik Shabazz,Arrogant-Calculating
+376899200.195550.195550,0,5,GabeMc,Unassured-Submissive
+376899200.195550.195550,0,6,Malik Shabazz,Cold
+376899200.195550.195550,0,7,SarekOfVulcan,Unassuming-Ingenuous
+376899200.195550.195550,0,8,Protonk,Warm-Agreeable
+376899200.195550.195550,0,9,Malik Shabazz,Warm-Agreeable
+376899200.195550.195550,1,10,GabeMc,Unassured-Submissive
+376899200.195550.195550,1,11,Protonk,Warm-Agreeable
+376899200.195550.195550,1,12,Protonk,Unassuming-Ingenuous
+376899200.195550.195550,1,13,Malik Shabazz,Unassured-Submissive
+377377077.174238.174238,0,1,GabeMc,Warm-Agreeable
+377377077.174238.174238,0,2,GabeMc,Warm-Agreeable
+377377077.174238.174238,0,3,GabeMc,Unassuming-Ingenuous
+377377077.174238.174238,0,4,GabeMc,Warm-Agreeable
+377377077.174238.174238,0,5,GabeMc,Warm-Agreeable
+377377077.174238.174238,0,6,GabeMc,Warm-Agreeable
+377377077.174238.174238,0,7,Malik Shabazz,Warm-Agreeable
+377377077.174238.174238,0,8,Malik Shabazz,Unassuming-Ingenuous
+377377077.174238.174238,1,9,GabeMc,Gregarious-Extraverted
+377377077.174238.174238,1,10,Malik Shabazz,Cold
+377579395.87454.94099,0,1,Wikidemon,Warm-Agreeable
+377579395.87454.94099,0,2,Tarc,Unassuming-Ingenuous
+377579395.87454.94099,0,3,Dave Dial,Unassuming-Ingenuous
+377579395.87454.94099,0,4,Tomgazer,Arrogant-Calculating
+377579395.87454.94099,0,5,Tarc,Warm-Agreeable
+377579395.87454.94099,0,6,Jleon,Warm-Agreeable
+377579395.87454.94099,0,7,97.118.231.12,Gregarious-Extraverted
+377579395.87454.94099,1,8,Baseball Bugs,Unassuming-Ingenuous
+377579395.87454.94099,1,9,24.196.105.69,Arrogant-Calculating
+377579395.87454.94099,1,10,24.196.105.69,Cold
+377579395.87454.94099,1,11,24.196.105.69,Arrogant-Calculating
+37920764.84117.84117,0,1,86.10.231.219,Arrogant-Calculating
+37920764.84117.84117,0,2,Davidruben,Warm-Agreeable
+37920764.84117.84117,0,3,Whaleto,Cold
+37920764.84117.84117,1,4,Ombudsman,Warm-Agreeable
+37920764.84117.84117,1,5,Midgley,Unassuming-Ingenuous
+37920764.84117.84117,1,6,Midgley,Warm-Agreeable
+37920764.84117.84117,1,7,86.10.231.219,Cold
+383297205.18608.18608,0,1,Gobonobo,Warm-Agreeable
+383297205.18608.18608,0,2,InaMaka,Arrogant-Calculating
+383297205.18608.18608,0,3,Gobonobo,Warm-Agreeable
+383297205.18608.18608,1,4,InaMaka,Cold
+383297205.18608.18608,1,5,JamesMLane,Warm-Agreeable
+383297205.18608.18608,2,6,InaMaka,Unassured-Submissive
+383297205.18608.18608,2,7,JamesMLane,Unassuming-Ingenuous
+383297205.18608.18608,2,8,InaMaka,Arrogant-Calculating
+383297205.18608.18608,2,9,Gobonobo,Warm-Agreeable
+383297205.18608.18608,2,10,Dbedwards,Unassured-Submissive
+383297205.18608.18608,2,11,Aeonx,Warm-Agreeable
+38591519.50243.50547,0,1,Nescio,Unassured-Submissive
+38591519.50243.50547,0,2,VinnyCee,Arrogant-Calculating
+38591519.50243.50547,0,3,Sophysduckling,Warm-Agreeable
+38591519.50243.50547,0,4,WaynaQhapaq,Gregarious-Extraverted
+38591519.50243.50547,0,5,Sophysduckling,Warm-Agreeable
+38591519.50243.50547,1,6,WaynaQhapaq,Assured-Dominant
+38591519.50243.50547,1,7,130.253.5.134,Unassuming-Ingenuous
+38591519.50243.50547,2,8,WaynaQhapaq,Warm-Agreeable
+38591519.50243.50547,3,9,WaynaQhapaq,Warm-Agreeable
+38591519.50243.50547,3,10,Sophysduckling,Cold
+388723036.6709.6709,0,1,Cplakidas,Assured-Dominant
+388723036.6709.6709,0,2,Tmhm,Arrogant-Calculating
+388723036.6709.6709,0,3,Tbhotch,Assured-Dominant
+388723036.6709.6709,0,4,Tmhm,Unassured-Submissive
+388723036.6709.6709,0,5,Walter Görlitz,Warm-Agreeable
+388723036.6709.6709,0,6,Kww,Assured-Dominant
+388723036.6709.6709,0,7,Ronhjones,Warm-Agreeable
+388723036.6709.6709,0,8,Tmhm,Unassured-Submissive
+388723036.6709.6709,0,9,Kww,Assured-Dominant
+388723036.6709.6709,0,10,Tmhm,Unassured-Submissive
+388723036.6709.6709,0,11,Kww,Assured-Dominant
+388723036.6709.6709,1,12,Tmhm,Unassuming-Ingenuous
+388723036.6709.6709,1,13,Kww,Cold
+388723036.6709.6709,1,14,Tmhm,Cold
+395880529.101057.101057,0,1,Alexh19740110,Warm-Agreeable
+395880529.101057.101057,0,2,Q Science,Warm-Agreeable
+395880529.101057.101057,0,3,Merlinme,Warm-Agreeable
+395880529.101057.101057,1,4,Alexh19740110,Gregarious-Extraverted
+395880529.101057.101057,2,5,Merlinme,Warm-Agreeable
+395880529.101057.101057,2,6,J. Johnson,Unassuming-Ingenuous
+395880529.101057.101057,2,7,J. Johnson,Unassured-Submissive
+395880529.101057.101057,3,8,Alexh19740110,Arrogant-Calculating
+395880529.101057.101057,3,9,Merlinme,Warm-Agreeable
+395907710.101057.101057,0,1,Merlinme,Warm-Agreeable
+395907710.101057.101057,0,2,Merlinme,Unassuming-Ingenuous
+395907710.101057.101057,0,3,Alexh19740110,Warm-Agreeable
+395907710.101057.101057,0,4,Merlinme,Unassured-Submissive
+395907710.101057.101057,0,5,Nigelj,Warm-Agreeable
+395907710.101057.101057,0,6,J. Johnson,Unassuming-Ingenuous
+395907710.101057.101057,1,7,Khukri,Warm-Agreeable
+395907710.101057.101057,1,8,Nigelj,Unassuming-Ingenuous
+395907710.101057.101057,1,9,Alexh19740110,Unassured-Submissive
+395907710.101057.101057,1,10,J. Johnson,Arrogant-Calculating
+399342246.98179.98179,0,1,Jacob805,Unassuming-Ingenuous
+399342246.98179.98179,0,2,Jacob805,Warm-Agreeable
+399342246.98179.98179,0,3,HLGallon,Unassuming-Ingenuous
+399342246.98179.98179,0,4,Jacob805,Arrogant-Calculating
+399342246.98179.98179,0,5,HLGallon,Warm-Agreeable
+399342246.98179.98179,0,6,178.190.225.6,Unassured-Submissive
+399342246.98179.98179,1,7,178.190.225.6,Cold
+399342246.98179.98179,1,8,HLGallon,Unassuming-Ingenuous
+402776204.3087.3087,0,1,Jfgslo,Warm-Agreeable
+402776204.3087.3087,0,2,Jfgslo,Warm-Agreeable
+402776204.3087.3087,0,3,Kleinzach,Cold
+402776204.3087.3087,0,4,184.144.165.37,Unassured-Submissive
+402776204.3087.3087,0,5,Nihonjoe,Warm-Agreeable
+402776204.3087.3087,0,6,Kleinzach,Arrogant-Calculating
+402776204.3087.3087,0,7,Nihonjoe,Unassuming-Ingenuous
+402776204.3087.3087,0,8,Andrewa,Warm-Agreeable
+402776204.3087.3087,0,9,Phoenix7777,Warm-Agreeable
+402776204.3087.3087,0,10,DAJF,Warm-Agreeable
+402776204.3087.3087,1,11,Ryulong,Warm-Agreeable
+40441630.25317.25317,0,1,Slrubenstein,Warm-Agreeable
+40441630.25317.25317,0,2,CTSWyneken,Unassuming-Ingenuous
+40441630.25317.25317,0,3,Archola,Unassuming-Ingenuous
+40441630.25317.25317,0,4,Slrubenstein,Warm-Agreeable
+40441630.25317.25317,0,5,CTSWyneken,Warm-Agreeable
+40441630.25317.25317,0,6,Robsteadman,Warm-Agreeable
+40441630.25317.25317,0,7,Paul Barlow,Warm-Agreeable
+40441630.25317.25317,0,8,Robsteadman,Unassured-Submissive
+40441630.25317.25317,1,9,CTSWyneken,Warm-Agreeable
+40441630.25317.25317,1,10,Slrubenstein,Warm-Agreeable
+40441630.25317.25317,1,11,Archola,Unassured-Submissive
+408666872.96.96,0,1,Deliriousandlost,Gregarious-Extraverted
+408666872.96.96,0,2,Core2012,Unassured-Submissive
+408666872.96.96,0,3,Deliriousandlost,Warm-Agreeable
+408666872.96.96,0,4,CloudKade11,Cold
+408666872.96.96,0,5,Deliriousandlost,Unassured-Submissive
+408666872.96.96,0,6,CloudKade11,Arrogant-Calculating
+408666872.96.96,1,7,Core2012,Arrogant-Calculating
+410677837.63847.63847,0,1,Amandajm,Warm-Agreeable
+410677837.63847.63847,0,2,202.180.123.144,Unassuming-Ingenuous
+410677837.63847.63847,0,3,Amandajm,Warm-Agreeable
+410677837.63847.63847,0,4,Murray menzies,Not Available
+410677837.63847.63847,0,5,Murray menzies,Not Available
+410677837.63847.63847,0,6,Murray menzies,Warm-Agreeable
+410677837.63847.63847,0,7,Murray menzies,Unassuming-Ingenuous
+410677837.63847.63847,0,8,Amandajm,Warm-Agreeable
+410677837.63847.63847,0,9,Murray menzies,Unassuming-Ingenuous
+410677837.63847.63847,1,10,110.33.133.10,Gregarious-Extraverted
+416087741.8647.8647,0,1,Doncram,Unassuming-Ingenuous
+416087741.8647.8647,0,2,BrineStans,Warm-Agreeable
+416087741.8647.8647,0,3,Orlady,Warm-Agreeable
+416087741.8647.8647,0,4,Doncram,Unassuming-Ingenuous
+416087741.8647.8647,0,5,Orlady,Warm-Agreeable
+416087741.8647.8647,1,6,Doncram,Arrogant-Calculating
+418673658.96217.96217,0,1,Griswaldo,Warm-Agreeable
+418673658.96217.96217,0,2,Slrubenstein,Warm-Agreeable
+418673658.96217.96217,0,3,Kwamikagami,Cold
+418673658.96217.96217,0,4,Kwamikagami,Unassuming-Ingenuous
+418673658.96217.96217,0,5,Kwamikagami,Unassuming-Ingenuous
+418673658.96217.96217,0,6,Kwamikagami,Unassured-Submissive
+418673658.96217.96217,0,7,Griswaldo,Warm-Agreeable
+418673658.96217.96217,0,8,Kwamikagami,Cold
+418673658.96217.96217,0,9,Slrubenstein,Cold
+418673658.96217.96217,1,10,Kwamikagami,Cold
+420238290.70410.70410,0,1,Gwinva,Warm-Agreeable
+420238290.70410.70410,0,2,SineBot,Warm-Agreeable
+420238290.70410.70410,1,3,Dawnseeker2000,Warm-Agreeable
+420238290.70410.70410,2,4,Ohnoitsjamie,Warm-Agreeable
+420238290.70410.70410,3,5,Gfoley4,Warm-Agreeable
+424259231.19682.19682,0,1,Ryulong,Warm-Agreeable
+424259231.19682.19682,0,2,Nanshu,Arrogant-Calculating
+424259231.19682.19682,0,3,Kleinzach,Warm-Agreeable
+424259231.19682.19682,0,4,Kleinzach,Unassuming-Ingenuous
+424259231.19682.19682,0,5,Nanshu,Cold
+424259231.19682.19682,0,6,Nanshu,Cold
+424259231.19682.19682,0,7,Nanshu,Cold
+424259231.19682.19682,1,8,Ryulong,Unassured-Submissive
+424259231.19682.19682,2,9,Ryulong,Cold
+424633989.22249.22249,0,1,Sitush,Warm-Agreeable
+424633989.22249.22249,0,2,CaroleHenson,Warm-Agreeable
+424633989.22249.22249,0,3,Sitush,Warm-Agreeable
+424633989.22249.22249,0,4,CaroleHenson,Warm-Agreeable
+424633989.22249.22249,0,5,Sitush,Warm-Agreeable
+424633989.22249.22249,0,6,Panderoona,Warm-Agreeable
+424633989.22249.22249,1,7,Sitush,Unassuming-Ingenuous
+424633989.22249.22249,1,8,Panderoona,Unassured-Submissive
+424731436.16143.16143,0,1,Rusty Cashman,Unassuming-Ingenuous
+424731436.16143.16143,0,2,Mann jess,Warm-Agreeable
+424731436.16143.16143,0,3,Rusty Cashman,Warm-Agreeable
+424731436.16143.16143,1,4,Rusty Cashman,Warm-Agreeable
+424731436.16143.16143,1,5,Rusty Cashman,Warm-Agreeable
+424731436.16143.16143,1,6,Dave souza,Warm-Agreeable
+424731436.16143.16143,1,7,Mann jess,Warm-Agreeable
+424731436.16143.16143,1,8,Rusty Cashman,Warm-Agreeable
+424731436.16143.16143,2,9,Dave souza,Unassuming-Ingenuous
+426136415.11555.11555,0,1,Graylandertagger,Unassured-Submissive
+426136415.11555.11555,0,2,Qwyrxian,Warm-Agreeable
+426136415.11555.11555,0,3,173.65.211.83,Unassured-Submissive
+426136415.11555.11555,0,4,Graylandertagger,Unassured-Submissive
+426136415.11555.11555,0,5,Graylandertagger,Unassured-Submissive
+426136415.11555.11555,0,6,Qwyrxian,Warm-Agreeable
+426136415.11555.11555,0,7,Graylandertagger,Unassured-Submissive
+426136415.11555.11555,0,8,Qwyrxian,Warm-Agreeable
+426136415.11555.11555,1,9,Graylandertagger,Unassured-Submissive
+426147044.20066.20066,0,1,Richwales,Warm-Agreeable
+426147044.20066.20066,0,2,Cuchullain,Warm-Agreeable
+426147044.20066.20066,0,3,Richmondian,Unassuming-Ingenuous
+426147044.20066.20066,0,4,Cuchullain,Warm-Agreeable
+426147044.20066.20066,1,5,Cuchullain,Warm-Agreeable
+426147044.20066.20066,1,6,Richwales,Warm-Agreeable
+426147044.20066.20066,1,7,Cuchullain,Warm-Agreeable
+426147044.20066.20066,1,8,Richwales,Warm-Agreeable
+426147044.20066.20066,1,9,Richmondian,Cold
+428667627.34242.34242,0,1,BernieW650,Warm-Agreeable
+428667627.34242.34242,0,2,V7-sport,Arrogant-Calculating
+428667627.34242.34242,0,3,BernieW650,Unassuming-Ingenuous
+428667627.34242.34242,0,4,V7-sport,Cold
+428667627.34242.34242,0,5,BernieW650,Warm-Agreeable
+428667627.34242.34242,0,6,V7-sport,Cold
+428667627.34242.34242,0,7,BernieW650,Unassuming-Ingenuous
+428667627.34242.34242,1,8,V7-sport,Assured-Dominant
+42971987.255851.255851,0,1,Askolnick,Arrogant-Calculating
+42971987.255851.255851,0,2,Dreadstar,Unassuming-Ingenuous
+42971987.255851.255851,0,3,Askolnick,Cold
+42971987.255851.255851,1,4,Dreadstar,Unassured-Submissive
+42971987.255851.255851,1,5,Askolnick,Cold
+429783389.120499.120499,0,1,Diyairaniyanim,Arrogant-Calculating
+429783389.120499.120499,0,2,Kurdo777,Warm-Agreeable
+429783389.120499.120499,0,3,Diyairaniyanim,Unassured-Submissive
+429783389.120499.120499,0,4,Kermanshahi,Assured-Dominant
+429783389.120499.120499,1,5,Diyairaniyanim,Arrogant-Calculating
+429783389.120499.120499,1,6,Diyairaniyanim,Cold
+432489216.33831.33831,0,1,Walk7018,Warm-Agreeable
+432489216.33831.33831,0,2,Lexein,Unassuming-Ingenuous
+432489216.33831.33831,0,3,Lexein,Unassuming-Ingenuous
+432489216.33831.33831,0,4,Lexein,Unassuming-Ingenuous
+432489216.33831.33831,0,5,Lexein,Not Available
+432489216.33831.33831,0,6,66.59.225.49,Warm-Agreeable
+432489216.33831.33831,0,7,66.59.225.49,Unassured-Submissive
+432489216.33831.33831,1,8,Frosted14,Warm-Agreeable
+432489216.33831.33831,1,9,Frosted14,Not Available
+433130034.562.562,0,1,Crazymonkey1123 public,Warm-Agreeable
+433130034.562.562,0,2,PTJoshua,Unassuming-Ingenuous
+433130034.562.562,0,3,Awawawawoo,Unassured-Submissive
+433130034.562.562,0,4,PTJoshua,Arrogant-Calculating
+433130034.562.562,0,5,Awawawawoo,Unassured-Submissive
+433130034.562.562,1,6,Awawawawoo,Warm-Agreeable
+433172304.25123.28457,0,1,75.30.146.34,Unassuming-Ingenuous
+433172304.25123.28457,0,2,Machinarium,Warm-Agreeable
+433172304.25123.28457,0,3,Formats,Warm-Agreeable
+433172304.25123.28457,1,4,V7-sport,Unassuming-Ingenuous
+433172304.25123.28457,1,5,Machinarium,Warm-Agreeable
+433172304.25123.28457,1,6,Machinarium,Unassured-Submissive
+433172304.25123.28457,2,7,Diefgross,Warm-Agreeable
+433172304.25123.28457,2,8,J intela,Aloof-Introverted
+433982536.24593.24593,0,1,Famspear,Warm-Agreeable
+433982536.24593.24593,0,2,63.225.172.116,Arrogant-Calculating
+433982536.24593.24593,0,3,Famspear,Warm-Agreeable
+433982536.24593.24593,0,4,Doug Weller,Warm-Agreeable
+433982536.24593.24593,0,5,63.225.172.116,Cold
+433982536.24593.24593,0,6,63.225.172.116,Arrogant-Calculating
+433982536.24593.24593,0,7,Doug Weller,Warm-Agreeable
+433982536.24593.24593,0,8,Famspear,Warm-Agreeable
+433982536.24593.24593,1,9,63.225.172.116,Cold
+437405934.26910.26910,0,1,Off2riorob,Unassured-Submissive
+437405934.26910.26910,0,2,DerekMD,Arrogant-Calculating
+437405934.26910.26910,0,3,DerekMD,Cold
+437405934.26910.26910,0,4,Baseball Bugs,Cold
+437405934.26910.26910,0,5,DerekMD,Unassured-Submissive
+437405934.26910.26910,0,6,Off2riorob,Warm-Agreeable
+437405934.26910.26910,0,7,Off2riorob,Warm-Agreeable
+437405934.26910.26910,0,8,BusterD,Unassuming-Ingenuous
+437405934.26910.26910,1,9,Baseball Bugs,Cold
+440073368.12147.12147,0,1,Bo Jacoby,Warm-Agreeable
+440073368.12147.12147,0,2,Bo Jacoby,Not Available
+440073368.12147.12147,0,3,Gnathan87,Warm-Agreeable
+440073368.12147.12147,0,4,Bo Jacoby,Unassuming-Ingenuous
+440073368.12147.12147,0,5,Bo Jacoby,Unassuming-Ingenuous
+440073368.12147.12147,1,6,Gnathan87,Warm-Agreeable
+440073368.12147.12147,1,7,Gnathan87,Warm-Agreeable
+440073368.12147.12147,1,8,Bo Jacoby,Unassuming-Ingenuous
+440073368.12147.12147,2,9,Gnathan87,Warm-Agreeable
+440073368.12147.12147,2,10,Bo Jacoby,Arrogant-Calculating
+444337804.7547.7547,0,1,Fowler&fowler,Arrogant-Calculating
+444337804.7547.7547,0,2,ErrantX,Unassured-Submissive
+444337804.7547.7547,1,3,Sitush,Warm-Agreeable
+444337804.7547.7547,1,4,Sitush,Warm-Agreeable
+444337804.7547.7547,1,5,Fowler&fowler,Warm-Agreeable
+444337804.7547.7547,1,6,ErrantX,Warm-Agreeable
+444337804.7547.7547,1,7,Fowler&fowler,Warm-Agreeable
+444337804.7547.7547,2,8,Fowler&fowler,Warm-Agreeable
+444337804.7547.7547,2,9,Fowler&fowler,Unassuming-Ingenuous
+444337804.7547.7547,2,10,Fowler&fowler,Gregarious-Extraverted
+444337804.7547.7547,2,11,ErrantX,Warm-Agreeable
+444337804.7547.7547,2,12,Fowler&fowler,Warm-Agreeable
+444559202.172050.172050,0,1,Thompsma,Unassuming-Ingenuous
+444559202.172050.172050,0,2,Danielkueh,Warm-Agreeable
+444559202.172050.172050,0,3,Johnuniq,Unassuming-Ingenuous
+444559202.172050.172050,0,4,Thompsma,Warm-Agreeable
+444559202.172050.172050,0,5,Thompsma,Unassuming-Ingenuous
+444559202.172050.172050,0,6,Dave souza,Warm-Agreeable
+444559202.172050.172050,0,7,Slrubenstein,Warm-Agreeable
+444559202.172050.172050,0,8,Dave souza,Warm-Agreeable
+444559202.172050.172050,0,9,Andrew Lancaster,Warm-Agreeable
+444559202.172050.172050,1,10,Dave souza,Warm-Agreeable
+444597236.176624.175873,0,1,Dave souza,Warm-Agreeable
+444597236.176624.175873,0,2,Thompsma,Unassured-Submissive
+444597236.176624.175873,0,3,Slrubenstein,Warm-Agreeable
+444597236.176624.175873,0,4,Thompsma,Cold
+444597236.176624.175873,0,5,Thompsma,Arrogant-Calculating
+444597236.176624.175873,0,6,Dave souza,Unassuming-Ingenuous
+444597236.176624.175873,0,7,Dave souza,Warm-Agreeable
+444597236.176624.175873,1,8,Slrubenstein,Cold
+446778933.103447.103447,0,1,Andrew Lancaster,Warm-Agreeable
+446778933.103447.103447,0,2,Andrew Lancaster,Unassuming-Ingenuous
+446778933.103447.103447,0,3,Andrew Lancaster,Unassuming-Ingenuous
+446778933.103447.103447,0,4,Andrew Lancaster,Warm-Agreeable
+446778933.103447.103447,0,5,Pdeitiker,Unassuming-Ingenuous
+446778933.103447.103447,1,6,APayan,Unassuming-Ingenuous
+446778933.103447.103447,1,7,Andrew Lancaster,Warm-Agreeable
+446778933.103447.103447,1,8,APayan,Unassuming-Ingenuous
+446880892.128069.128069,0,1,Pdeitiker,Arrogant-Calculating
+446880892.128069.128069,0,2,Andrew Lancaster,Warm-Agreeable
+446880892.128069.128069,1,3,Andrew Lancaster,Arrogant-Calculating
+446880892.128069.128069,1,4,JohnLloydScharf,Cold
+446880892.128069.128069,1,5,JohnLloydScharf,Arrogant-Calculating
+446966206.37683.37683,0,1,Qwyrxian,Warm-Agreeable
+446966206.37683.37683,0,2,Sitush,Warm-Agreeable
+446966206.37683.37683,0,3,115.241.247.223,Gregarious-Extraverted
+446966206.37683.37683,0,4,115.241.247.223,Gregarious-Extraverted
+446966206.37683.37683,0,5,Sitush,Unassuming-Ingenuous
+446966206.37683.37683,0,6,115.241.247.223,Gregarious-Extraverted
+446966206.37683.37683,0,7,115.241.247.223,Warm-Agreeable
+446966206.37683.37683,1,8,Sitush,Warm-Agreeable
+446966206.37683.37683,1,9,Sitush,Unassuming-Ingenuous
+446966206.37683.37683,1,10,115.241.247.223,Cold
+449175770.77792.77792,0,1,Mindjuicer,Unassured-Submissive
+449175770.77792.77792,0,2,MastCell,Warm-Agreeable
+449175770.77792.77792,0,3,Bobrayner,Warm-Agreeable
+449175770.77792.77792,0,4,Mindjuicer,Unassuming-Ingenuous
+449175770.77792.77792,0,5,Mindjuicer,Cold
+449175770.77792.77792,0,6,Bobrayner,Warm-Agreeable
+449175770.77792.77792,0,7,82.26.133.16,Arrogant-Calculating
+449175770.77792.77792,0,8,Bobrayner,Warm-Agreeable
+449175770.77792.77792,0,9,Bobrayner,Unassuming-Ingenuous
+449175770.77792.77792,1,10,Mindjuicer,Arrogant-Calculating
+451224397.18924.18924,0,1,First Light,Warm-Agreeable
+451224397.18924.18924,0,2,Ohconfucius,Unassured-Submissive
+451224397.18924.18924,0,3,First Light,Warm-Agreeable
+451224397.18924.18924,0,4,Noetica,Unassuming-Ingenuous
+451224397.18924.18924,0,5,Rkitko,Warm-Agreeable
+451224397.18924.18924,0,6,Rkitko,Arrogant-Calculating
+451224397.18924.18924,0,7,Noetica,Unassuming-Ingenuous
+451224397.18924.18924,1,8,Rkitko,Unassuming-Ingenuous
+451224397.18924.18924,1,9,Noetica,Warm-Agreeable
+458313117.27986.27986,0,1,AshLin,Warm-Agreeable
+458313117.27986.27986,0,2,AshLin,Unassured-Submissive
+458313117.27986.27986,0,3,TopGun,Warm-Agreeable
+458313117.27986.27986,0,4,AshLin,Unassured-Submissive
+458313117.27986.27986,0,5,TopGun,Arrogant-Calculating
+458313117.27986.27986,1,6,Altetendekrabbe,Unassuming-Ingenuous
+458313117.27986.27986,1,7,TopGun,Warm-Agreeable
+458313117.27986.27986,1,8,Altetendekrabbe,Unassured-Submissive
+458313117.27986.27986,1,9,TopGun,Warm-Agreeable
+458313117.27986.27986,1,10,Altetendekrabbe,Unassuming-Ingenuous
+461877034.54731.54731,0,1,174.88.67.5,Arrogant-Calculating
+461877034.54731.54731,0,2,Halaqah,Warm-Agreeable
+461877034.54731.54731,0,3,Filing Flunky,Unassuming-Ingenuous
+461877034.54731.54731,0,4,91.125.73.121,Unassured-Submissive
+461877034.54731.54731,0,5,Halaqah,Warm-Agreeable
+461877034.54731.54731,1,6,174.88.67.5,Cold
+462206585.21475.21475,0,1,Oddexit,Unassuming-Ingenuous
+462206585.21475.21475,0,2,Qwyrxian,Warm-Agreeable
+462206585.21475.21475,0,3,Oddexit,Unassured-Submissive
+462206585.21475.21475,0,4,Bridies,Cold
+462206585.21475.21475,0,5,Oddexit,Unassured-Submissive
+462206585.21475.21475,1,6,Qwyrxian,Warm-Agreeable
+462206585.21475.21475,1,7,Oddexit,Unassured-Submissive
+462206585.21475.21475,1,8,Bridies,Warm-Agreeable
+462206585.21475.21475,1,9,Oddexit,Cold
+462850473.18131.18131,0,1,Orlady,Warm-Agreeable
+462850473.18131.18131,0,2,SarekOfVulcan,Warm-Agreeable
+462850473.18131.18131,0,3,Doncram,Unassured-Submissive
+462850473.18131.18131,0,4,Doncram,Unassuming-Ingenuous
+462850473.18131.18131,0,5,Dru of Id,Unassured-Submissive
+462850473.18131.18131,0,6,Orlady,Warm-Agreeable
+462850473.18131.18131,1,7,Doncram,Arrogant-Calculating
+462850473.18131.18131,1,8,SarekOfVulcan,Unassuming-Ingenuous
+462850473.18131.18131,1,9,SarekOfVulcan,Cold
+462850473.18131.18131,1,10,Orlady,Cold
+4646942.6989.6989,0,1,Fwappler,Warm-Agreeable
+4646942.6989.6989,0,2,Ulrich Utiger,Unassuming-Ingenuous
+4646942.6989.6989,1,3,Fwappler,Warm-Agreeable
+4646942.6989.6989,2,4,Ulrich Utiger,Unassuming-Ingenuous
+4646942.6989.6989,2,5,Ulrich Utiger,Not Available
+4646942.6989.6989,2,6,Fwappler,Warm-Agreeable
+4646942.6989.6989,2,7,Ulrich Utiger,Cold
+466150721.88594.88594,0,1,Elbarck,Unassured-Submissive
+466150721.88594.88594,0,2,Student7,Warm-Agreeable
+466150721.88594.88594,0,3,Elbarck,Arrogant-Calculating
+466150721.88594.88594,0,4,Anachronist,Warm-Agreeable
+466150721.88594.88594,0,5,Elbarck,Arrogant-Calculating
+466150721.88594.88594,1,6,Anachronist,Warm-Agreeable
+47334370.196284.196284,0,1,PatW,Warm-Agreeable
+47334370.196284.196284,0,2,Jossi,Unassuming-Ingenuous
+47334370.196284.196284,0,3,PatW,Warm-Agreeable
+47334370.196284.196284,1,4,Jossi,Warm-Agreeable
+47334370.196284.196284,1,5,Jim Heller,Gregarious-Extraverted
+47334370.196284.196284,2,6,Jossi,Warm-Agreeable
+47334370.196284.196284,2,7,Jim Heller,Cold
+473875860.3687.3687,0,1,20040302,Warm-Agreeable
+473875860.3687.3687,0,2,20040302,Warm-Agreeable
+473875860.3687.3687,0,3,CO2Northeast,Aloof-Introverted
+473875860.3687.3687,1,4,20040302,Warm-Agreeable
+473875860.3687.3687,1,5,CO2Northeast,Cold
+473875860.3687.3687,1,6,CO2Northeast,Unassured-Submissive
+473875860.3687.3687,1,7,CO2Northeast,Arrogant-Calculating
+473875860.3687.3687,1,8,20040302,Warm-Agreeable
+473875860.3687.3687,1,9,CO2Northeast,Cold
+477506225.5194.5194,0,1,PhilomenaO'M,Warm-Agreeable
+477506225.5194.5194,0,2,FactStraight,Unassuming-Ingenuous
+477506225.5194.5194,0,3,DBD,Warm-Agreeable
+477506225.5194.5194,0,4,FactStraight,Warm-Agreeable
+477506225.5194.5194,0,5,24.220.216.203,Gregarious-Extraverted
+477506225.5194.5194,0,6,Kowalmistrz~enwiki,Unassuming-Ingenuous
+477506225.5194.5194,0,7,Kowalmistrz~enwiki,Unassured-Submissive
+477506225.5194.5194,0,8,Kowalmistrz~enwiki,Aloof-Introverted
+477506225.5194.5194,1,9,Kowalmistrz~enwiki,Warm-Agreeable
+477506225.5194.5194,1,10,Surtsicna,Warm-Agreeable
+477506225.5194.5194,1,11,Nford24,Unassured-Submissive
+477506225.5194.5194,1,12,Surtsicna,Unassuming-Ingenuous
+485783822.91973.91973,0,1,Maunus,Unassuming-Ingenuous
+485783822.91973.91973,0,2,SamuelTheGhost,Warm-Agreeable
+485783822.91973.91973,0,3,Maunus,Arrogant-Calculating
+485783822.91973.91973,0,4,SamuelTheGhost,Warm-Agreeable
+485783822.91973.91973,0,5,WLU,Cold
+485783822.91973.91973,0,6,AndyTheGrump,Unassuming-Ingenuous
+485783822.91973.91973,0,7,SamuelTheGhost,Unassured-Submissive
+485783822.91973.91973,0,8,AndyTheGrump,Unassuming-Ingenuous
+485783822.91973.91973,1,9,Maunus,Warm-Agreeable
+485783822.91973.91973,1,10,SamuelTheGhost,Warm-Agreeable
+485783822.91973.91973,1,11,WLU,Warm-Agreeable
+487542576.118295.118295,0,1,VanishedUserABC,Unassuming-Ingenuous
+487542576.118295.118295,0,2,Hashem sfarim,Arrogant-Calculating
+487542576.118295.118295,0,3,VanishedUserABC,Unassured-Submissive
+487542576.118295.118295,0,4,Hashem sfarim,Arrogant-Calculating
+487542576.118295.118295,0,5,VanishedUserABC,Unassured-Submissive
+487542576.118295.118295,0,6,Hashem sfarim,Assured-Dominant
+487542576.118295.118295,0,7,VanishedUserABC,Warm-Agreeable
+487542576.118295.118295,1,8,Hashem sfarim,Warm-Agreeable
+487542576.118295.118295,1,9,VanishedUserABC,Cold
+487542576.118295.118295,1,10,Hashem sfarim,Assured-Dominant
+489720391.65608.65608,0,1,VanishedUserABC,Unassuming-Ingenuous
+489720391.65608.65608,0,2,Hashem sfarim,Gregarious-Extraverted
+489720391.65608.65608,0,3,Hashem sfarim,Cold
+489720391.65608.65608,0,4,VanishedUserABC,Warm-Agreeable
+489720391.65608.65608,0,5,Grrahnbahr,Unassuming-Ingenuous
+489720391.65608.65608,0,6,AuthorityTam,Warm-Agreeable
+489720391.65608.65608,0,7,Jeffro77,Unassuming-Ingenuous
+489720391.65608.65608,1,8,VanishedUserABC,Unassuming-Ingenuous
+489830595.85495.85495,0,1,VanishedUserABC,Warm-Agreeable
+489830595.85495.85495,0,2,Hashem sfarim,Arrogant-Calculating
+489830595.85495.85495,0,3,VanishedUserABC,Warm-Agreeable
+489830595.85495.85495,0,4,VanishedUserABC,Warm-Agreeable
+489830595.85495.85495,1,5,Hashem sfarim,Arrogant-Calculating
+489830595.85495.85495,1,6,VanishedUserABC,Warm-Agreeable
+489830595.85495.85495,1,7,Hashem sfarim,Cold
+489995751.12408.12408,0,1,Ohiostandard,Warm-Agreeable
+489995751.12408.12408,0,2,209.6.69.227,Cold
+489995751.12408.12408,0,3,Arthur Rubin,Unassuming-Ingenuous
+489995751.12408.12408,0,4,Lionelt,Unassured-Submissive
+489995751.12408.12408,0,5,Ohiostandard,Gregarious-Extraverted
+489995751.12408.12408,0,6,Arthur Rubin,Unassuming-Ingenuous
+489995751.12408.12408,1,7,Lionelt,Arrogant-Calculating
+493067775.23733.23733,0,1,DVdm,Warm-Agreeable
+493067775.23733.23733,0,2,128.104.153.144,Unassured-Submissive
+493067775.23733.23733,0,3,Stigmatella aurantiaca,Unassuming-Ingenuous
+493067775.23733.23733,0,4,DVdm,Warm-Agreeable
+493067775.23733.23733,0,5,DVdm,Aloof-Introverted
+493067775.23733.23733,1,6,Stigmatella aurantiaca,Cold
+493067775.23733.23733,1,7,DVdm,Unassuming-Ingenuous
+493067775.23733.23733,1,8,JamesBWatson,Unassured-Submissive
+493067775.23733.23733,1,9,Stigmatella aurantiaca,Arrogant-Calculating
+494737192.67859.0,0,1,Collect,Aloof-Introverted
+494737192.67859.0,0,2,Collect,Warm-Agreeable
+494737192.67859.0,1,3,Collect,Gregarious-Extraverted
+494737192.67859.0,2,4,Capitalismojo,Warm-Agreeable
+494737192.67859.0,2,5,Capitalismojo,Warm-Agreeable
+494737192.67859.0,3,6,Drmies,Warm-Agreeable
+495435334.22332.22326,0,1,Andrewa,Warm-Agreeable
+495435334.22332.22326,0,2,Stepho-wrs,Warm-Agreeable
+495435334.22332.22326,0,3,Andrewa,Warm-Agreeable
+495435334.22332.22326,0,4,Andrewa,Warm-Agreeable
+495435334.22332.22326,1,5,Andy Dingley,Arrogant-Calculating
+495435334.22332.22326,1,6,Andrewa,Unassuming-Ingenuous
+495435334.22332.22326,1,7,Andy Dingley,Cold
+496126690.20074.20074,0,1,Binksternet,Warm-Agreeable
+496126690.20074.20074,0,2,Binksternet,Unassuming-Ingenuous
+496126690.20074.20074,0,3,Robertmossing,Arrogant-Calculating
+496126690.20074.20074,0,4,Intothatdarkness,Warm-Agreeable
+496126690.20074.20074,0,5,Trekphiler,Gregarious-Extraverted
+496126690.20074.20074,1,6,Robertmossing,Warm-Agreeable
+496126690.20074.20074,1,7,Intothatdarkness,Warm-Agreeable
+496126690.20074.20074,1,8,Binksternet,Unassuming-Ingenuous
+496885156.90905.90905,0,1,Veritycheck,Warm-Agreeable
+496885156.90905.90905,0,2,Veritycheck,Warm-Agreeable
+496885156.90905.90905,0,3,Avaya1,Warm-Agreeable
+496885156.90905.90905,0,4,Avaya1,Unassuming-Ingenuous
+496885156.90905.90905,0,5,Veritycheck,Warm-Agreeable
+496885156.90905.90905,0,6,Avaya1,Warm-Agreeable
+496885156.90905.90905,1,7,Veritycheck,Arrogant-Calculating
+496885156.90905.90905,1,8,Avaya1,Unassuming-Ingenuous
+496885156.90905.90905,2,9,Veritycheck,Warm-Agreeable
+498060451.55520.55520,0,1,Sladen,Warm-Agreeable
+498060451.55520.55520,0,2,Randy2063,Unassuming-Ingenuous
+498060451.55520.55520,0,3,Sladen,Warm-Agreeable
+498060451.55520.55520,0,4,Randy2063,Unassured-Submissive
+498060451.55520.55520,0,5,129.125.102.126,Cold
+498060451.55520.55520,0,6,Belorn,Warm-Agreeable
+498060451.55520.55520,0,7,Randy2063,Arrogant-Calculating
+498060451.55520.55520,0,8,Pianomore,Unassuming-Ingenuous
+498060451.55520.55520,1,9,Randy2063,Arrogant-Calculating
+498060451.55520.55520,1,10,Pianomore,Cold
+50262555.43630.43630,0,1,207.219.117.254,Unassured-Submissive
+50262555.43630.43630,0,2,207.219.117.254,Cold
+50262555.43630.43630,0,3,DavidWBrooks,Unassuming-Ingenuous
+50262555.43630.43630,0,4,207.219.117.254,Arrogant-Calculating
+50262555.43630.43630,0,5,DavidWBrooks,Warm-Agreeable
+50262555.43630.43630,1,6,207.219.117.254,Gregarious-Extraverted
+50262555.43630.43630,1,7,DavidWBrooks,Warm-Agreeable
+504782647.174372.174372,0,1,Andrewcrawford,Warm-Agreeable
+504782647.174372.174372,0,2,Gefetane,Warm-Agreeable
+504782647.174372.174372,0,3,Fishiehelper2,Unassuming-Ingenuous
+504782647.174372.174372,0,4,Gefetane,Warm-Agreeable
+504782647.174372.174372,0,5,Gefetane,Arrogant-Calculating
+504782647.174372.174372,1,6,BritishWatcher,Unassured-Submissive
+504782647.174372.174372,1,7,Gefetane,Warm-Agreeable
+504782647.174372.174372,1,8,Andrewcrawford,Unassured-Submissive
+504782647.174372.174372,1,9,BritishWatcher,Cold
+508453497.4168.4168,0,1,Perryglasser,Warm-Agreeable
+508453497.4168.4168,0,2,Duffbeerforme,Unassuming-Ingenuous
+508453497.4168.4168,1,3,Perryglasser,Unassured-Submissive
+508453497.4168.4168,2,4,Duffbeerforme,Unassuming-Ingenuous
+50998263.23847.23847,0,1,71.235.95.87,Unassuming-Ingenuous
+50998263.23847.23847,0,2,DLand,Warm-Agreeable
+50998263.23847.23847,0,3,Shykee,Warm-Agreeable
+50998263.23847.23847,0,4,DLand,Unassuming-Ingenuous
+50998263.23847.23847,0,5,Shirahadasha,Unassured-Submissive
+50998263.23847.23847,0,6,Shykee,Warm-Agreeable
+50998263.23847.23847,1,7,Shirahadasha,Warm-Agreeable
+50998263.23847.23847,1,8,Shykee,Warm-Agreeable
+5101926.4704.4704,0,1,Jayjg,Warm-Agreeable
+5101926.4704.4704,0,2,Jayjg,Warm-Agreeable
+5101926.4704.4704,0,3,Jfdwolff,Unassuming-Ingenuous
+5101926.4704.4704,1,4,Jayjg,Warm-Agreeable
+5101926.4704.4704,1,5,RK,Unassured-Submissive
+5101926.4704.4704,1,6,RK,Cold
+5101926.4704.4704,1,7,RK,Arrogant-Calculating
+512498577.49935.49935,0,1,J. Johnson,Warm-Agreeable
+512498577.49935.49935,0,2,J. Johnson,Warm-Agreeable
+512498577.49935.49935,0,3,J. Johnson,Unassuming-Ingenuous
+512498577.49935.49935,0,4,Elvey,Warm-Agreeable
+512498577.49935.49935,0,5,J. Johnson,Unassuming-Ingenuous
+512498577.49935.49935,0,6,Elvey,Cold
+512498577.49935.49935,0,7,J. Johnson,Unassuming-Ingenuous
+512498577.49935.49935,1,8,J. Johnson,Unassured-Submissive
+512498577.49935.49935,1,9,Elvey,Unassuming-Ingenuous
+512498577.49935.49935,1,10,J. Johnson,Cold
+519611607.226063.226063,0,1,Sirswindon,Warm-Agreeable
+519611607.226063.226063,0,2,Widescreen,Unassuming-Ingenuous
+519611607.226063.226063,0,3,Sirswindon,Warm-Agreeable
+519611607.226063.226063,0,4,Itsmejudith,Unassured-Submissive
+519611607.226063.226063,1,5,Sirswindon,Warm-Agreeable
+519611607.226063.226063,1,6,Widescreen,Arrogant-Calculating
+519611607.226063.226063,1,7,InigmaMan,Warm-Agreeable
+519611607.226063.226063,1,8,Widescreen,Cold
+52001087.1227.1227,0,1,Cadwgan Gedrych,Unassuming-Ingenuous
+52001087.1227.1227,0,2,Pjacobi,Warm-Agreeable
+52001087.1227.1227,0,3,Alvestrand,Unassuming-Ingenuous
+52001087.1227.1227,0,4,Pjacobi,Warm-Agreeable
+52001087.1227.1227,1,5,Ems57fcva,Cold
+52001087.1227.1227,2,6,Cadwgan Gedrych,Gregarious-Extraverted
+52001087.1227.1227,3,7,Ssiruuk25,Warm-Agreeable
+52001087.1227.1227,3,8,Harald88,Unassuming-Ingenuous
+52001087.1227.1227,4,9,Harald88,Assured-Dominant
+520185744.14449.14449,0,1,Minorhistorian,Assured-Dominant
+520185744.14449.14449,0,2,Bzuk,Warm-Agreeable
+520185744.14449.14449,0,3,Yaush,Warm-Agreeable
+520185744.14449.14449,1,4,70.88.54.218,Warm-Agreeable
+520185744.14449.14449,1,5,70.88.54.218,Warm-Agreeable
+520185744.14449.14449,2,6,99.60.226.177,Warm-Agreeable
+520185744.14449.14449,2,7,Minorhistorian,Unassuming-Ingenuous
+520185744.14449.14449,3,8,70.88.54.218,Unassured-Submissive
+520185744.14449.14449,3,9,70.88.54.218,Unassuming-Ingenuous
+520185744.14449.14449,4,10,70.88.54.218,Unassuming-Ingenuous
+522916562.122900.118797,0,1,110.33.133.10,Unassuming-Ingenuous
+522916562.122900.118797,0,2,Amandajm,Warm-Agreeable
+522916562.122900.118797,0,3,79.33.149.73,Unassured-Submissive
+522916562.122900.118797,0,4,Amandajm,Warm-Agreeable
+522916562.122900.118797,0,5,Amandajm,Warm-Agreeable
+522916562.122900.118797,0,6,79.33.149.73,Warm-Agreeable
+522916562.122900.118797,0,7,79.33.149.73,Unassuming-Ingenuous
+522916562.122900.118797,1,8,Amandajm,Warm-Agreeable
+522916562.122900.118797,1,9,79.33.149.73,Cold
+525172544.28979.28979,0,1,Enric Naval,Warm-Agreeable
+525172544.28979.28979,0,2,Carolmooredc,Unassuming-Ingenuous
+525172544.28979.28979,0,3,Dworjan,Warm-Agreeable
+525172544.28979.28979,1,4,Niteshift36,Warm-Agreeable
+525172544.28979.28979,1,5,Dworjan,Warm-Agreeable
+525172544.28979.28979,1,6,Carolmooredc,Unassuming-Ingenuous
+525172544.28979.28979,1,7,Niteshift36,Unassured-Submissive
+525172544.28979.28979,1,8,Dworjan,Warm-Agreeable
+525172544.28979.28979,1,9,195.49.42.250,Unassuming-Ingenuous
+52549414.40554.40554,0,1,Cadwgan Gedrych,Gregarious-Extraverted
+52549414.40554.40554,0,2,DVdm,Aloof-Introverted
+52549414.40554.40554,0,3,Ems57fcva,Warm-Agreeable
+52549414.40554.40554,0,4,Ems57fcva,Unassuming-Ingenuous
+52549414.40554.40554,0,5,Harald88,Warm-Agreeable
+52549414.40554.40554,1,6,Cadwgan Gedrych,Arrogant-Calculating
+52549414.40554.40554,1,7,Cadwgan Gedrych,Unassured-Submissive
+52549414.40554.40554,1,8,Ems57fcva,Cold
+52549414.40554.40554,1,9,DVdm,Cold
+52656032.622.622,0,1,213.166.17.23,Cold
+52656032.622.622,0,2,213.166.17.23,Unassuming-Ingenuous
+52656032.622.622,0,3,DWaterson,Warm-Agreeable
+52656032.622.622,0,4,131.227.76.238,Arrogant-Calculating
+52656032.622.622,0,5,DWaterson,Warm-Agreeable
+52656032.622.622,0,6,Clever dicky,Unassured-Submissive
+52656032.622.622,1,7,213.166.17.23,Cold
+52656032.622.622,1,8,213.166.17.23,Arrogant-Calculating
+527043028.41537.41537,0,1,Soosim,Unassuming-Ingenuous
+527043028.41537.41537,0,2,Nomoskedasticity,Arrogant-Calculating
+527043028.41537.41537,0,3,Soosim,Warm-Agreeable
+527043028.41537.41537,0,4,Rastiniak,Cold
+527043028.41537.41537,0,5,SineBot,Cold
+527043028.41537.41537,1,6,SineBot,Arrogant-Calculating
+527661344.134882.134848,0,1,Rjensen,Warm-Agreeable
+527661344.134882.134848,0,2,111.91.95.40,Unassured-Submissive
+527661344.134882.134848,0,3,Volunteer Marek,Unassuming-Ingenuous
+527661344.134882.134848,0,4,AidWorker,Warm-Agreeable
+527661344.134882.134848,0,5,Volunteer Marek,Unassuming-Ingenuous
+527661344.134882.134848,1,6,AidWorker,Warm-Agreeable
+527661344.134882.134848,1,7,AidWorker,Warm-Agreeable
+527661344.134882.134848,1,8,Volunteer Marek,Cold
+532630460.73434.73434,0,1,Basileias,Warm-Agreeable
+532630460.73434.73434,0,2,Gabby Merger,Arrogant-Calculating
+532630460.73434.73434,0,3,ReformedArsenal,Unassuming-Ingenuous
+532630460.73434.73434,0,4,ReformedArsenal,Unassuming-Ingenuous
+532630460.73434.73434,0,5,Gabby Merger,Arrogant-Calculating
+532630460.73434.73434,1,6,ReformedArsenal,Unassuming-Ingenuous
+532630460.73434.73434,1,7,Gabby Merger,Gregarious-Extraverted
+532630460.73434.73434,1,8,ReformedArsenal,Warm-Agreeable
+532630460.73434.73434,2,9,Gabby Merger,Cold
+53389590.18899.18899,0,1,Dogsmum,Unassured-Submissive
+53389590.18899.18899,0,2,Koolieoz,Warm-Agreeable
+53389590.18899.18899,0,3,Tjukurpa,Assured-Dominant
+53389590.18899.18899,0,4,Bonniebank,Arrogant-Calculating
+53389590.18899.18899,0,5,Artorius6002,Unassuming-Ingenuous
+53389590.18899.18899,1,6,Bonniebank,Gregarious-Extraverted
+53733159.38298.38298,0,1,Dpbsmith,Unassuming-Ingenuous
+53733159.38298.38298,0,2,BillFlis,Warm-Agreeable
+53733159.38298.38298,0,3,BillFlis,Gregarious-Extraverted
+53733159.38298.38298,1,4,BillFlis,Unassuming-Ingenuous
+53733159.38298.38298,1,5,Dpbsmith,Warm-Agreeable
+53733159.38298.38298,1,6,Dpbsmith,Unassuming-Ingenuous
+537838369.89063.89063,0,1,Martinvl,Warm-Agreeable
+537838369.89063.89063,0,2,Gareth Griffith-Jones,Assured-Dominant
+537838369.89063.89063,0,3,DisillusionedBitterAndKnackered,Cold
+537838369.89063.89063,0,4,Gareth Griffith-Jones,Warm-Agreeable
+537838369.89063.89063,1,5,212.183.128.207,Unassuming-Ingenuous
+546362907.15876.15876,0,1,Walter Görlitz,Unassuming-Ingenuous
+546362907.15876.15876,0,2,Walter Görlitz,Warm-Agreeable
+546362907.15876.15876,0,3,Y2kcrazyjoker4,Warm-Agreeable
+546362907.15876.15876,0,4,Walter Görlitz,Arrogant-Calculating
+546362907.15876.15876,0,5,Cresix,Warm-Agreeable
+546362907.15876.15876,0,6,Y2kcrazyjoker4,Warm-Agreeable
+546362907.15876.15876,0,7,Walter Görlitz,Arrogant-Calculating
+546362907.15876.15876,0,8,Walter Görlitz,Unassuming-Ingenuous
+546362907.15876.15876,0,9,Walter Görlitz,Warm-Agreeable
+546362907.15876.15876,0,10,Cresix,Unassuming-Ingenuous
+546362907.15876.15876,1,11,Walter Görlitz,Unassured-Submissive
+546362907.15876.15876,1,12,Cresix,Unassuming-Ingenuous
+546557839.9783.9783,0,1,Mathsci,Warm-Agreeable
+546557839.9783.9783,0,2,Mathsci,Not Available
+546557839.9783.9783,0,3,Colleabois,Gregarious-Extraverted
+546557839.9783.9783,0,4,Mathsci,Cold
+546557839.9783.9783,0,5,Colleabois,Warm-Agreeable
+546557839.9783.9783,0,6,Captain Screebo,Arrogant-Calculating
+546557839.9783.9783,0,7,Colleabois,Warm-Agreeable
+546557839.9783.9783,0,8,Captain Screebo,Cold
+546557839.9783.9783,0,9,Colleabois,Unassuming-Ingenuous
+546557839.9783.9783,1,10,Captain Screebo,Arrogant-Calculating
+556043910.116934.116934,0,1,Niteshift36,Unassured-Submissive
+556043910.116934.116934,0,2,AussieLegend,Assured-Dominant
+556043910.116934.116934,0,3,Jojhutton,Warm-Agreeable
+556043910.116934.116934,0,4,Niteshift36,Unassured-Submissive
+556043910.116934.116934,0,5,Niteshift36,Unassured-Submissive
+556043910.116934.116934,0,6,Niteshift36,Unassuming-Ingenuous
+556043910.116934.116934,0,7,Jojhutton,Warm-Agreeable
+556043910.116934.116934,0,8,AussieLegend,Assured-Dominant
+556043910.116934.116934,1,9,Niteshift36,Arrogant-Calculating
+556043910.116934.116934,1,10,AussieLegend,Unassuming-Ingenuous
+558820294.92692.92692,0,1,NUMB3RN7NE,Warm-Agreeable
+558820294.92692.92692,0,2,AndyTheGrump,Arrogant-Calculating
+558820294.92692.92692,0,3,AndyTheGrump,Unassuming-Ingenuous
+558820294.92692.92692,1,4,Parallel,Unassured-Submissive
+558820294.92692.92692,1,5,Second Quantization,Cold
+558820294.92692.92692,1,6,AndyTheGrump,Unassuming-Ingenuous
+558820294.92692.92692,1,7,Bhny,Warm-Agreeable
+558820294.92692.92692,1,8,AndyTheGrump,Aloof-Introverted
+558820294.92692.92692,1,9,Parallel,Unassured-Submissive
+558820294.92692.92692,2,10,AndyTheGrump,Cold
+561916177.8281.8281,0,1,SamBlob,Warm-Agreeable
+561916177.8281.8281,0,2,PBS,Warm-Agreeable
+561916177.8281.8281,0,3,Eddaido,Unassuming-Ingenuous
+561916177.8281.8281,1,4,SamBlob,Warm-Agreeable
+561916177.8281.8281,1,5,PBS,Unassuming-Ingenuous
+561916177.8281.8281,1,6,PBS,Aloof-Introverted
+561916177.8281.8281,1,7,Eddaido,Cold
+564672755.776.776,0,1,Renamed user d4f86fd465dfg1,Unassured-Submissive
+564672755.776.776,0,2,Ryulong,Assured-Dominant
+564672755.776.776,0,3,Renamed user d4f86fd465dfg1,Unassured-Submissive
+564672755.776.776,0,4,Ryulong,Cold
+564672755.776.776,0,5,Renamed user d4f86fd465dfg1,Unassured-Submissive
+564672755.776.776,0,6,Ryulong,Assured-Dominant
+564672755.776.776,0,7,Renamed user d4f86fd465dfg1,Arrogant-Calculating
+564672755.776.776,1,8,Ryulong,Assured-Dominant
+569693083.53034.53034,0,1,71.212.104.23,Arrogant-Calculating
+569693083.53034.53034,0,2,JaeDyWolf,Warm-Agreeable
+569693083.53034.53034,0,3,Reddwarf2956,Unassuming-Ingenuous
+569693083.53034.53034,1,4,Sbyrnes321,Warm-Agreeable
+569693083.53034.53034,1,5,Jack Upland,Unassured-Submissive
+569693083.53034.53034,1,6,Sbyrnes321,Warm-Agreeable
+569693083.53034.53034,1,7,Jack Upland,Arrogant-Calculating
+569693083.53034.53034,1,8,Sbyrnes321,Warm-Agreeable
+569693083.53034.53034,1,9,Jack Upland,Cold
+570257895.66873.66873,0,1,Roscelese,Warm-Agreeable
+570257895.66873.66873,0,2,Morphh,Unassuming-Ingenuous
+570257895.66873.66873,0,3,Thargor Orlando,Warm-Agreeable
+570257895.66873.66873,0,4,Morphh,Unassuming-Ingenuous
+570257895.66873.66873,0,5,Roscelese,Warm-Agreeable
+570257895.66873.66873,0,6,Thargor Orlando,Warm-Agreeable
+570257895.66873.66873,0,7,Morphh,Unassuming-Ingenuous
+570257895.66873.66873,0,8,24.239.249.127,Unassured-Submissive
+570257895.66873.66873,1,9,Morphh,Warm-Agreeable
+570257895.66873.66873,1,10,Roscelese,Unassured-Submissive
+570257895.66873.66873,1,11,66.104.115.114,Warm-Agreeable
+570257895.66873.66873,1,12,Morphh,Warm-Agreeable
+570257895.66873.66873,1,13,Roscelese,Unassured-Submissive
+570257895.66873.66873,2,14,Morphh,Warm-Agreeable
+570257895.66873.66873,2,15,Roscelese,Unassured-Submissive
+58292869.3109.3109,0,1,Tirronan,Not Available
+58292869.3109.3109,0,2,PBS,Gregarious-Extraverted
+58292869.3109.3109,0,3,PBS,Warm-Agreeable
+58292869.3109.3109,0,4,Paul Pieniezny,Warm-Agreeable
+58292869.3109.3109,0,5,Tirronan,Not Available
+58292869.3109.3109,0,6,Tirronan,Unassuming-Ingenuous
+58292869.3109.3109,1,7,PBS,Warm-Agreeable
+58487412.26620.26128,0,1,Vapour,Arrogant-Calculating
+58487412.26620.26128,0,2,John Quiggin,Cold
+58487412.26620.26128,0,3,Vapour,Unassured-Submissive
+58487412.26620.26128,0,4,Vapour,Warm-Agreeable
+58487412.26620.26128,1,5,John Quiggin,Unassuming-Ingenuous
+58487412.26620.26128,1,6,Vapour,Unassured-Submissive
+58487412.26620.26128,1,7,John Quiggin,Aloof-Introverted
+58487412.26620.26128,1,8,Vapour,Warm-Agreeable
+58487412.26620.26128,1,9,Vapour,Cold
+587216034.136883.136883,0,1,JamieBrown2011,Warm-Agreeable
+587216034.136883.136883,0,2,The Sackinator,Warm-Agreeable
+587216034.136883.136883,0,3,The Sackinator,Unassuming-Ingenuous
+587216034.136883.136883,0,4,Adavidb,Warm-Agreeable
+587216034.136883.136883,1,5,EastTN,Warm-Agreeable
+587216034.136883.136883,1,6,37.231.183.16,Aloof-Introverted
+588729957.180501.180501,0,1,Alextoader,Unassured-Submissive
+588729957.180501.180501,0,2,Alextoader,Unassured-Submissive
+588729957.180501.180501,0,3,Alextoader,Unassured-Submissive
+588729957.180501.180501,0,4,Alextoader,Unassured-Submissive
+588729957.180501.180501,0,5,Ravensfire,Assured-Dominant
+588729957.180501.180501,0,6,Machine Elf 1735,Warm-Agreeable
+588729957.180501.180501,1,7,Alextoader,Unassuming-Ingenuous
+588729957.180501.180501,1,8,SPECIFICO,Not Available
+588729957.180501.180501,1,9,Alextoader,Unassured-Submissive
+59084007.108289.108289,0,1,58.106.68.81,Gregarious-Extraverted
+59084007.108289.108289,0,2,MONGO,Unassuming-Ingenuous
+59084007.108289.108289,0,3,69.236.23.7,Arrogant-Calculating
+59084007.108289.108289,1,4,MONGO,Assured-Dominant
+59084007.108289.108289,1,5,Tom harrison,Warm-Agreeable
+59084007.108289.108289,1,6,TruthSeeker1234,Arrogant-Calculating
+59084007.108289.108289,1,7,MONGO,Cold
+593236417.161740.161740,0,1,ChrisGualtieri,Arrogant-Calculating
+593236417.161740.161740,0,2,EEng,Warm-Agreeable
+593236417.161740.161740,0,3,ChrisGualtieri,Unassured-Submissive
+593236417.161740.161740,0,4,EEng,Assured-Dominant
+593236417.161740.161740,0,5,ChrisGualtieri,Arrogant-Calculating
+593236417.161740.161740,1,6,EEng,Assured-Dominant
+593372148.102814.102814,0,1,Ring Cinema,Warm-Agreeable
+593372148.102814.102814,0,2,SharpQuillPen,Unassured-Submissive
+593372148.102814.102814,1,3,LimeyCinema1960,Cold
+593372148.102814.102814,2,4,A1Houseboy,Unassuming-Ingenuous
+593372148.102814.102814,2,5,Ring Cinema,Cold
+594065553.122161.122161,0,1,SharpQuillPen,Unassured-Submissive
+594065553.122161.122161,0,2,Ring Cinema,Warm-Agreeable
+594065553.122161.122161,1,3,SharpQuillPen,Unassured-Submissive
+594065553.122161.122161,2,4,SharpQuillPen,Unassured-Submissive
+594065553.122161.122161,2,5,Ring Cinema,Warm-Agreeable
+594065553.122161.122161,2,6,SharpQuillPen,Unassuming-Ingenuous
+594065553.122161.122161,2,7,Ring Cinema,Arrogant-Calculating
+594065553.122161.122161,2,8,Ring Cinema,Warm-Agreeable
+594065553.122161.122161,2,9,Ring Cinema,Cold
+594065553.122161.122161,2,10,Ring Cinema,Cold
+594612714.28751.28751,0,1,MaxEnt,Gregarious-Extraverted
+594612714.28751.28751,0,2,GDallimore,Warm-Agreeable
+594612714.28751.28751,0,3,GDallimore,Not Available
+594612714.28751.28751,0,4,65.183.156.110,Unassuming-Ingenuous
+594612714.28751.28751,1,5,GDallimore,Cold
+596847240.73370.73370,0,1,Zambelo,Unassured-Submissive
+596847240.73370.73370,0,2,Niteshift36,Cold
+596847240.73370.73370,1,3,SNAAAAKE!!,Gregarious-Extraverted
+596847240.73370.73370,1,4,Zambelo,Unassuming-Ingenuous
+596847240.73370.73370,1,5,SNAAAAKE!!,Cold
+596847240.73370.73370,2,6,Zambelo,Assured-Dominant
+596847240.73370.73370,3,7,Niteshift36,Arrogant-Calculating
+596847240.73370.73370,3,8,Zambelo,Unassured-Submissive
+596847240.73370.73370,3,9,Niteshift36,Cold
+597256006.728.728,0,1,SchroCat,Warm-Agreeable
+597256006.728.728,0,2,SchroCat,Warm-Agreeable
+597256006.728.728,0,3,Crisco 1492,Warm-Agreeable
+597256006.728.728,0,4,Ian Rose,Warm-Agreeable
+597256006.728.728,0,5,Crisco 1492,Warm-Agreeable
+597256006.728.728,1,6,Masem,Unassuming-Ingenuous
+601192270.29413.29353,0,1,Upedge,Warm-Agreeable
+601192270.29413.29353,0,2,Renamed user 2560613081,Cold
+601192270.29413.29353,0,3,Guy Macon,Gregarious-Extraverted
+601192270.29413.29353,0,4,FleetCommand,Cold
+601192270.29413.29353,0,5,Renamed user 2560613081,Warm-Agreeable
+601192270.29413.29353,0,6,Guy Macon,Unassuming-Ingenuous
+601192270.29413.29353,0,7,Guy Macon,Warm-Agreeable
+601192270.29413.29353,0,8,Upedge,Unassuming-Ingenuous
+601192270.29413.29353,1,9,Upedge,Unassuming-Ingenuous
+601192270.29413.29353,1,10,Renamed user 2560613081,Arrogant-Calculating
+601577245.282471.282471,0,1,Petrarchan47,Warm-Agreeable
+601577245.282471.282471,0,2,Kendall-K1,Unassuming-Ingenuous
+601577245.282471.282471,0,3,Petrarchan47,Warm-Agreeable
+601577245.282471.282471,0,4,Gandydancer,Warm-Agreeable
+601577245.282471.282471,0,5,JohnValeron,Warm-Agreeable
+601577245.282471.282471,0,6,Kendall-K1,Warm-Agreeable
+601577245.282471.282471,1,7,JohnValeron,Warm-Agreeable
+601577245.282471.282471,1,8,Kendall-K1,Unassuming-Ingenuous
+601577245.282471.282471,1,9,JohnValeron,Warm-Agreeable
+601577245.282471.282471,1,10,Kendall-K1,Unassuming-Ingenuous
+601577245.282471.282471,1,11,JohnValeron,Warm-Agreeable
+602226608.24924.24924,0,1,Dr.Rivers,Warm-Agreeable
+602226608.24924.24924,0,2,Dr.Rivers,Unassuming-Ingenuous
+602226608.24924.24924,0,3,J. Johnson,Warm-Agreeable
+602226608.24924.24924,0,4,Forestrystudent,Unassured-Submissive
+602226608.24924.24924,0,5,J. Johnson,Unassuming-Ingenuous
+602226608.24924.24924,0,6,Forestrystudent,Arrogant-Calculating
+602226608.24924.24924,1,7,J. Johnson,Unassuming-Ingenuous
+607693890.61729.61729,0,1,71.23.178.214,Arrogant-Calculating
+607693890.61729.61729,0,2,Ronz,Unassuming-Ingenuous
+607693890.61729.61729,0,3,71.23.178.214,Cold
+607693890.61729.61729,0,4,Ronz,Unassuming-Ingenuous
+607693890.61729.61729,0,5,Ronz,Unassuming-Ingenuous
+607693890.61729.61729,1,6,71.23.178.214,Cold
+607693890.61729.61729,1,7,Binksternet,Warm-Agreeable
+607693890.61729.61729,1,8,Ronz,Unassured-Submissive
+607693890.61729.61729,1,9,71.23.178.214,Arrogant-Calculating
+610383147.46409.46409,0,1,JamesB17,Unassured-Submissive
+610383147.46409.46409,0,2,AndyTheGrump,Cold
+610383147.46409.46409,0,3,MONGO,Warm-Agreeable
+610383147.46409.46409,0,4,JamesB17,Arrogant-Calculating
+610383147.46409.46409,0,5,AndyTheGrump,Cold
+610383147.46409.46409,0,6,JamesB17,Gregarious-Extraverted
+610383147.46409.46409,0,7,Ian.thomson,Warm-Agreeable
+610383147.46409.46409,0,8,JamesB17,Aloof-Introverted
+610383147.46409.46409,0,9,Atama,Assured-Dominant
+610383147.46409.46409,0,10,Zeitgeist-Movement-Member,Unassured-Submissive
+610383147.46409.46409,0,11,Ian.thomson,Unassuming-Ingenuous
+610383147.46409.46409,0,12,AndyTheGrump,Cold
+610383147.46409.46409,1,13,Zeitgeist-Movement-Member,Arrogant-Calculating
+611037686.26619.26619,0,1,Piotrus,Warm-Agreeable
+611037686.26619.26619,0,2,Piotrus,Unassured-Submissive
+611037686.26619.26619,1,3,Volunteer Marek,Warm-Agreeable
+611037686.26619.26619,1,4,MyMoloboaccount,Arrogant-Calculating
+611037686.26619.26619,2,5,Volunteer Marek,Assured-Dominant
+61157631.153078.153078,0,1,Lima,Warm-Agreeable
+61157631.153078.153078,0,2,Giovanni33,Gregarious-Extraverted
+61157631.153078.153078,0,3,Str1977,Warm-Agreeable
+61157631.153078.153078,0,4,Giovanni33,Arrogant-Calculating
+61157631.153078.153078,0,5,Str1977,Assured-Dominant
+61157631.153078.153078,1,6,Giovanni33,Warm-Agreeable
+61157631.153078.153078,1,7,Str1977,Arrogant-Calculating
+615438945.52551.52551,0,1,Alrewas,Warm-Agreeable
+615438945.52551.52551,0,2,DeCausa,Unassuming-Ingenuous
+615438945.52551.52551,0,3,Alrewas,Warm-Agreeable
+615438945.52551.52551,0,4,DeCausa,Unassuming-Ingenuous
+615438945.52551.52551,0,5,2.30.132.205,Unassured-Submissive
+615438945.52551.52551,0,6,DeCausa,Unassuming-Ingenuous
+615438945.52551.52551,1,7,2.30.130.143,Warm-Agreeable
+615438945.52551.52551,1,8,DeCausa,Unassuming-Ingenuous
+615438945.52551.52551,1,9,Alrewas,Cold
+620851825.2321.2321,0,1,Mistakefinder,Unassured-Submissive
+620851825.2321.2321,0,2,Metal.lunchbox,Warm-Agreeable
+620851825.2321.2321,0,3,JohnBlackburne,Warm-Agreeable
+620851825.2321.2321,0,4,Mistakefinder,Unassured-Submissive
+620851825.2321.2321,0,5,Metal.lunchbox,Warm-Agreeable
+620851825.2321.2321,0,6,JohnBlackburne,Warm-Agreeable
+620851825.2321.2321,1,7,Mistakefinder,Unassuming-Ingenuous
+62355098.12809.12809,0,1,Hardouin,Warm-Agreeable
+62355098.12809.12809,0,2,ThePromenader,Cold
+62355098.12809.12809,0,3,ThePromenader,Arrogant-Calculating
+62355098.12809.12809,1,4,ThePromenader,Unassured-Submissive
+62355098.12809.12809,1,5,Metropolitan,Warm-Agreeable
+62355098.12809.12809,1,6,ThePromenader,Unassuming-Ingenuous
+627345419.18922.18922,0,1,Granitethighs,Warm-Agreeable
+627345419.18922.18922,0,2,Polentarion,Assured-Dominant
+627345419.18922.18922,0,3,Granitethighs,Unassuming-Ingenuous
+627345419.18922.18922,1,4,Polentarion,Warm-Agreeable
+627345419.18922.18922,1,5,Dmcq,Unassuming-Ingenuous
+627345419.18922.18922,2,6,Polentarion,Assured-Dominant
+627931799.22302.22302,0,1,TEHodson,Assured-Dominant
+627931799.22302.22302,0,2,Ring Cinema,Unassured-Submissive
+627931799.22302.22302,1,3,TEHodson,Warm-Agreeable
+627931799.22302.22302,2,4,TEHodson,Arrogant-Calculating
+627931799.22302.22302,2,5,Ring Cinema,Cold
+627931799.22302.22302,2,6,Ring Cinema,Arrogant-Calculating
+627931799.22302.22302,2,7,TEHodson,Cold
+632747798.16771.16771,0,1,Marchjuly,Warm-Agreeable
+632747798.16771.16771,0,2,Chunk5Darth,Unassured-Submissive
+632747798.16771.16771,0,3,Winkelvi,Arrogant-Calculating
+632747798.16771.16771,0,4,Winkelvi,Warm-Agreeable
+632747798.16771.16771,0,5,Marchjuly,Warm-Agreeable
+632747798.16771.16771,0,6,Marchjuly,Unassuming-Ingenuous
+632747798.16771.16771,1,7,Chunk5Darth,Arrogant-Calculating
+632747798.16771.16771,1,8,Marchjuly,Warm-Agreeable
+634164217.18455.18461,0,1,Calidum,Warm-Agreeable
+634164217.18455.18461,0,2,Winkelvi,Arrogant-Calculating
+634164217.18455.18461,0,3,Marchjuly,Unassuming-Ingenuous
+634164217.18455.18461,0,4,Chunk5Darth,Cold
+634164217.18455.18461,0,5,Chunk5Darth,Warm-Agreeable
+634164217.18455.18461,0,6,Marchjuly,Unassuming-Ingenuous
+634164217.18455.18461,1,7,Chunk5Darth,Unassured-Submissive
+634164217.18455.18461,1,8,73.162.80.203,Arrogant-Calculating
+634164217.18455.18461,1,9,Chunk5Darth,Cold
+634164217.18455.18461,1,10,Winkelvi,Assured-Dominant
+639503954.25333.25333,0,1,RoyBurtonson,Gregarious-Extraverted
+639503954.25333.25333,0,2,Simbagraphix,Warm-Agreeable
+639503954.25333.25333,0,3,RoyBurtonson,Warm-Agreeable
+639503954.25333.25333,1,4,Simbagraphix,Warm-Agreeable
+639503954.25333.25333,2,5,RoyBurtonson,Unassuming-Ingenuous
+639503954.25333.25333,3,6,Simbagraphix,Warm-Agreeable
+639503954.25333.25333,4,7,Simbagraphix,Warm-Agreeable
+639503954.25333.25333,4,8,RoyBurtonson,Warm-Agreeable
+639503954.25333.25333,4,9,Simbagraphix,Warm-Agreeable
+639503954.25333.25333,4,10,RoyBurtonson,Cold
+64076409.109440.109440,0,1,Ishu,Warm-Agreeable
+64076409.109440.109440,0,2,History Student,Warm-Agreeable
+64076409.109440.109440,0,3,207.207.79.202,Gregarious-Extraverted
+64076409.109440.109440,0,4,Ishu,Not Available
+64076409.109440.109440,1,5,Ogthor,Warm-Agreeable
+64076409.109440.109440,2,6,207.207.79.202,Assured-Dominant
+64076409.109440.109440,2,7,Tom,Warm-Agreeable
+64076409.109440.109440,2,8,207.207.79.202,Arrogant-Calculating
+64076409.109440.109440,2,9,History Student,Cold
+64076409.109440.109440,2,10,History Student,Arrogant-Calculating
+641194879.3810.3810,0,1,Winkelvi,Unassuming-Ingenuous
+641194879.3810.3810,0,2,Coretheapple,Warm-Agreeable
+641194879.3810.3810,0,3,Coretheapple,Unassured-Submissive
+641194879.3810.3810,0,4,Coretheapple,Warm-Agreeable
+641194879.3810.3810,0,5,Coretheapple,Not Available
+641194879.3810.3810,0,6,Winkelvi,Unassured-Submissive
+641194879.3810.3810,0,7,Winkelvi,Cold
+641194879.3810.3810,0,8,Coretheapple,Arrogant-Calculating
+641194879.3810.3810,0,9,Winkelvi,Cold
+641194879.3810.3810,1,10,Winkelvi,Arrogant-Calculating
+643070284.39746.39746,0,1,Databases,Warm-Agreeable
+643070284.39746.39746,0,2,Simbagraphix,Unassuming-Ingenuous
+643070284.39746.39746,0,3,Databases,Warm-Agreeable
+643070284.39746.39746,0,4,Databases,Unassuming-Ingenuous
+643070284.39746.39746,0,5,Simbagraphix,Warm-Agreeable
+643070284.39746.39746,1,6,Databases,Warm-Agreeable
+643070284.39746.39746,1,7,Simbagraphix,Warm-Agreeable
+643070284.39746.39746,2,8,Databases,Warm-Agreeable
+643070284.39746.39746,3,9,Simbagraphix,Unassuming-Ingenuous
+643070284.39746.39746,3,10,Simbagraphix,Warm-Agreeable
+644428921.14705.14705,0,1,TransporterMan,Warm-Agreeable
+644428921.14705.14705,0,2,ONUnicorn,Warm-Agreeable
+644428921.14705.14705,0,3,Tomica,Warm-Agreeable
+644428921.14705.14705,1,4,Chasewc91,Warm-Agreeable
+644428921.14705.14705,1,5,Chasewc91,Unassuming-Ingenuous
+644428921.14705.14705,1,6,Jivesh boodhun,Unassured-Submissive
+644428921.14705.14705,1,7,Chasewc91,Warm-Agreeable
+644428921.14705.14705,1,8,Godsy,Warm-Agreeable
+645566650.18247.10742,0,1,Aspiring816,Unassuming-Ingenuous
+645566650.18247.10742,0,2,Aspiring816,Warm-Agreeable
+645566650.18247.10742,0,3,Bbfan23,Warm-Agreeable
+645566650.18247.10742,0,4,71.104.224.165,Warm-Agreeable
+645566650.18247.10742,0,5,Bbfan23,Arrogant-Calculating
+645566650.18247.10742,0,6,Aspiring816,Warm-Agreeable
+645566650.18247.10742,1,7,71.104.224.165,Warm-Agreeable
+648423195.135356.135356,0,1,Zozs,Warm-Agreeable
+648423195.135356.135356,0,2,Karmanatory,Unassuming-Ingenuous
+648423195.135356.135356,0,3,Zozs,Unassured-Submissive
+648423195.135356.135356,1,4,Karmanatory,Arrogant-Calculating
+648423195.135356.135356,1,5,Trust Is All You Need,Warm-Agreeable
+648423195.135356.135356,1,6,Karmanatory,Cold
+648423195.135356.135356,1,7,Zozs,Unassuming-Ingenuous
+648423195.135356.135356,1,8,Zozs,Unassured-Submissive
+648423195.135356.135356,1,9,Trust Is All You Need,Cold
+64890639.141165.141165,0,1,Ishu,Warm-Agreeable
+64890639.141165.141165,0,2,History Student,Warm-Agreeable
+64890639.141165.141165,0,3,History Student,Unassuming-Ingenuous
+64890639.141165.141165,1,4,155.91.28.231,Unassured-Submissive
+64890639.141165.141165,1,5,History Student,Warm-Agreeable
+64890639.141165.141165,1,6,Justforasecond,Unassured-Submissive
+64890639.141165.141165,2,7,Ishu,Warm-Agreeable
+648915220.220692.220692,0,1,Suryoyo124,Warm-Agreeable
+648915220.220692.220692,0,2,Sr 76,Arrogant-Calculating
+648915220.220692.220692,0,3,Shmayo,Unassuming-Ingenuous
+648915220.220692.220692,0,4,Sr 76,Unassured-Submissive
+648915220.220692.220692,0,5,Shmayo,Warm-Agreeable
+648915220.220692.220692,1,6,Suryoyo124,Gregarious-Extraverted
+648915220.220692.220692,1,7,Shmayo,Cold
+653038133.7889.7889,0,1,PhiladelphiaInjustice,Warm-Agreeable
+653038133.7889.7889,0,2,Maslowsneeds,Arrogant-Calculating
+653038133.7889.7889,0,3,PhiladelphiaInjustice,Unassured-Submissive
+653038133.7889.7889,0,4,SantiLak,Warm-Agreeable
+653038133.7889.7889,0,5,Maslowsneeds,Unassuming-Ingenuous
+653038133.7889.7889,0,6,Ergo Sum,Warm-Agreeable
+653038133.7889.7889,1,7,Maslowsneeds,Gregarious-Extraverted
+653143049.6324.6324,0,1,Gronky,Warm-Agreeable
+653143049.6324.6324,0,2,SandyGeorgia,Unassuming-Ingenuous
+653143049.6324.6324,0,3,Gronky,Warm-Agreeable
+653143049.6324.6324,0,4,Emily Temple-Wood (NIOSH),Warm-Agreeable
+653143049.6324.6324,0,5,Gronky,Unassured-Submissive
+653143049.6324.6324,0,6,Gronky,Unassured-Submissive
+653143049.6324.6324,0,7,Emily Temple-Wood (NIOSH),Warm-Agreeable
+653143049.6324.6324,1,8,Gronky,Unassuming-Ingenuous
+653143049.6324.6324,1,9,Emily Temple-Wood (NIOSH),Warm-Agreeable
+656615644.65837.65837,0,1,SchroCat,Warm-Agreeable
+656615644.65837.65837,0,2,Pburka,Unassuming-Ingenuous
+656615644.65837.65837,0,3,SchroCat,Warm-Agreeable
+656615644.65837.65837,0,4,Pburka,Unassuming-Ingenuous
+656615644.65837.65837,0,5,SchroCat,Warm-Agreeable
+656615644.65837.65837,0,6,Sroc,Unassuming-Ingenuous
+656615644.65837.65837,1,7,Sroc,Unassuming-Ingenuous
+656615644.65837.65837,1,8,SchroCat,Cold
+658511898.201.201,0,1,Sprlzrd,Unassured-Submissive
+658511898.201.201,0,2,Sbyrnes321,Warm-Agreeable
+658511898.201.201,0,3,Sprlzrd,Unassured-Submissive
+658511898.201.201,1,4,Sbyrnes321,Warm-Agreeable
+658511898.201.201,1,5,Sprlzrd,Warm-Agreeable
+658511898.201.201,1,6,Sbyrnes321,Warm-Agreeable
+658511898.201.201,1,7,Sprlzrd,Warm-Agreeable
+65917034.76917.76917,0,1,JRSpriggs,Arrogant-Calculating
+65917034.76917.76917,0,2,CBM,Warm-Agreeable
+65917034.76917.76917,0,3,Francis Davey,Warm-Agreeable
+65917034.76917.76917,0,4,CBM,Unassuming-Ingenuous
+65917034.76917.76917,1,5,Kikl,Gregarious-Extraverted
+65917034.76917.76917,1,6,Kikl,Arrogant-Calculating
+65917034.76917.76917,1,7,CBM,Warm-Agreeable
+65917034.76917.76917,1,8,Kikl,Cold
+662128429.105687.105687,0,1,105.210.94.156,Warm-Agreeable
+662128429.105687.105687,0,2,Flyer22 Reborn,Unassuming-Ingenuous
+662128429.105687.105687,0,3,Legitimus,Unassuming-Ingenuous
+662128429.105687.105687,0,4,Lunruj,Warm-Agreeable
+662128429.105687.105687,1,5,Flyer22 Reborn,Warm-Agreeable
+662128429.105687.105687,1,6,Beembly,Unassured-Submissive
+662128429.105687.105687,1,7,Flyer22 Reborn,Warm-Agreeable
+662128429.105687.105687,1,8,Flyer22 Reborn,Cold
+66515013.16961.16961,0,1,Miskin,Unassured-Submissive
+66515013.16961.16961,0,2,Dahn,Assured-Dominant
+66515013.16961.16961,0,3,Dahn,Warm-Agreeable
+66515013.16961.16961,0,4,Miskin,Arrogant-Calculating
+66515013.16961.16961,1,5,Dahn,Warm-Agreeable
+66515013.16961.16961,1,6,Miskin,Cold
+665762638.62512.62512,0,1,Arminden,Warm-Agreeable
+665762638.62512.62512,0,2,Liz,Warm-Agreeable
+665762638.62512.62512,1,3,Arminden,Arrogant-Calculating
+665762638.62512.62512,1,4,UNKNOWN,Not Available
+665762638.62512.62512,1,5,Arminden,Cold
+66753887.98754.98754,0,1,Crzrussian,Warm-Agreeable
+66753887.98754.98754,0,2,0kmck4gmja,Unassuming-Ingenuous
+66753887.98754.98754,0,3,Oceankat,Warm-Agreeable
+66753887.98754.98754,0,4,Spike Wilbury,Warm-Agreeable
+66753887.98754.98754,0,5,Lookingheart,Warm-Agreeable
+66753887.98754.98754,0,6,Lookingheart,Unassured-Submissive
+66753887.98754.98754,1,7,Oceankat,Unassuming-Ingenuous
+66753887.98754.98754,1,8,Lookingheart,Warm-Agreeable
+66753887.98754.98754,1,9,Oceankat,Unassured-Submissive
+66753887.98754.98754,1,10,0kmck4gmja,Cold
+669851834.60900.60900,0,1,Dissident,Warm-Agreeable
+669851834.60900.60900,0,2,Shyjayb,Arrogant-Calculating
+669851834.60900.60900,0,3,Davey1107,Warm-Agreeable
+669851834.60900.60900,0,4,Dissident,Unassuming-Ingenuous
+669851834.60900.60900,0,5,ElKevbo,Warm-Agreeable
+669851834.60900.60900,0,6,ElKevbo,Unassuming-Ingenuous
+669851834.60900.60900,0,7,2602:304:44AB:D800:7922:169E:B0F1:7BE3,Unassured-Submissive
+669851834.60900.60900,1,8,Retardednamingpolicy,Warm-Agreeable
+669851834.60900.60900,1,9,Shyjayb,Cold
+672860829.7163.7163,0,1,Xtremedood,Gregarious-Extraverted
+672860829.7163.7163,0,2,Brustopher,Warm-Agreeable
+672860829.7163.7163,0,3,MezzoMezzo,Cold
+672860829.7163.7163,0,4,DeCausa,Unassuming-Ingenuous
+672860829.7163.7163,0,5,Toddy1,Unassuming-Ingenuous
+672860829.7163.7163,1,6,Toddy1,Warm-Agreeable
+672860829.7163.7163,1,7,Toddy1,Unassuming-Ingenuous
+672860829.7163.7163,1,8,Toddy1,Warm-Agreeable
+672860829.7163.7163,1,9,Toddy1,Unassuming-Ingenuous
+674810679.58615.58615,0,1,209.49.242.34,Arrogant-Calculating
+674810679.58615.58615,0,2,Onel5969,Warm-Agreeable
+674810679.58615.58615,0,3,CushionMail,Arrogant-Calculating
+674810679.58615.58615,0,4,Kautilya3,Warm-Agreeable
+674810679.58615.58615,1,5,CushionMail,Unassured-Submissive
+674810679.58615.58615,1,6,CushionMail,Not Available
+674810679.58615.58615,1,7,CushionMail,Not Available
+674810679.58615.58615,1,8,CushionMail,Unassured-Submissive
+676798046.15098.15098,0,1,FreeatlastChitchat,Warm-Agreeable
+676798046.15098.15098,0,2,Human3015,Arrogant-Calculating
+676798046.15098.15098,0,3,FreeatlastChitchat,Warm-Agreeable
+676798046.15098.15098,0,4,Human3015,Unassured-Submissive
+676798046.15098.15098,0,5,FreeatlastChitchat,Warm-Agreeable
+676798046.15098.15098,0,6,Aero Slicer,Unassuming-Ingenuous
+676798046.15098.15098,0,7,Human3015,Cold
+676798046.15098.15098,0,8,FreeatlastChitchat,Warm-Agreeable
+676798046.15098.15098,0,9,Human3015,Cold
+676798046.15098.15098,1,10,FreeatlastChitchat,Cold
+676816571.9546.9546,0,1,Schily,Unassuming-Ingenuous
+676816571.9546.9546,0,2,Schily,Unassuming-Ingenuous
+676816571.9546.9546,0,3,Schily,Unassuming-Ingenuous
+676816571.9546.9546,0,4,Tedickey,Cold
+676816571.9546.9546,0,5,Tedickey,Warm-Agreeable
+676816571.9546.9546,0,6,Tedickey,Unassuming-Ingenuous
+676816571.9546.9546,1,7,Schily,Arrogant-Calculating
+676816571.9546.9546,1,8,Tedickey,Cold
+679176527.69481.69481,0,1,Winkelvi,Unassuming-Ingenuous
+679176527.69481.69481,0,2,Inks.LWC,Arrogant-Calculating
+679176527.69481.69481,0,3,Winkelvi,Warm-Agreeable
+679176527.69481.69481,0,4,Inks.LWC,Arrogant-Calculating
+679176527.69481.69481,0,5,Winkelvi,Warm-Agreeable
+679176527.69481.69481,0,6,Inks.LWC,Arrogant-Calculating
+679176527.69481.69481,0,7,Winkelvi,Unassuming-Ingenuous
+679176527.69481.69481,1,8,Inks.LWC,Warm-Agreeable
+679176527.69481.69481,1,9,Winkelvi,Cold
+679834887.6117.6117,0,1,Darkfrog24,Warm-Agreeable
+679834887.6117.6117,0,2,Darkfrog24,Unassuming-Ingenuous
+679834887.6117.6117,0,3,Bluerasberry,Warm-Agreeable
+679834887.6117.6117,0,4,Chemclean,Unassured-Submissive
+679834887.6117.6117,0,5,Darkfrog24,Warm-Agreeable
+679834887.6117.6117,0,6,Chemclean,Unassured-Submissive
+679834887.6117.6117,0,7,Darkfrog24,Warm-Agreeable
+679834887.6117.6117,1,8,Chemclean,Unassuming-Ingenuous
+679834887.6117.6117,1,9,Junganghansik,Warm-Agreeable
+681078283.70017.70017,0,1,79.140.210.9,Unassured-Submissive
+681078283.70017.70017,0,2,Jeffro77,Warm-Agreeable
+681078283.70017.70017,0,3,Hell in a Bucket,Warm-Agreeable
+681078283.70017.70017,0,4,79.140.210.9,Unassuming-Ingenuous
+681078283.70017.70017,0,5,BlackCab,Cold
+681078283.70017.70017,0,6,Hell in a Bucket,Warm-Agreeable
+681078283.70017.70017,0,7,Jeffro77,Warm-Agreeable
+681078283.70017.70017,1,8,79.140.210.9,Unassured-Submissive
+681078283.70017.70017,1,9,BlackCab,Unassuming-Ingenuous
+681191837.71506.71506,0,1,95y88s76agk55621,Unassured-Submissive
+681191837.71506.71506,0,2,ScrapIronIV,Aloof-Introverted
+681191837.71506.71506,0,3,95y88s76agk55621,Unassured-Submissive
+681191837.71506.71506,0,4,95y88s76agk55621,Warm-Agreeable
+681191837.71506.71506,1,5,BlackCab,Assured-Dominant
+681191837.71506.71506,2,6,BlackCab,Warm-Agreeable
+681191837.71506.71506,2,7,95y88s76agk55621,Cold
+681191837.71506.71506,2,8,95y88s76agk55621,Arrogant-Calculating
+681191837.71506.71506,2,9,BlackCab,Cold
+682629801.17038.17038,0,1,81.110.148.89,Arrogant-Calculating
+682629801.17038.17038,0,2,Flyer22 Reborn,Warm-Agreeable
+682629801.17038.17038,0,3,81.110.148.89,Cold
+682629801.17038.17038,1,4,KateWishing,Warm-Agreeable
+682629801.17038.17038,1,5,Etamni,Unassuming-Ingenuous
+682629801.17038.17038,1,6,Mark Miller,Warm-Agreeable
+682629801.17038.17038,1,7,Etamni,Warm-Agreeable
+683675192.136756.136756,0,1,JzG,Unassuming-Ingenuous
+683675192.136756.136756,0,2,Andy Dingley,Warm-Agreeable
+683675192.136756.136756,0,3,JzG,Unassuming-Ingenuous
+683675192.136756.136756,0,4,Brustopher,Arrogant-Calculating
+683675192.136756.136756,0,5,JzG,Unassuming-Ingenuous
+683675192.136756.136756,0,6,Adrian232,Warm-Agreeable
+683675192.136756.136756,0,7,JzG,Unassuming-Ingenuous
+683675192.136756.136756,0,8,JzG,Unassuming-Ingenuous
+683675192.136756.136756,1,9,Brustopher,Cold
+684116791.1847.1847,0,1,Kraxler,Unassuming-Ingenuous
+684116791.1847.1847,0,2,Czoal,Assured-Dominant
+684116791.1847.1847,0,3,Kraxler,Unassured-Submissive
+684116791.1847.1847,0,4,SMcCandlish,Warm-Agreeable
+684116791.1847.1847,0,5,SMcCandlish,Unassuming-Ingenuous
+684116791.1847.1847,1,6,SMcCandlish,Unassuming-Ingenuous
+684116791.1847.1847,1,7,SMcCandlish,Warm-Agreeable
+684116791.1847.1847,1,8,Czoal,Warm-Agreeable
+684116791.1847.1847,1,9,Kraxler,Unassured-Submissive
+684116791.1847.1847,2,10,Czoal,Arrogant-Calculating
+684116791.1847.1847,2,11,SMcCandlish,Warm-Agreeable
+686939949.130976.130976,0,1,Pincrete,Warm-Agreeable
+686939949.130976.130976,0,2,Mr. Magoo and McBarker,Arrogant-Calculating
+686939949.130976.130976,0,3,Pincrete,Unassuming-Ingenuous
+686939949.130976.130976,0,4,Mr. Magoo and McBarker,Unassured-Submissive
+686939949.130976.130976,1,5,Pincrete,Assured-Dominant
+690487678.17604.17604,0,1,Carbrera,Warm-Agreeable
+690487678.17604.17604,0,2,IndianBio,Cold
+690487678.17604.17604,0,3,IndianBio,Cold
+690487678.17604.17604,0,4,GagaNutella,Warm-Agreeable
+690487678.17604.17604,0,5,SNUGGUMS,Unassuming-Ingenuous
+690487678.17604.17604,0,6,IndianBio,Warm-Agreeable
+690487678.17604.17604,0,7,Carbrera,Unassured-Submissive
+690487678.17604.17604,1,8,IndianBio,Arrogant-Calculating
+691503733.34893.34893,0,1,Apzat,Gregarious-Extraverted
+691503733.34893.34893,0,2,Crovata,Warm-Agreeable
+691503733.34893.34893,0,3,93.152.143.113,Cold
+691503733.34893.34893,0,4,93.152.143.113,Unassuming-Ingenuous
+691503733.34893.34893,1,5,93.152.143.113,Unassured-Submissive
+691503733.34893.34893,1,6,Crovata,Assured-Dominant
+691503733.34893.34893,2,7,NewZealot,Warm-Agreeable
+691503733.34893.34893,3,8,NewZealot,Unassured-Submissive
+691503733.34893.34893,3,9,Crovata,Warm-Agreeable
+691503733.34893.34893,3,10,NewZealot,Cold
+694480507.8023.8023,0,1,185.51.73.135,Cold
+694480507.8023.8023,0,2,Daicaregos,Warm-Agreeable
+694480507.8023.8023,0,3,GoodDay,Unassuming-Ingenuous
+694480507.8023.8023,0,4,93.133.95.224,Unassuming-Ingenuous
+694480507.8023.8023,0,5,Sitush,Unassuming-Ingenuous
+694480507.8023.8023,1,6,SchroCat,Warm-Agreeable
+700361091.65982.65982,0,1,2A03:4A80:0:44A:4EF7:E62F:A797:BD8,Gregarious-Extraverted
+700361091.65982.65982,0,2,2A03:4A80:0:44A:2E4C:D1C5:1994:6DA0,Gregarious-Extraverted
+700361091.65982.65982,0,3,199.36.107.113,Gregarious-Extraverted
+700361091.65982.65982,1,4,199.36.107.113,Warm-Agreeable
+700361091.65982.65982,1,5,188.254.219.92,Warm-Agreeable
+700361091.65982.65982,2,6,185.106.122.12,Unassuming-Ingenuous
+700361091.65982.65982,2,7,185.106.122.12,Unassuming-Ingenuous
+700361091.65982.65982,3,8,185.106.122.12,Warm-Agreeable
+700361091.65982.65982,4,9,185.106.122.12,Warm-Agreeable
+700361091.65982.65982,4,10,185.106.122.12,Warm-Agreeable
+70069209.33467.17269,0,1,Planetary,Gregarious-Extraverted
+70069209.33467.17269,0,2,Serendipodous,Warm-Agreeable
+70069209.33467.17269,1,3,Serendipodous,Warm-Agreeable
+70069209.33467.17269,1,4,209.172.115.34,Unassuming-Ingenuous
+70069209.33467.17269,1,5,Serendipodous,Warm-Agreeable
+70069209.33467.17269,1,6,209.172.115.34,Cold
+70069209.33467.17269,1,7,Planetary,Aloof-Introverted
+70069209.33467.17269,1,8,PedroPVZ,Warm-Agreeable
+70069209.33467.17269,1,9,209.172.115.34,Cold
+702618212.32016.25328,0,1,Kautilya3,Warm-Agreeable
+702618212.32016.25328,0,2,Ms Sarah Welch,Warm-Agreeable
+702618212.32016.25328,0,3,Ms Sarah Welch,Unassuming-Ingenuous
+702618212.32016.25328,0,4,Kautilya3,Warm-Agreeable
+702618212.32016.25328,0,5,Ms Sarah Welch,Warm-Agreeable
+702618212.32016.25328,0,6,Ms Sarah Welch,Unassuming-Ingenuous
+702618212.32016.25328,0,7,Ms Sarah Welch,Unassured-Submissive
+702618212.32016.25328,1,8,Ms Sarah Welch,Unassuming-Ingenuous
+71050060.102724.102724,0,1,BernardL,Warm-Agreeable
+71050060.102724.102724,0,2,CosmopolitanCapitalist,Cold
+71050060.102724.102724,0,3,CosmopolitanCapitalist,Arrogant-Calculating
+71050060.102724.102724,1,4,CosmopolitanCapitalist,Cold
+71050060.102724.102724,1,5,BernardL,Warm-Agreeable
+712279577.10838.10838,0,1,Human Rights Expert,Arrogant-Calculating
+712279577.10838.10838,0,2,Haminoon,Cold
+712279577.10838.10838,0,3,Human Rights Expert,Arrogant-Calculating
+712279577.10838.10838,0,4,Nonsenseferret,Cold
+712279577.10838.10838,0,5,Human Rights Expert,Arrogant-Calculating
+712279577.10838.10838,0,6,Nonsenseferret,Cold
+712279577.10838.10838,0,7,Jéské Couriano,Cold
+712279577.10838.10838,1,8,Primefac,Warm-Agreeable
+712279577.10838.10838,1,9,Waggie,Warm-Agreeable
+712279577.10838.10838,1,10,Human Rights Expert,Arrogant-Calculating
+712947258.42746.42746,0,1,NeatGrey,Unassuming-Ingenuous
+712947258.42746.42746,0,2,Sûriyeya,Warm-Agreeable
+712947258.42746.42746,0,3,Sûriyeya,Unassuming-Ingenuous
+712947258.42746.42746,0,4,DaJesuZ,Arrogant-Calculating
+712947258.42746.42746,0,5,NightsideAEB,Cold
+712947258.42746.42746,0,6,Sûriyeya,Warm-Agreeable
+712947258.42746.42746,0,7,Sûriyeya,Unassuming-Ingenuous
+712947258.42746.42746,0,8,Sûriyeya,Warm-Agreeable
+712947258.42746.42746,1,9,DaJesuZ,Arrogant-Calculating
+714247674.24233.24233,0,1,Beyond My Ken,Unassuming-Ingenuous
+714247674.24233.24233,0,2,Beyond My Ken,Unassuming-Ingenuous
+714247674.24233.24233,1,3,66.249.173.182,Unassured-Submissive
+714247674.24233.24233,1,4,Beyond My Ken,Cold
+714247674.24233.24233,1,5,66.249.175.93,Unassured-Submissive
+714247674.24233.24233,1,6,Beyond My Ken,Cold
+714247674.24233.24233,2,7,66.81.242.69,Warm-Agreeable
+714247674.24233.24233,2,8,Beyond My Ken,Cold
+714247674.24233.24233,2,9,66.249.174.181,Warm-Agreeable
+714247674.24233.24233,2,10,Beyond My Ken,Cold
+71944556.77482.77482,0,1,Qwasty,Gregarious-Extraverted
+71944556.77482.77482,0,2,TeaDrinker,Unassuming-Ingenuous
+71944556.77482.77482,0,3,Qwasty,Arrogant-Calculating
+71944556.77482.77482,1,4,TeaDrinker,Warm-Agreeable
+71944556.77482.77482,2,5,84.71.118.198,Arrogant-Calculating
+71944556.77482.77482,2,6,Qwasty,Assured-Dominant
+71944556.77482.77482,2,7,Qwasty,Unassuming-Ingenuous
+72331946.9858.9858,0,1,222.144.237.243,Cold
+72331946.9858.9858,0,2,60.43.35.146,Unassured-Submissive
+72331946.9858.9858,0,3,60.43.35.146,Warm-Agreeable
+72331946.9858.9858,1,4,222.144.237.243,Unassured-Submissive
+72331946.9858.9858,1,5,211.126.51.61,Warm-Agreeable
+72331946.9858.9858,1,6,Phonemonkey,Unassuming-Ingenuous
+72331946.9858.9858,2,7,125.175.142.228,Warm-Agreeable
+725874736.171752.171752,0,1,Resnjari,Warm-Agreeable
+725874736.171752.171752,0,2,DevilWearsBrioni,Unassuming-Ingenuous
+725874736.171752.171752,0,3,Resnjari,Warm-Agreeable
+725874736.171752.171752,1,4,SilentResident,Unassured-Submissive
+725874736.171752.171752,1,5,Resnjari,Warm-Agreeable
+725874736.171752.171752,1,6,SilentResident,Gregarious-Extraverted
+725874736.171752.171752,2,7,Resnjari,Warm-Agreeable
+725874736.171752.171752,2,8,SilentResident,Warm-Agreeable
+725874736.171752.171752,2,9,DevilWearsBrioni,Warm-Agreeable
+72927733.10786.10786,0,1,66.177.155.18,Unassuming-Ingenuous
+72927733.10786.10786,0,2,Ryulong,Unassured-Submissive
+72927733.10786.10786,0,3,Esau sleiman,Arrogant-Calculating
+72927733.10786.10786,0,4,Esau sleiman,Unassured-Submissive
+72927733.10786.10786,1,5,Esau sleiman,Unassured-Submissive
+72927733.10786.10786,1,6,Esau sleiman,Unassuming-Ingenuous
+72927733.10786.10786,1,7,Ryulong,Warm-Agreeable
+72927733.10786.10786,1,8,Esau sleiman,Unassured-Submissive
+72927733.10786.10786,1,9,Ryulong,Warm-Agreeable
+72927733.10786.10786,1,10,Esau sleiman,Unassured-Submissive
+730178616.16748.16748,0,1,Chaheel Riens,Warm-Agreeable
+730178616.16748.16748,0,2,W ASB94,Arrogant-Calculating
+730178616.16748.16748,0,3,Chaheel Riens,Unassured-Submissive
+730178616.16748.16748,0,4,Chaheel Riens,Warm-Agreeable
+730178616.16748.16748,0,5,W ASB94,Gregarious-Extraverted
+730178616.16748.16748,0,6,Doniago,Warm-Agreeable
+730178616.16748.16748,0,7,W ASB94,Arrogant-Calculating
+730178616.16748.16748,0,8,Chaheel Riens,Warm-Agreeable
+730178616.16748.16748,1,9,Doniago,Warm-Agreeable
+730178616.16748.16748,1,10,W ASB94,Cold
+731618660.6177.6177,0,1,Helmy1453,Unassured-Submissive
+731618660.6177.6177,0,2,Ermanarich,Warm-Agreeable
+731618660.6177.6177,0,3,Helmy1453,Unassuming-Ingenuous
+731618660.6177.6177,0,4,Helmy1453,Unassuming-Ingenuous
+731618660.6177.6177,0,5,Ermanarich,Warm-Agreeable
+731618660.6177.6177,0,6,Helmy1453,Unassured-Submissive
+731618660.6177.6177,0,7,Ermanarich,Warm-Agreeable
+731618660.6177.6177,1,8,78.192.17.51,Warm-Agreeable
+731618660.6177.6177,1,9,Pbfreespace3,Unassured-Submissive
+731618660.6177.6177,1,10,Helmy1453,Cold
+732937042.14649.14649,0,1,Chamboz,Warm-Agreeable
+732937042.14649.14649,0,2,Rjensen,Arrogant-Calculating
+732937042.14649.14649,0,3,Chamboz,Warm-Agreeable
+732937042.14649.14649,1,4,Rjensen,Unassuming-Ingenuous
+732937042.14649.14649,1,5,Chamboz,Warm-Agreeable
+732937042.14649.14649,1,6,Rjensen,Unassuming-Ingenuous
+732937042.14649.14649,2,7,Chamboz,Unassuming-Ingenuous
+732937042.14649.14649,2,8,Chamboz,Warm-Agreeable
+733530266.68452.58792,0,1,GreenMeansGo,Warm-Agreeable
+733530266.68452.58792,0,2,Antinoos69,Arrogant-Calculating
+733530266.68452.58792,0,3,GreenMeansGo,Unassuming-Ingenuous
+733530266.68452.58792,0,4,Antinoos69,Unassured-Submissive
+733530266.68452.58792,0,5,MediaKill13,Warm-Agreeable
+733530266.68452.58792,0,6,GreenMeansGo,Unassuming-Ingenuous
+733530266.68452.58792,1,7,Maplestrip,Unassuming-Ingenuous
+734490676.95591.95591,0,1,Antinoos69,Unassured-Submissive
+734490676.95591.95591,0,2,GreenMeansGo,Arrogant-Calculating
+734490676.95591.95591,1,3,MediaKill13,Arrogant-Calculating
+734490676.95591.95591,1,4,GreenMeansGo,Unassuming-Ingenuous
+734490676.95591.95591,1,5,Antinoos69,Cold
+734490676.95591.95591,1,6,GreenMeansGo,Assured-Dominant
+734490676.95591.95591,2,7,Antinoos69,Arrogant-Calculating
+735877242.9794.9794,0,1,Sole Flounder,Unassuming-Ingenuous
+735877242.9794.9794,0,2,Sole Flounder,Unassured-Submissive
+735877242.9794.9794,0,3,Rhododendrites,Warm-Agreeable
+735877242.9794.9794,0,4,Sole Flounder,Unassured-Submissive
+735877242.9794.9794,0,5,Rhododendrites,Warm-Agreeable
+735877242.9794.9794,0,6,Jayaguru-Shishya,Warm-Agreeable
+735877242.9794.9794,1,7,Sole Flounder,Cold
+736416889.244153.244153,0,1,Handthrown,Unassuming-Ingenuous
+736416889.244153.244153,0,2,Mmyers1976,Warm-Agreeable
+736416889.244153.244153,0,3,Mmyers1976,Assured-Dominant
+736416889.244153.244153,1,4,DionysosProteus,Assured-Dominant
+736416889.244153.244153,2,5,Handthrown,Warm-Agreeable
+736416889.244153.244153,3,6,Mmyers1976,Arrogant-Calculating
+736416889.244153.244153,3,7,Handthrown,Warm-Agreeable
+736416889.244153.244153,3,8,Mmyers1976,Cold
+736416889.244153.244153,3,9,Handthrown,Unassured-Submissive
+737222203.267619.267619,0,1,Netherzone,Unassuming-Ingenuous
+737222203.267619.267619,0,2,DionysosProteus,Warm-Agreeable
+737222203.267619.267619,0,3,Netherzone,Warm-Agreeable
+737222203.267619.267619,0,4,DionysosProteus,Unassuming-Ingenuous
+737222203.267619.267619,0,5,Netherzone,Warm-Agreeable
+737222203.267619.267619,0,6,DionysosProteus,Warm-Agreeable
+737222203.267619.267619,0,7,Mmyers1976,Warm-Agreeable
+737222203.267619.267619,1,8,Mmyers1976,Warm-Agreeable
+741549582.17982.17982,0,1,Neutrality,Warm-Agreeable
+741549582.17982.17982,0,2,Drmies,Warm-Agreeable
+741549582.17982.17982,0,3,Drmies,Warm-Agreeable
+741549582.17982.17982,0,4,Callanecc,Warm-Agreeable
+741549582.17982.17982,0,5,Callanecc,Warm-Agreeable
+741549582.17982.17982,0,6,Callanecc,Warm-Agreeable
+741549582.17982.17982,1,7,Rafelito,Warm-Agreeable
+741549582.17982.17982,1,8,Dr.K.,Unassuming-Ingenuous
+74266388.39624.39624,0,1,Sophia,Warm-Agreeable
+74266388.39624.39624,0,2,ජපස,Unassuming-Ingenuous
+74266388.39624.39624,0,3,Sophia,Warm-Agreeable
+74266388.39624.39624,1,4,Iantresman,Unassuming-Ingenuous
+74266388.39624.39624,1,5,Sophia,Unassured-Submissive
+74266388.39624.39624,1,6,Iantresman,Warm-Agreeable
+744911048.74260.74260,0,1,Jack Sebastian,Warm-Agreeable
+744911048.74260.74260,0,2,Sundayclose,Unassuming-Ingenuous
+744911048.74260.74260,0,3,Jack Sebastian,Warm-Agreeable
+744911048.74260.74260,0,4,Sundayclose,Unassured-Submissive
+744911048.74260.74260,0,5,Jack Sebastian,Warm-Agreeable
+744911048.74260.74260,1,6,Sundayclose,Cold
+750457378.45288.45288,0,1,Xenophrenic,Warm-Agreeable
+750457378.45288.45288,0,2,Musdan77,Unassured-Submissive
+750457378.45288.45288,0,3,Xenophrenic,Warm-Agreeable
+750457378.45288.45288,0,4,Musdan77,Unassured-Submissive
+750457378.45288.45288,0,5,Xenophrenic,Warm-Agreeable
+750457378.45288.45288,0,6,Musdan77,Unassured-Submissive
+750457378.45288.45288,1,7,Xenophrenic,Unassuming-Ingenuous
+750457378.45288.45288,1,8,Musdan77,Cold
+752274996.63962.63962,0,1,Vincenzo1492,Gregarious-Extraverted
+752274996.63962.63962,0,2,Vincenzo1492,Unassuming-Ingenuous
+752274996.63962.63962,0,3,Karst,Warm-Agreeable
+752274996.63962.63962,0,4,Vincenzo1492,Arrogant-Calculating
+752274996.63962.63962,0,5,Karst,Unassuming-Ingenuous
+752274996.63962.63962,1,6,Greg Fasolino,Unassuming-Ingenuous
+752274996.63962.63962,1,7,Greg Fasolino,Warm-Agreeable
+752274996.63962.63962,1,8,Carliertwo,Cold
+752274996.63962.63962,1,9,Greg Fasolino,Unassuming-Ingenuous
+752274996.63962.63962,2,10,Carliertwo,Arrogant-Calculating
+774345199.138468.138468,0,1,NeilN,Warm-Agreeable
+774345199.138468.138468,0,2,The Diaz,Assured-Dominant
+774345199.138468.138468,0,3,NorthBySouthBaranof,Warm-Agreeable
+774345199.138468.138468,0,4,The Diaz,Arrogant-Calculating
+774345199.138468.138468,0,5,The Diaz,Gregarious-Extraverted
+774345199.138468.138468,0,6,Grayfell,Cold
+774345199.138468.138468,0,7,The Diaz,Unassured-Submissive
+774345199.138468.138468,0,8,Grayfell,Cold
+774345199.138468.138468,0,9,EvergreenFir,Warm-Agreeable
+774345199.138468.138468,1,10,The Diaz,Unassured-Submissive
+774345199.138468.138468,1,11,EvergreenFir,Unassuming-Ingenuous
+77520446.78226.78226,0,1,HappyInGeneral,Warm-Agreeable
+77520446.78226.78226,0,2,Yenchin,Cold
+77520446.78226.78226,0,3,Mcconn,Warm-Agreeable
+77520446.78226.78226,0,4,Samuel Luo,Arrogant-Calculating
+77520446.78226.78226,0,5,HappyInGeneral,Unassuming-Ingenuous
+77520446.78226.78226,0,6,Yenchin,Cold
+77520446.78226.78226,0,7,HappyInGeneral,Warm-Agreeable
+77520446.78226.78226,1,8,Yenchin,Cold
+77520446.78226.78226,1,9,HappyInGeneral,Warm-Agreeable
+776243479.3602.3602,0,1,Johnsmith0774,Arrogant-Calculating
+776243479.3602.3602,0,2,Meters,Warm-Agreeable
+776243479.3602.3602,0,3,CalzGuy,Unassuming-Ingenuous
+776243479.3602.3602,0,4,Meters,Unassured-Submissive
+776243479.3602.3602,0,5,Johnsmith0774,Cold
+776243479.3602.3602,0,6,CalzGuy,Warm-Agreeable
+776243479.3602.3602,0,7,Johnsmith0774,Assured-Dominant
+776243479.3602.3602,1,8,CalzGuy,Warm-Agreeable
+776243479.3602.3602,1,9,Johnsmith0774,Cold
+78208704.11589.11589,0,1,Sumple,Arrogant-Calculating
+78208704.11589.11589,0,2,Niohe,Warm-Agreeable
+78208704.11589.11589,0,3,Sumple,Unassuming-Ingenuous
+78208704.11589.11589,0,4,Manchurian Tiger,Cold
+78208704.11589.11589,1,5,Sumple,Warm-Agreeable
+78208704.11589.11589,1,6,Manchurian Tiger,Cold
+78600901.50657.50657,0,1,White Guard,Warm-Agreeable
+78600901.50657.50657,0,2,Will314159,Warm-Agreeable
+78600901.50657.50657,0,3,Will314159,Warm-Agreeable
+78600901.50657.50657,0,4,White Guard,Unassuming-Ingenuous
+78600901.50657.50657,0,5,Will314159,Warm-Agreeable
+78600901.50657.50657,1,6,Will314159,Warm-Agreeable
+78600901.50657.50657,1,7,White Guard,Arrogant-Calculating
+78600901.50657.50657,1,8,Will314159,Unassured-Submissive
+78600901.50657.50657,1,9,White Guard,Cold
+788615269.55417.55417,0,1,Rentier,Warm-Agreeable
+788615269.55417.55417,0,2,AlphaMathematician,Arrogant-Calculating
+788615269.55417.55417,0,3,Rentier,Unassuming-Ingenuous
+788615269.55417.55417,0,4,Drmies,Cold
+788615269.55417.55417,0,5,Drmies,Unassuming-Ingenuous
+788615269.55417.55417,1,6,AlphaMathematician,Gregarious-Extraverted
+788615269.55417.55417,1,7,AlphaMathematician,Unassuming-Ingenuous
+789678167.1694.1694,0,1,Umair Aj,Warm-Agreeable
+789678167.1694.1694,0,2,Anoptimistix,Warm-Agreeable
+789678167.1694.1694,0,3,Umair Aj,Unassured-Submissive
+789678167.1694.1694,0,4,Anoptimistix,Unassuming-Ingenuous
+789678167.1694.1694,0,5,Anoptimistix,Warm-Agreeable
+789678167.1694.1694,1,6,Umair Aj,Cold
+789678167.1694.1694,1,7,Anoptimistix,Warm-Agreeable
+789678167.1694.1694,1,8,Umair Aj,Unassuming-Ingenuous
+796392922.9632.9632,0,1,Peter Gulutzan,Warm-Agreeable
+796392922.9632.9632,0,2,Peter Gulutzan,Unassuming-Ingenuous
+796392922.9632.9632,0,3,ViamarisBalbi,Unassured-Submissive
+796392922.9632.9632,0,4,Peter Gulutzan,Warm-Agreeable
+796392922.9632.9632,0,5,CalinicoFire,Gregarious-Extraverted
+796392922.9632.9632,1,6,Katolophyromai,Warm-Agreeable
+796392922.9632.9632,1,7,ViamarisBalbi,Cold
+796496979.37912.37912,0,1,62.202.7.117,Unassured-Submissive
+796496979.37912.37912,0,2,Ita140188,Warm-Agreeable
+796496979.37912.37912,0,3,Jytdog,Cold
+796496979.37912.37912,0,4,62.202.7.117,Unassured-Submissive
+796496979.37912.37912,0,5,Ita140188,Warm-Agreeable
+796496979.37912.37912,0,6,Jytdog,Cold
+796496979.37912.37912,0,7,Ita140188,Warm-Agreeable
+796496979.37912.37912,0,8,Jytdog,Cold
+796496979.37912.37912,0,9,Ita140188,Warm-Agreeable
+796496979.37912.37912,0,10,David Eppstein,Unassuming-Ingenuous
+796496979.37912.37912,1,11,ErskineCer,Unassuming-Ingenuous
+796496979.37912.37912,1,12,Jytdog,Assured-Dominant
+800138779.80441.80441,0,1,Carliertwo,Warm-Agreeable
+800138779.80441.80441,0,2,Gentlecollapse6,Arrogant-Calculating
+800138779.80441.80441,0,3,Wwwhatsup,Unassured-Submissive
+800138779.80441.80441,0,4,Greg Fasolino,Warm-Agreeable
+800138779.80441.80441,0,5,Gentlecollapse6,Cold
+800138779.80441.80441,0,6,Greg Fasolino,Warm-Agreeable
+800138779.80441.80441,0,7,Carliertwo,Warm-Agreeable
+800138779.80441.80441,1,8,Greg Fasolino,Unassuming-Ingenuous
+800138779.80441.80441,1,9,Carliertwo,Warm-Agreeable
+800138779.80441.80441,1,10,Gentlecollapse6,Cold
+800747251.13038.13038,0,1,Eric Kvaalen,Warm-Agreeable
+800747251.13038.13038,0,2,Jc3s5h,Unassuming-Ingenuous
+800747251.13038.13038,0,3,Senor Cuete,Warm-Agreeable
+800747251.13038.13038,0,4,Eric Kvaalen,Unassured-Submissive
+800747251.13038.13038,0,5,Jc3s5h,Unassuming-Ingenuous
+800747251.13038.13038,0,6,Jc3s5h,Warm-Agreeable
+800747251.13038.13038,0,7,Jc3s5h,Unassuming-Ingenuous
+800747251.13038.13038,0,8,Senor Cuete,Warm-Agreeable
+800747251.13038.13038,1,9,Jc3s5h,Warm-Agreeable
+800747251.13038.13038,1,10,Senor Cuete,Cold
+801118111.91648.91648,0,1,Khirurg,Arrogant-Calculating
+801118111.91648.91648,0,2,Khirurg,Cold
+801118111.91648.91648,0,3,Kansas Bear,Unassuming-Ingenuous
+801118111.91648.91648,0,4,Lord Aseem,Warm-Agreeable
+801118111.91648.91648,0,5,Khirurg,Arrogant-Calculating
+801118111.91648.91648,1,6,Lord Aseem,Warm-Agreeable
+801118111.91648.91648,1,7,Khirurg,Cold
+810726841.14151.14151,0,1,46.208.234.40,Arrogant-Calculating
+810726841.14151.14151,0,2,Aspro,Warm-Agreeable
+810726841.14151.14151,0,3,Sciencewatcher,Assured-Dominant
+810726841.14151.14151,1,4,46.208.234.40,Cold
+810726841.14151.14151,1,5,Sciencewatcher,Cold
+810726841.14151.14151,1,6,46.208.234.40,Arrogant-Calculating
+810726841.14151.14151,1,7,Sciencewatcher,Cold
+81582588.82015.82015,0,1,Koavf,Warm-Agreeable
+81582588.82015.82015,0,2,Wikima,Cold
+81582588.82015.82015,0,3,Reisio,Arrogant-Calculating
+81582588.82015.82015,0,4,A Jalil,Unassuming-Ingenuous
+81582588.82015.82015,1,5,Wikima,Arrogant-Calculating
+81582588.82015.82015,1,6,Reisio,Warm-Agreeable
+816137520.17124.17124,0,1,Mis0s0up,Warm-Agreeable
+816137520.17124.17124,0,2,MPants at work,Assured-Dominant
+816137520.17124.17124,0,3,Mis0s0up,Warm-Agreeable
+816137520.17124.17124,1,4,MPants at work,Unassured-Submissive
+816137520.17124.17124,1,5,Binksternet,Warm-Agreeable
+816137520.17124.17124,1,6,MPants at work,Unassured-Submissive
+816847384.57770.57770,0,1,Walter Görlitz,Unassured-Submissive
+816847384.57770.57770,0,2,Beyond My Ken,Assured-Dominant
+816847384.57770.57770,0,3,Walter Görlitz,Unassured-Submissive
+816847384.57770.57770,0,4,Beyond My Ken,Assured-Dominant
+816847384.57770.57770,0,5,Walter Görlitz,Cold
+816847384.57770.57770,1,6,Beyond My Ken,Unassured-Submissive
+816847384.57770.57770,1,7,Walter Görlitz,Arrogant-Calculating
+82079179.7383.7383,0,1,LibraryLion,Assured-Dominant
+82079179.7383.7383,0,2,Tecmobowl,Unassured-Submissive
+82079179.7383.7383,0,3,Djrobgordon,Unassured-Submissive
+82079179.7383.7383,0,4,Tecmobowl,Unassuming-Ingenuous
+82079179.7383.7383,0,5,Tecmobowl,Aloof-Introverted
+82079179.7383.7383,0,6,Tmassey,Warm-Agreeable
+82079179.7383.7383,0,7,Tecmobowl,Warm-Agreeable
+82079179.7383.7383,1,8,LibraryLion,Unassured-Submissive
+82079179.7383.7383,1,9,TV Newser,Cold
+82079179.7383.7383,1,10,Tecmobowl,Assured-Dominant
+83333257.11670.11670,0,1,Nyenyec,Warm-Agreeable
+83333257.11670.11670,0,2,VinceB,Unassured-Submissive
+83333257.11670.11670,0,3,Nyenyec,Unassuming-Ingenuous
+83333257.11670.11670,0,4,VinceB,Arrogant-Calculating
+83333257.11670.11670,0,5,Tankred,Warm-Agreeable
+83333257.11670.11670,1,6,VinceB,Arrogant-Calculating
+83333257.11670.11670,1,7,Nyenyec,Warm-Agreeable
+83333257.11670.11670,1,8,VinceB,Gregarious-Extraverted
+83333257.11670.11670,1,9,Nyenyec,Unassuming-Ingenuous
+83783767.35182.35182,0,1,Matt57,Gregarious-Extraverted
+83783767.35182.35182,0,2,Striver,Warm-Agreeable
+83783767.35182.35182,0,3,JohnsAr,Warm-Agreeable
+83783767.35182.35182,1,4,59.94.133.56,Gregarious-Extraverted
+83783767.35182.35182,1,5,Catintheoven,Unassuming-Ingenuous
+842381507.9508.9508,0,1,93.142.87.187,Arrogant-Calculating
+842381507.9508.9508,0,2,86.153.135.111,Unassuming-Ingenuous
+842381507.9508.9508,0,3,ZH8000,Cold
+842381507.9508.9508,0,4,86.153.135.111,Cold
+842381507.9508.9508,0,5,ZH8000,Arrogant-Calculating
+842381507.9508.9508,1,6,86.153.135.111,Assured-Dominant
+842381507.9508.9508,1,7,78.0.246.100,Warm-Agreeable
+842381507.9508.9508,1,8,ZH8000,Cold
+843901667.1861.1861,0,1,70.112.44.202,Arrogant-Calculating
+843901667.1861.1861,0,2,Dissident93,Warm-Agreeable
+843901667.1861.1861,1,3,Sergecross73,Warm-Agreeable
+843901667.1861.1861,1,4,Sergecross73,Warm-Agreeable
+843901667.1861.1861,1,5,70.112.44.202,Cold
+8472371.93914.93914,0,1,142.176.177.164,Warm-Agreeable
+8472371.93914.93914,0,2,Dr Zen,Arrogant-Calculating
+8472371.93914.93914,0,3,67.180.24.204,Cold
+8472371.93914.93914,0,4,Ta bu shi da yu,Warm-Agreeable
+8472371.93914.93914,0,5,203.35.154.254,Unassured-Submissive
+8472371.93914.93914,0,6,24.224.224.175,Warm-Agreeable
+8472371.93914.93914,0,7,24.224.224.175,Unassuming-Ingenuous
+8472371.93914.93914,0,8,24.224.224.175,Warm-Agreeable
+8472371.93914.93914,1,9,CheeseDreams,Arrogant-Calculating
+8472371.93914.93914,1,10,142.176.177.164,Cold
+85423577.0.0,0,1,Wjhonson,Unassuming-Ingenuous
+85423577.0.0,0,2,Wjhonson,Arrogant-Calculating
+85423577.0.0,0,3,Nicknack009,Warm-Agreeable
+85423577.0.0,0,4,Wjhonson,Arrogant-Calculating
+85423577.0.0,0,5,Wjhonson,Cold
+85423577.0.0,0,6,Nicknack009,Warm-Agreeable
+85423577.0.0,0,7,Wjhonson,Arrogant-Calculating
+85423577.0.0,1,8,Nicknack009,Cold
+8847712.1899.1899,0,1,Calair,Warm-Agreeable
+8847712.1899.1899,0,2,Gene Nygaard,Assured-Dominant
+8847712.1899.1899,0,3,Jnc,Unassuming-Ingenuous
+8847712.1899.1899,0,4,Gene Nygaard,Arrogant-Calculating
+8847712.1899.1899,0,5,Jnc,Unassured-Submissive
+8847712.1899.1899,1,6,Gene Nygaard,Warm-Agreeable
+8847712.1899.1899,2,7,Gene Nygaard,Unassuming-Ingenuous
+9392399.4963.4963,0,1,Fastfission,Warm-Agreeable
+9392399.4963.4963,0,2,Jack Upland,Unassuming-Ingenuous
+9392399.4963.4963,0,3,Nobs01,Warm-Agreeable
+9392399.4963.4963,0,4,Jack Upland,Arrogant-Calculating
+9392399.4963.4963,0,5,Nobs01,Unassuming-Ingenuous
+9392399.4963.4963,1,6,Jack Upland,Cold
+9392399.4963.4963,1,7,Nobs01,Unassuming-Ingenuous
+9392399.4963.4963,1,8,Jack Upland,Cold
+95493930.36972.35968,0,1,Anþony,Aloof-Introverted
+95493930.36972.35968,0,2,Peter Isotalo,Warm-Agreeable
+95493930.36972.35968,0,3,Verdy p,Gregarious-Extraverted
+95493930.36972.35968,0,4,Verdy p,Unassured-Submissive
+95493930.36972.35968,1,5,SomeHuman,Warm-Agreeable
+95515544.4382.4382,0,1,Intooblv,Unassuming-Ingenuous
+95515544.4382.4382,0,2,134.224.220.1,Arrogant-Calculating
+95515544.4382.4382,0,3,Intooblv,Warm-Agreeable
+95515544.4382.4382,0,4,134.224.220.1,Cold
+95515544.4382.4382,0,5,Intooblv,Unassured-Submissive
+95515544.4382.4382,0,6,F. Simon Grant,Warm-Agreeable
+95515544.4382.4382,1,7,F. Simon Grant,Warm-Agreeable
+97524250.56095.56095,0,1,HongQiGong,Warm-Agreeable
+97524250.56095.56095,0,2,Endroit,Unassuming-Ingenuous
+97524250.56095.56095,0,3,HongQiGong,Warm-Agreeable
+97524250.56095.56095,1,4,Endroit,Warm-Agreeable
+97524250.56095.56095,1,5,Endroit,Unassured-Submissive
+97524250.56095.56095,1,6,HongQiGong,Warm-Agreeable
+97524250.56095.56095,1,7,Endroit,Unassuming-Ingenuous
+97524250.56095.56095,1,8,HongQiGong,Warm-Agreeable
+97524250.56095.56095,1,9,Endroit,Warm-Agreeable
+97553941.4063.4063,0,1,Haiduc,Warm-Agreeable
+97553941.4063.4063,0,2,Jaguara,Warm-Agreeable
+97553941.4063.4063,0,3,Haiduc,Unassuming-Ingenuous
+97553941.4063.4063,1,4,Haiduc,Warm-Agreeable
+97553941.4063.4063,1,5,Haiduc,Unassuming-Ingenuous
+97553941.4063.4063,1,6,Haiduc,Unassuming-Ingenuous
+97553941.4063.4063,1,7,Jaguara,Cold
+98179819.71816.71816,0,1,Peter Damian (original account),Warm-Agreeable
+98179819.71816.71816,0,2,Rick Norwood,Unassuming-Ingenuous
+98179819.71816.71816,0,3,Peter Damian (original account),Assured-Dominant
+98179819.71816.71816,1,4,Lucaas,Warm-Agreeable
+98179819.71816.71816,1,5,Lucidish,Unassuming-Ingenuous
+98179819.71816.71816,2,6,Ludvikus,Arrogant-Calculating
+98179819.71816.71816,2,7,Peter Damian (original account),Warm-Agreeable
+98179819.71816.71816,2,8,Peter Damian (original account),Unassuming-Ingenuous
+98179819.71816.71816,2,9,Peter Damian (original account),Cold
+99012256.25049.25049,0,1,Minderbinder~enwiki,Warm-Agreeable
+99012256.25049.25049,0,2,Anticrash,Unassuming-Ingenuous
+99012256.25049.25049,0,3,Ace Class Shadow,Arrogant-Calculating
+99012256.25049.25049,0,4,Minderbinder~enwiki,Unassuming-Ingenuous
+99012256.25049.25049,0,5,Anticrash,Unassured-Submissive
+99012256.25049.25049,0,6,Ace Class Shadow,Cold
+99012256.25049.25049,1,7,Ace Class Shadow,Cold
+99012256.25049.25049,1,8,Anticrash,Warm-Agreeable
+99012256.25049.25049,1,9,68.32.149.98,Unassuming-Ingenuous
+99012256.25049.25049,1,10,Ace Class Shadow,Cold

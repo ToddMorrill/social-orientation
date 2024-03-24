@@ -29,6 +29,29 @@ def push_model_to_hub():
                            tags=model_tags,
                            token=token)
 
+def push_XLMR_model_to_hub():
+    local_model_path = 'model/xlmr-social-winsize-2-hf/checkpoint-8200'
+    model_name = 'social-orientation-multilingual'
+    model_description = 'XLM-RoBERTa model for social orientation classification'
+    model_tags = ['social-orientation', 'xlm-roberta', 'classification']
+    model = AutoModelForSequenceClassification.from_pretrained(
+        local_model_path)
+    with open('hf_token.txt', 'r') as file:
+        token = file.read()
+    model.push_to_hub(repo_id=model_name,
+                      commit_message='Initial commit',
+                      private=True,
+                      tags=model_tags,
+                      token=token)
+
+    # push the tokenizer
+    tokenizer = AutoTokenizer.from_pretrained(local_model_path)
+    tokenizer.push_to_hub(repo_id=model_name,
+                           commit_message='Initial commit',
+                           private=True,
+                           tags=model_tags,
+                           token=token)
+
 
 def push_dataset_to_hub():
     cga_data_dir = 'data/convokit/conversations-gone-awry-corpus'
@@ -87,7 +110,8 @@ def push_dataset_to_hub():
 
 def main():
     # push_model_to_hub()
-    push_dataset_to_hub()
+    # push_dataset_to_hub()
+    push_XLMR_model_to_hub()
 
 
 if __name__ == '__main__':

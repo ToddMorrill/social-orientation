@@ -11,3 +11,5 @@ scikit-learn
 gpustat
 evaluate
 wandb
+seaborn
+statsmodels

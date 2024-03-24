@@ -1,170 +1,49 @@
 """Analyze model predictions.
 
 Examples:
-    $ python analyze.py \
-        --social-orientation-filepaths \
-            ~/Documents/data/circumplex/transformed/train_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/val_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/train-long_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/val-long_results_gpt4_parsed.csv
-    
-    $ python analyze.py \
-        --analysis-mode t-test \
-        --experiment-filepath logs/experiments/window_size_cga_distilbert-base-uncased.csv
-
-    $ python analyze.py \
-        --analysis-mode merge-data \
-        --prediction-filepaths \
-            ~/Documents/data/circumplex/predictions/social-orientation/train_winsize_2_model_distilbert-base-uncased.csv \
-            ~/Documents/data/circumplex/predictions/social-orientation/val_winsize_2_model_distilbert-base-uncased.csv \
-        --social-orientation-filepaths \
-            ~/Documents/data/circumplex/transformed/train_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/val_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/train-long_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/val-long_results_gpt4_parsed.csv
-    
-    $ python analyze.py \
-        --analysis-mode merge-data \
-        --prediction-filepaths \
-            ./predictions/social-orientation/train_winsize_6_model_microsoft_deberta-v3-large.csv \
-            ./predictions/social-orientation/val_winsize_6_model_microsoft_deberta-v3-large.csv \
-        --social-orientation-filepaths \
-            ~/Documents/data/circumplex/transformed/train_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/val_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/train-long_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/val-long_results_gpt4_parsed.csv
-    
-    $ python analyze.py \
-        --analysis-mode compare-cga \
-        --prediction-filepaths \
-            ./predictions/cga/distilbert-winsize-2-predicted-social/val_preds_cga_2_distilbert-base-uncased.csv \
-            ./predictions/cga/distilbert-winsize-2-gpt4-social/val_preds_cga_2_distilbert-base-uncased.csv
-    
-    $ python analyze.py \
-        --analysis-mode human-eval \
-        --prediction-filepaths \
-            ./predictions/cga/distilbert-winsize-2-gpt4-social/val_preds_cga_2_distilbert-base-uncased.csv \
-            ./predictions/cga/distilbert-winsize-2-predicted-social/val_preds_cga_2_distilbert-base-uncased.csv \
-        --human-annotation-filepaths \
-            "./predictions/cga/human-annotations/Circumplex Annotation - Todd.csv" \
-            "./predictions/cga/human-annotations/Circumplex Annotation - Amith.csv" \
-            "./predictions/cga/human-annotations/Circumplex Annotation - Yanda.csv"
-    
-    $ python analyze.py \
-        --analysis-mode data-ablation \
-        --experiment-filepath logs/experiments/subset_cga_distilbert-base-uncased.csv
-    
-    $ python analyze.py \
-        --analysis-mode explainability \
-        --social-orientation-filepaths \
-            ~/Documents/data/circumplex/transformed/train_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/val_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/train-long_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/val-long_results_gpt4_parsed.csv
-    
-    $ python analyze.py \
-        --analysis-mode explainability \
-        --social-orientation-filepaths \
-            ./predictions/social-orientation/distilbert-winsize-2/train_preds_social-orientation_2_distilbert-base-uncased.csv \
-            ./predictions/social-orientation/distilbert-winsize-2/val_preds_social-orientation_2_distilbert-base-uncased.csv
-    
-    $ python analyze.py \
-        --analysis-mode explainability \
-        --dataset casino-satisfaction \
-        --data-dir ~/Documents/data/convokit/casino-corpus \
-        --social-orientation-filepaths \
-            predictions/casino-satisfaction-social/distilbert-base-uncased/train_winsize_2_model_distilbert-base-uncased.csv \
-            predictions/casino-satisfaction-social/distilbert-base-uncased/val_winsize_2_model_distilbert-base-uncased.csv
-    
-    $ python analyze.py \
-        --analysis-mode explainability \
-        --dataset cga-cmv \
-        --data-dir ~/Documents/data/convokit/conversations-gone-awry-cmv-corpus \
-        --social-orientation-filepaths \
-            predictions/cga-cmv-social/distilbert-base-uncased/train_winsize_2_model_distilbert-base-uncased.csv \
-            predictions/cga-cmv-social/distilbert-base-uncased/val_winsize_2_model_distilbert-base-uncased.csv
-    
-    $ python analyze.py \
-        --analysis-mode data-ablation \
-        --experiment-filepath logs/experiments/subset_cga-cmv_distilbert-base-uncased.csv
-    
-    $ python analyze.py \
-        --analysis-mode explainability \
-        --dataset cga-cmv \
-        --data-dir ~/Documents/data/convokit/conversations-gone-awry-cmv-corpus \
-        --social-orientation-filepaths \
-            predictions/cga-cmv-social/distilbert-base-uncased/train_winsize_2_model_distilbert-base-uncased.csv \
-            predictions/cga-cmv-social/distilbert-base-uncased/val_winsize_2_model_distilbert-base-uncased.csv \
-        --num-runs 5 \
-        --subset-pcts 0.01 0.1 0.2 0.5 1.0
-    
-    $ python analyze.py \
-        --analysis-mode data-ablation \
-        --dataset cga-cmv \
-        --experiment-filepath \
-            logs/experiments/subset_cga-cmv_distilbert-base-uncased.csv \
-            logs/experiments/subset_cga-cmv_logistic_clf.csv
-    
-    $ python analyze.py \
-        --analysis-mode explainability \
-        --dataset cga \
-        --social-orientation-filepaths \
-            ./predictions/social-orientation-social/distilbert-base-uncased/train_winsize_2_model_distilbert-base-uncased.csv \
-            ./predictions/social-orientation-social/distilbert-base-uncased/val_winsize_2_model_distilbert-base-uncased.csv \
-        --num-runs 5 \
-        --subset-pcts 0.01 0.1 0.2 0.5 1.0 \
-        --seed 43
-    
-    $ python analyze.py \
-        --analysis-mode data-ablation \
-        --experiment-filepath \
-            logs/experiments/subset_cga_distilbert-base-uncased.csv \
-            logs/experiments/subset_cga_logistic_clf.csv
-    
-    $ python analyze.py \
-        --analysis-mode t-test \
-        --experiment subset \
-        --experiment-filepath \
-            logs/experiments/subset_cga_distilbert-base-uncased.csv \
-            logs/experiments/subset_cga_logistic_clf.csv
-    
-    $ python analyze.py \
-        --analysis-mode t-test \
-        --experiment subset \
-        --dataset cga-cmv \
-        --data-dir ~/Documents/data/convokit/conversations-gone-awry-cmv-corpus \
-        --experiment-filepath \
-            logs/experiments/subset_cga-cmv_distilbert-base-uncased.csv \
-            logs/experiments/subset_cga-cmv_logistic_clf.csv
-    
+    # plot the distribution of social orientation labels
     $ python analyze.py \
         --analysis-mode gpt-4-preds \
         --dataset cga \
         --social-orientation-filepaths \
-            ~/Documents/data/circumplex/transformed/train_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/val_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/train-long_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/val-long_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/test_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/test-long_results_gpt4_parsed.csv
+            data/gpt-4-cga-social-orientation-labels/train_results_gpt4_parsed.csv \
+            data/gpt-4-cga-social-orientation-labels/train-long_results_gpt4_parsed.csv \
+            data/gpt-4-cga-social-orientation-labels/val_results_gpt4_parsed.csv \
+            data/gpt-4-cga-social-orientation-labels/val-long_results_gpt4_parsed.csv \
+            data/gpt-4-cga-social-orientation-labels/test_results_gpt4_parsed.csv \
+            data/gpt-4-cga-social-orientation-labels/test-long_results_gpt4_parsed.csv \
+        --analysis-dir logs/analysis
     
+    # confusion matrix of social orientation predictions vs. GPT-4 predictions
     $ python analyze.py \
         --analysis-mode social-eval \
-        --predicted-social-orientation-filepaths \
-            predictions/social-orientation-social/distilbert-base-uncased/train_winsize_2_model_distilbert-base-uncased.csv \
-            predictions/social-orientation-social/distilbert-base-uncased/val_winsize_2_model_distilbert-base-uncased.csv \
-            predictions/social-orientation-social/distilbert-base-uncased/test_winsize_2_model_distilbert-base-uncased.csv \
+        --dataset cga \
         --social-orientation-filepaths \
-            ~/Documents/data/circumplex/transformed/train_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/val_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/train-long_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/val-long_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/test_results_gpt4_parsed.csv \
-            ~/Documents/data/circumplex/transformed/test-long_results_gpt4_parsed.csv
+            data/gpt-4-cga-social-orientation-labels/train_results_gpt4_parsed.csv \
+            data/gpt-4-cga-social-orientation-labels/train-long_results_gpt4_parsed.csv \
+            data/gpt-4-cga-social-orientation-labels/val_results_gpt4_parsed.csv \
+            data/gpt-4-cga-social-orientation-labels/val-long_results_gpt4_parsed.csv \
+            data/gpt-4-cga-social-orientation-labels/test_results_gpt4_parsed.csv \
+            data/gpt-4-cga-social-orientation-labels/test-long_results_gpt4_parsed.csv \
+        --predicted-social-orientation-filepaths \
+            data/predictions/social-orientation-social/distilbert-base-uncased/train_winsize_2_model_distilbert-base-uncased.csv \
+            data/predictions/social-orientation-social/distilbert-base-uncased/val_winsize_2_model_distilbert-base-uncased.csv \
+            data/predictions/social-orientation-social/distilbert-base-uncased/test_winsize_2_model_distilbert-base-uncased.csv \
+        --analysis-dir logs/analysis
+    
+    $ python analyze.py \
+        --analysis-mode outcome-analysis \
+        --dataset cga-cmv \
+        --data-dir data/convokit/conversations-gone-awry-cmv-corpus \
+        --social-orientation-filepaths \
+            data/predictions/cga-cmv-social/distilbert-base-uncased/train_winsize_2_model_distilbert-base-uncased.csv \
+            data/predictions/cga-cmv-social/distilbert-base-uncased/val_winsize_2_model_distilbert-base-uncased.csv \
+            data/predictions/cga-cmv-social/distilbert-base-uncased/test_winsize_2_model_distilbert-base-uncased.csv \
+        --analysis-dir logs/analysis
 """
-import itertools
+from collections import Counter
+from itertools import product
 import logging
-import random
 
 import numpy as np
 from args import parse_args
@@ -172,18 +51,13 @@ import os
 
 import pandas as pd
 from scipy import stats
-from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix
-from sklearn.metrics import ConfusionMatrixDisplay
 from sklearn.metrics import classification_report, accuracy_score
 import matplotlib.pyplot as plt
 import matplotlib as mpl
-from statsmodels.stats.inter_rater import aggregate_raters
-from statsmodels.stats.inter_rater import fleiss_kappa
 import seaborn as sns
 
 from data import load_data, get_data_splits, SOCIAL_ORIENTATION_LABEL2ID, SocialOrientationDataset, CGA_LABEL2ID
-from utils import set_random_seed
 
 def plot_confusion_matrix(y_true, y_preds, labels, model_name=None, output_dir=None, xlabel='Predicted label', ylabel='True label', split=None):
     cm = confusion_matrix(y_true, y_preds, labels=labels)
@@ -212,16 +86,6 @@ def plot_confusion_matrix(y_true, y_preds, labels, model_name=None, output_dir=N
                     bbox_inches='tight')
     plt.clf()
 
-def t_test(group_df, experiment='window_size'):
-    """Perform t-test on group_df."""
-    # unstack by social_orientation
-    unstack_df = group_df.pivot(index=['seed', experiment], columns=['social_orientation'], values=['val_acc', 'val_loss'])
-    # perform t-test on val_acc, with social_orientation as the grouping variable
-    # alternative hypothesis: E[val_acc | social_orientation==False] < E[val_acc | social_orientation==True]
-    p_value = stats.ttest_ind(unstack_df['val_acc'][False], unstack_df['val_acc'][True], alternative='less').pvalue
-    return p_value
-
-
 def t_test_a_vs_b(
         group_df,
         method_a='distilbert',
@@ -234,14 +98,6 @@ def t_test_a_vs_b(
     a_results = unstack_df.loc[method_a][(f'{subset}_acc', method_a_social_features)]
     b_results = unstack_df.loc[method_b][(f'{subset}_acc', method_b_social_features)]
     p_value = stats.ttest_ind(a_results, b_results, alternative=alternative).pvalue
-    return p_value
-
-def t_test_textpluspreds_vs_text(group_df):
-    # TODO: try to generalize this
-    unstack_df = group_df.pivot(index=['method', 'seed', 'subset_pct'], columns=['social_orientation_prediction'], values=['val_acc', 'val_loss'])
-    text_pred_results = unstack_df.loc['distilbert'][('val_acc', 'winsize_2_model_distilbert-base-uncased')]
-    text_results = unstack_df.loc['distilbert'][('val_acc', 'None')]
-    p_value = stats.ttest_ind(text_results, text_pred_results, alternative='less').pvalue
     return p_value
 
 def social_orientation_source(x):
@@ -265,284 +121,6 @@ def social_orientation_source(x):
     splits = splits.split('.')[0]
     return splits
 
-def get_speakers_first_turn(group_df, speaker='mturk_agent_1'):
-    """This function takes a conversation as input and returns the social orientation tag of the first turn by the specified speaker."""
-    speaker_social_tag = group_df[group_df['speaker'] == speaker].iloc[0]['social_orientation']
-    return speaker_social_tag
-
-def simple_classifier(train_df, val_df, corpus, args, count_vector=True, social_source='gpt4'):
-    """Trains a simple logistic classifier using only social orientation tags.
-    
-    If count_vector=True, uses counts of all social orientation tags in the conversation
-    as features. Otherwise, creates a binary feature for each social orientation tag for
-    the first 2 utterances in the conversation
-    """
-    # convert social orientation tags to integer labels
-    # train_df['social_orientation'] = train_df['social_orientation'].apply(lambda x: SOCIAL_ORIENTATION_LABEL2ID[x])
-    # val_df['social_orientation'] = val_df['social_orientation'].apply(lambda x: SOCIAL_ORIENTATION_LABEL2ID[x])
-
-    if count_vector:
-        # get counts of social orientation tags in the conversation
-        # include all turns except the last one
-        if args.dataset == 'cga':
-            train_social_counts_df = train_df.groupby('conversation_id')['social_orientation'].apply(lambda x: x.iloc[:-1].value_counts()).unstack(level=1)
-            val_social_counts_df = val_df.groupby('conversation_id')['social_orientation'].apply(lambda x: x.iloc[:-1].value_counts()).unstack(level=1)
-        else:
-            # other take all turns, even the last one
-            train_social_counts_df = train_df.groupby('conversation_id')['social_orientation'].apply(lambda x: x.value_counts()).unstack(level=1)
-            val_social_counts_df = val_df.groupby('conversation_id')['social_orientation'].apply(lambda x: x.value_counts()).unstack(level=1)
-
-        # fill in missing values
-        train_social_counts_df.fillna(0, inplace=True)
-        val_social_counts_df.fillna(0, inplace=True)
-
-        # normalize counts
-        train_social_counts_df = train_social_counts_df.div(train_social_counts_df.sum(axis=1), axis=0)
-        val_social_counts_df = val_social_counts_df.div(val_social_counts_df.sum(axis=1), axis=0)
-
-        # ensure that all columns are present and if not, fill with 0
-        for label in SOCIAL_ORIENTATION_LABEL2ID.keys():
-            if label not in train_social_counts_df.columns:
-                train_social_counts_df[label] = 0.0
-            if label not in val_social_counts_df.columns:
-                val_social_counts_df[label] = 0.0
-        # arrange columns according to SOCIAL_ORIENTATION_LABEL2ID
-        train_social_counts_df = train_social_counts_df[SOCIAL_ORIENTATION_LABEL2ID.keys()]
-        val_social_counts_df = val_social_counts_df[SOCIAL_ORIENTATION_LABEL2ID.keys()]
-    else:
-        col_names = ['social_orientation_1', 'social_orientation_2']
-        # NB: there's a subtlety with the casino corpus - there are two different outcomes per conversations, one for each speaker
-        # if we're modeling mturk_agent_1, then we need to first get their utterance's social orientation tag
-        # then we need to get mturk_agent_2's utterance's social orientation tag
-        # crucially, we can't rely on these speakers being in any particular order
-        if args.dataset == 'casino-satisfaction' or args.dataset == 'casino-opponent-likeness':
-            # get social orientation tag for mturk_agent_1
-            train_social_orientation_1 = train_df.groupby('conversation_id').apply(lambda x: get_speakers_first_turn(x, speaker='mturk_agent_1'))
-            train_social_orientation_2 = train_df.groupby('conversation_id').apply(lambda x: get_speakers_first_turn(x, speaker='mturk_agent_2'))
-            train_social_counts_df = pd.concat([train_social_orientation_1, train_social_orientation_2], axis=1)
-            train_social_counts_df.columns = ['social_orientation_1', 'social_orientation_2']
-
-            val_social_orientation_1 = val_df.groupby('conversation_id').apply(lambda x: get_speakers_first_turn(x, speaker='mturk_agent_1'))
-            val_social_orientation_2 = val_df.groupby('conversation_id').apply(lambda x: get_speakers_first_turn(x, speaker='mturk_agent_2'))
-            val_social_counts_df = pd.concat([val_social_orientation_1, val_social_orientation_2], axis=1)
-            val_social_counts_df.columns = ['social_orientation_1', 'social_orientation_2']
-        else:
-            # create binary features for each social orientation tag for the first 2 utterances in the conversation
-            train_first_two = train_df.groupby('conversation_id').apply(lambda x: x['social_orientation'].iloc[:2].values)
-            val_first_two = val_df.groupby('conversation_id').apply(lambda x: x['social_orientation'].iloc[:2].values)
-
-            # expand the list of social orientation tags into columns
-            train_social_counts_df = pd.DataFrame(train_first_two.tolist(), index=train_first_two.index, columns=col_names)
-            val_social_counts_df = pd.DataFrame(val_first_two.tolist(), index=val_first_two.index, columns=col_names)
-
-        # create column ordering
-        column_order = []
-        for col in col_names:
-            col_sequence = []
-            for label in SOCIAL_ORIENTATION_LABEL2ID.keys():
-                col_sequence.append(f'{col}_{label}')
-            column_order.extend(col_sequence)
-
-        # create dummy variables
-        train_social_counts_df = pd.get_dummies(train_social_counts_df, columns=['social_orientation_1', 'social_orientation_2']).astype(int)
-        val_social_counts_df = pd.get_dummies(val_social_counts_df, columns=['social_orientation_1', 'social_orientation_2']).astype(int)
-
-        # ensure all columns are present
-        for col in column_order:
-            if col not in train_social_counts_df.columns:
-                train_social_counts_df[col] = 0.0
-            if col not in val_social_counts_df.columns:
-                val_social_counts_df[col] = 0.
-
-        # reorder columns
-        train_social_counts_df = train_social_counts_df[column_order]
-        val_social_counts_df = val_social_counts_df[column_order]
-
-    # get labels from corpus
-    if args.dataset == 'cga':
-        train_y = train_df.groupby('conversation_id').apply(lambda x: corpus.get_conversation(x['conversation_id'].iloc[0]).meta['conversation_has_personal_attack']).astype(int)
-        val_y = val_df.groupby('conversation_id').apply(lambda x: corpus.get_conversation(x['conversation_id'].iloc[0]).meta['conversation_has_personal_attack']).astype(int)
-    elif args.dataset == 'casino-satisfaction':
-        # binarize satisfaction labels
-        label_map = {
-            'Extremely satisfied': True,
-            'Slightly satisfied': True,
-            'Undecided': True,
-            'Slightly dissatisfied': False,
-            'Extremely dissatisfied': False,
-        }
-        # NB: we're hardcoding mturk_agent_1 here, TODO: generalize this
-        train_y = train_df.groupby('conversation_id').apply(lambda x: corpus.get_conversation(x['conversation_id'].iloc[0]).meta['participant_info']['mturk_agent_1']['outcomes']['satisfaction']).map(label_map)
-        val_y = val_df.groupby('conversation_id').apply(lambda x: corpus.get_conversation(x['conversation_id'].iloc[0]).meta['participant_info']['mturk_agent_1']['outcomes']['satisfaction']).map(label_map)
-    elif args.dataset == 'casino-opponent-likeness':
-        # binarize opponent likeness labels
-        label_map = {
-            'Extremely like': True,
-            'Slightly like': True,
-            'Undecided': True,
-            'Slightly dislike': False,
-            'Extremely dislike': False
-        }
-        # NB: we're hardcoding mturk_agent_1 here, TODO: generalize this
-        train_y = train_df.groupby('conversation_id').apply(lambda x: corpus.get_conversation(x['conversation_id'].iloc[0]).meta['participant_info']['mturk_agent_1']['outcomes']['opponent_likeness']).map(label_map)
-        val_y = val_df.groupby('conversation_id').apply(lambda x: corpus.get_conversation(x['conversation_id'].iloc[0]).meta['participant_info']['mturk_agent_1']['outcomes']['opponent_likeness']).map(label_map)
-    elif args.dataset == 'cga-cmv':
-        train_y = train_df.groupby('conversation_id').apply(lambda x: corpus.get_conversation(x['conversation_id'].iloc[0]).meta['has_removed_comment']).astype(int)
-        val_y = val_df.groupby('conversation_id').apply(lambda x: corpus.get_conversation(x['conversation_id'].iloc[0]).meta['has_removed_comment']).astype(int)
-    clf = LogisticRegression(random_state=args.seed, max_iter=1000).fit(train_social_counts_df, train_y)
-    val_preds = clf.predict(val_social_counts_df)
-    val_acc = accuracy_score(val_y, val_preds)
-    logging.info(f'Simple classifier accuracy with {args.subset_pct*100:.2f}% of the data: {val_acc:.4f}')
-    logging.info(f'\n{classification_report(val_y, val_preds, zero_division=0)}')
-    val_clf_report = classification_report(val_y, val_preds, zero_division=0, output_dict=True)
-
-    # examine coefficients
-    coefficients_df = pd.DataFrame({'Feature': train_social_counts_df.columns, 'Coefficient': clf.coef_[0]})
-    coefficients_df['abs_coefficient'] = coefficients_df['Coefficient'].abs()
-    coefficients_df.sort_values(by='abs_coefficient', ascending=False, inplace=True)
-    coefficients_df.drop(columns=['abs_coefficient'], inplace=True)
-    logging.info(f'Most important features:\n{coefficients_df.head(10)}')
-    # save coefficients to disk
-    count_all = 'count_all' if count_vector else 'count_first_two'
-    coefficients_df.to_csv(os.path.join(args.analysis_dir, f'{args.dataset}_logistic_classifier_coefficients_{count_all}_{social_source}_{args.subset_pct}.csv'), index=False)
-    return clf, val_acc, val_clf_report
-
-def cga_explainability(train_df, val_df, corpus, args, social_source='gpt4'):
-    # assign cga labels to conversations
-    train_df['cga_label'] = train_df['conversation_id'].apply(lambda x: corpus.get_conversation(x).meta['conversation_has_personal_attack'])
-    # group by cga_label and count social_orientation labels
-    cga_social_splits = train_df.groupby('cga_label')['social_orientation'].value_counts()
-
-    # get likelihood ratio of social orientation labels for each cga label: P(social_orientation | cga_label==True) / P(social_orientation | cga_label==False)
-    cga_social_splits = cga_social_splits.unstack(level=0)
-    # probability of each social orientation label within each cga label
-    cga_social_splits = cga_social_splits / cga_social_splits.sum()
-    cga_social_splits['likelihood_ratio'] = cga_social_splits[True] / cga_social_splits[False]
-    # sort by likelihood ratio
-    cga_social_splits.sort_values(by='likelihood_ratio', ascending=False, inplace=True)
-    # plot likelihood ratio
-    cga_social_splits['likelihood_ratio'].plot(kind='bar')
-    plt.xticks(rotation=45, ha='right')
-    plt.xlabel('Social Orientation')
-    plt.ylabel('Likelihood Ratio')
-    plt.title('Likelihood Ratio of Social Orientation Labels for CGA Labels')
-    plt.savefig(os.path.join('./logs/analysis', f'cga_social_likelihood_ratio_{social_source}.png'), dpi=300, bbox_inches='tight')
-    plt.clf()
-
-    # examine most commonly occuring first two social orientation labels for each cga label
-    # groupby conversation_id grab first two utterances for each conversation, and return a tuple
-    # of the social orientation labels
-    social_orientation_pairs_df = train_df.groupby('conversation_id')['social_orientation'].apply(lambda x: tuple(sorted(list(x[:2])))).to_frame()
-    social_orientation_pairs_df.reset_index(inplace=True)
-    social_orientation_pairs_df['cga_label'] = social_orientation_pairs_df['conversation_id'].apply(lambda x: corpus.get_conversation(x).meta['conversation_has_personal_attack'])
-    # group by cga_label and count social_orientation pairs
-    cga_social_pairs = social_orientation_pairs_df.groupby('cga_label')['social_orientation'].value_counts().unstack(level=0).sort_values(by=True, ascending=False)
-    # plot
-    cga_social_pairs.iloc[:10].plot(kind='bar')
-    plt.xticks(rotation=45, ha='right')
-    plt.xlabel('First 2 Social Orientation Tags')
-    plt.ylabel('Count')
-    plt.title('Most Common First 2 Social Orientation Tags for CGA Labels')
-    plt.savefig(os.path.join('./logs/analysis', f'cga_social_pairs_{social_source}.png'), dpi=300, bbox_inches='tight')
-    plt.clf()
-
-    # train a simple classifier to predict cga_label from social_orientation
-    logging.info('Training simple classifier to predict CGA label from social orientation tags (all turns)')
-    simple_classifier(train_df, val_df, corpus, args, count_vector=True, social_source=social_source)
-    logging.info('Training simple classifier to predict CGA label from social orientation tags (first two turns)')
-    simple_classifier(train_df, val_df, corpus, args, count_vector=False, social_source=social_source)
-
-def explainability(train_df, val_df, corpus, args, social_source='gpt4'):
-    if args.dataset == 'cga':
-        target_name = 'cga_label'
-    elif args.dataset == 'casino-satisfaction':
-        target_name = 'satisfaction_binary'
-    elif args.dataset == 'casino-opponent-likeness':
-        target_name = 'opponent_likeness_binary'
-    elif args.dataset == 'cga-cmv':
-        target_name = 'meta.has_removed_comment'
-    # assign outcome labels to conversations
-    if args.dataset == 'cga':
-        train_df[target_name] = train_df['conversation_id'].apply(lambda x: corpus.get_conversation(x).meta['conversation_has_personal_attack'])
-    elif args.dataset == 'casino-satisfaction':
-        # binarize satisfaction labels
-        label_map = {
-            'Extremely satisfied': True,
-            'Slightly satisfied': True,
-            'Undecided': True,
-            'Slightly dissatisfied': False,
-            'Extremely dissatisfied': False,
-        }
-        train_df[target_name] = train_df['satisfaction'].map(label_map)
-    elif args.dataset == 'casino-opponent-likeness':
-        # binarize opponent likeness labels
-        label_map = {
-            'Extremely like': True,
-            'Slightly like': True,
-            'Undecided': True,
-            'Slightly dislike': False,
-            'Extremely dislike': False
-        }
-        train_df[target_name] = train_df['opponent_likeness'].map(label_map)
-    elif args.dataset == 'cga-cmv':
-        train_df[target_name] = train_df['conversation_id'].apply(lambda x: corpus.get_conversation(x).meta['has_removed_comment'])
-
-    # NB: there's a subtlety with the casino corpus - there are two different outcomes per conversations, one for each speaker
-    # TODO: currently leaving this alone, but should really filter down to 1 of the speakers
-    # group by outcome label and count social_orientation labels
-    social_splits = train_df.groupby(target_name)['social_orientation'].value_counts()
-
-    # get likelihood ratio of social orientation labels for each outcome label: P(social_orientation | outcome_label==True) / P(social_orientation | outcome_label==False)
-    social_splits = social_splits.unstack(level=0)
-    # probability of each social orientation label within each outcome label
-    social_splits = social_splits / social_splits.sum()
-    social_splits['likelihood_ratio'] = social_splits[True] / social_splits[False]
-    social_splits.sort_values(by='likelihood_ratio', ascending=False, inplace=True)
-    # plot likelihood ratio
-    social_splits['likelihood_ratio'].plot(kind='bar')
-    plt.xticks(rotation=45, ha='right')
-    plt.xlabel('Social Orientation')
-    plt.ylabel('Likelihood Ratio')
-    plt.title(f'Likelihood Ratio of Social Orientation Labels for {args.dataset} {target_name}')
-    plt.savefig(os.path.join('./logs/analysis', f'{args.dataset}_{target_name}_social_likelihood_ratio_{social_source}.png'), dpi=300, bbox_inches='tight')
-    plt.clf()
-
-    # examine most commonly occuring first two social orientation labels for each outcome label
-    # groupby conversation_id grab first two utterances for each conversation, and return a tuple
-    # of the social orientation labels
-    social_orientation_pairs_df = train_df.groupby('conversation_id')['social_orientation'].apply(lambda x: tuple(sorted(list(x[:2])))).to_frame()
-    social_orientation_pairs_df.reset_index(inplace=True)
-    # need to pull in outcome labels
-    if args.dataset == 'casino-satisfaction':
-        # NB: we're hardcoding mturk_agent_1 here, TODO: generalize this
-        social_orientation_pairs_df['satisfaction'] = social_orientation_pairs_df['conversation_id'].apply(lambda x: corpus.get_conversation(x).meta['participant_info']['mturk_agent_1']['outcomes']['satisfaction'])
-        social_orientation_pairs_df[target_name] = social_orientation_pairs_df['satisfaction'].map(label_map)
-    elif args.dataset == 'casino-opponent-likeness':
-        # NB: we're hardcoding mturk_agent_1 here, TODO: generalize this
-        social_orientation_pairs_df['opponent_likeness'] = social_orientation_pairs_df['conversation_id'].apply(lambda x: corpus.get_conversation(x).meta['participant_info']['mturk_agent_1']['outcomes']['opponent_likeness'])
-        social_orientation_pairs_df[target_name] = social_orientation_pairs_df['opponent_likeness'].map(label_map)
-    elif args.dataset == 'cga':
-        social_orientation_pairs_df[target_name] = social_orientation_pairs_df['conversation_id'].apply(lambda x: corpus.get_conversation(x).meta['conversation_has_personal_attack'])
-    elif args.dataset == 'cga-cmv':
-        social_orientation_pairs_df[target_name] = social_orientation_pairs_df['conversation_id'].apply(lambda x: corpus.get_conversation(x).meta['has_removed_comment'])
-
-    # group by target_name and count social_orientation pairs
-    social_pairs = social_orientation_pairs_df.groupby(target_name)['social_orientation'].value_counts().unstack(level=0).sort_values(by=True, ascending=False)
-    # plot
-    social_pairs.iloc[:10].plot(kind='bar')
-    plt.xticks(rotation=45, ha='right')
-    plt.xlabel('First 2 Social Orientation Tags')
-    plt.ylabel('Count')
-    plt.title(f'Most Common First 2 Social Orientation Tags for {args.dataset} {target_name}')
-    plt.savefig(os.path.join('./logs/analysis', f'{args.dataset}_{target_name}_social_pairs_{social_source}.png'), dpi=300, bbox_inches='tight')
-    plt.clf()
-
-    # train a simple classifier to predict target_name from social_orientation
-    logging.info(f'Training simple classifier to predict {args.dataset} {target_name} from social orientation tags (all turns)')
-    clf, count_val_acc, count_val_clf_report = simple_classifier(train_df, val_df, corpus, args, count_vector=True, social_source=social_source)
-    logging.info(f'Training simple classifier to predict {args.dataset} {target_name} from social orientation tags (first two turns)')
-    clf, first_2_val_acc, first_2_val_clf_report = simple_classifier(train_df, val_df, corpus, args, count_vector=False, social_source=social_source)
-    return count_val_acc, first_2_val_acc
 
 def load_experiments(args):
     """Load experiment results from disk."""
@@ -574,31 +152,28 @@ def load_experiments(args):
     df.reset_index(inplace=True, drop=True)
     return df
 
-def main(args):
-    # determine which analysis to perform
-    if args.analysis_mode == 't-test' and args.experiment == 'window-size':
-        df = pd.read_csv(args.experiment_filepath)
-        # aggregate results across seeds and perform t-test
-        agg_df = df.groupby(['method', 'window_size' 'social_orientation']).agg({'val_acc': ['mean', 'std'], 'val_loss': ['mean', 'std']})
+def count_co_occurrences(group_df):
+    # for each speaker, get the set of social orientation labels for all other speakers in the conversation
+    counter = Counter()
+    idx = 0
+    for _, row in group_df.iterrows():
+        # select rows excluding idx
+        other_rows = list(range(0, idx)) + list(range(idx+1, len(group_df)))
+        # get set of social orientation labels for all other speakers in the conversation
+        other_speakers_to_labels = set()
+        group_df.iloc[other_rows].apply(lambda x: other_speakers_to_labels.update(x['social_orientation']), axis=1)
+        # get cartesian product of social orientation labels for current speaker and all other speakers
+        cartesian_product = product(row['social_orientation'], other_speakers_to_labels)
+        # update counter
+        counter.update(cartesian_product)
+        idx += 1
+    return counter
 
-        ttest_results_df = df.groupby(['window_size']).apply(lambda x: pd.Series({'p_value': t_test(x)}))
-        row_order = ['2', '6', '10', 'all']
-        all_present = True
-        for row in row_order:
-            if row not in ttest_results_df.index:
-                all_present = False
-                row_order = ttest_results_df.index
-                break
-        results_df = agg_df.unstack(level=1)[['val_acc']].loc[row_order]
-        # add in dummy column levels to match results_df
-        ttest_results_df.columns = pd.MultiIndex.from_tuples([('val_acc', None, 'p_value')])
-        results_df = pd.concat([results_df, ttest_results_df], axis=1)
-        # save results
-        head, tail = os.path.split(args.experiment_filepath)
-        filename = tail.split('.')[0]
-        results_df.to_csv(os.path.join(args.analysis_dir, f'{filename}_ttest_results.csv'))
-        exit(0)
-    elif args.analysis_mode == 't-test' and args.experiment == 'subset':
+def main(args):
+    # ensure analysis directory exists
+    os.makedirs(args.analysis_dir, exist_ok=True)
+    # determine which analysis to perform
+    if args.analysis_mode == 't-test' and args.experiment == 'subset':
         subset = 'test' # 'val'
         # load data (to get conversation counts)
         _, corpus = load_data(args.data_dir, include_speakers=args.include_speakers, social_orientation_filepaths=args.social_orientation_filepaths, include_social_orientation=args.include_social_orientation)
@@ -790,225 +365,9 @@ def main(args):
         print(final_df)
 
         exit(0)
-
-    elif args.analysis_mode == 'merge-data':
-        df, corpus = load_data(args.data_dir, include_speakers=args.include_speakers, social_orientation_filepaths=args.social_orientation_filepaths, include_social_orientation=args.include_social_orientation)
-        train_df, val_df, test_df, _ = get_data_splits(df, args.data_dir)
-
-        # load predictions
-        predictions = [os.path.expanduser(p) for p in args.prediction_filepaths]
-        dfs = []
-        for p in predictions:
-            temp_df = pd.read_csv(p)
-            dfs.append(temp_df)
-        pred_df = pd.concat(dfs)
-        # rename social_orientation to social_orientation_prediction
-        pred_df.rename(columns={'social_orientation': 'social_orientation_prediction'}, inplace=True)
-
-        # merge predictions with ground truth
-        cols = ['conversation_id', 'utterance_id', 'speaker', 'social_orientation_prediction']
-        merge_on = ['conversation_id', 'utterance_id', 'speaker']
-
-        # concat train and val for easier merging
-        train_val_df = pd.concat([train_df, val_df])
-        train_val_df['cga_label'] = train_val_df['conversation_id'].apply(lambda x: corpus.get_conversation(x).meta['conversation_has_personal_attack'])
-        train_val_df = train_val_df.merge(pred_df[cols], on=merge_on, how='left')
-        logging.warning(f'{len(train_val_df[train_val_df["social_orientation"].isna()])}/{len(train_val_df)} rows with no social orientation label.')
-        # save to analysis dir
-        # make the save filename a function of the prediction filepaths
-        head, tail = os.path.split(args.prediction_filepaths[0])
-        filename = tail.split('.')[0]
-        filename = 'train_val_' + '_'.join(filename.split('_')[1:])
-        train_val_df.to_csv(os.path.join(args.analysis_dir, f'{filename}_social_orientation.csv'), index=False)
-        exit(0)
-    elif args.analysis_mode == 'compare-cga':
-        # compare CGA predictions for models trained using predicted social tags
-        # to models trained using GPT-4 social tags
-        # TODO: fix this hack: currently using args.prediction_filepaths in a hardcoded order
-        # assume cga with predicted social tags is first, then cga with gpt4 social tags
-        cga_pred_df = pd.read_csv(args.prediction_filepaths[0])
-        cga_gpt4_df = pd.read_csv(args.prediction_filepaths[1])
-
-        # broadcast comment_has_personal_attack to all utterances in the conversation
-        cga_pred_df['cga_awry'] = cga_pred_df.groupby('conversation_id')['meta.comment_has_personal_attack'].transform('max').astype(int)
-        cga_gpt4_df['cga_awry'] = cga_gpt4_df.groupby('conversation_id')['meta.comment_has_personal_attack'].transform('max').astype(int)
-
-        # get encoded label
-        cga_pred_df['prediction'] = cga_pred_df['prediction'].apply(lambda x: CGA_LABEL2ID[x])
-        cga_gpt4_df['prediction'] = cga_gpt4_df['prediction'].apply(lambda x: CGA_LABEL2ID[x])
-
-        # quick evaluation of predictions
-        cga_pred_df['meta.comment_has_personal_attack'] = cga_pred_df['meta.comment_has_personal_attack'].astype(int)
-        cga_gpt4_df['meta.comment_has_personal_attack'] = cga_gpt4_df['meta.comment_has_personal_attack'].astype(int)
-
-        pred_results_df = cga_pred_df.groupby('conversation_id')[['meta.comment_has_personal_attack', 'prediction']].max()
-        pred_results_df['correct'] = pred_results_df['meta.comment_has_personal_attack'] == pred_results_df['prediction']
-        logging.info(f"CGA accuracy using predicted social orientation tags: {pred_results_df['correct'].mean():.4f}")
-
-        gpt4_results_df = cga_gpt4_df.groupby('conversation_id')[['meta.comment_has_personal_attack', 'prediction']].max()
-        gpt4_results_df['correct'] = gpt4_results_df['meta.comment_has_personal_attack'] == gpt4_results_df['prediction']
-        logging.info(f"CGA accuracy using GPT-4 social orientation tags: {gpt4_results_df['correct'].mean():.4f}")
-
-        # rename columns to keep track of which model is which
-        rename_pred_cols = {'prediction': 'prediction_pred', 'social_orientation': 'social_orientation_pred'}
-        rename_gpt4_cols = {'prediction': 'prediction_gpt4', 'social_orientation': 'social_orientation_gpt4'}
-        cga_pred_df.rename(columns=rename_pred_cols, inplace=True)
-        cga_gpt4_df.rename(columns=rename_gpt4_cols, inplace=True)
-
-        # merge dfs
-        cols = rename_gpt4_cols.values()
-        merged_df = pd.concat([cga_pred_df, cga_gpt4_df[cols]], axis=1)
-        merged_df['agree'] = merged_df['prediction_pred'] == merged_df['prediction_gpt4']
-        agree_conversations = merged_df.groupby('conversation_id')['agree'].max()
-        agreement_rate = agree_conversations.mean()
-        logging.info(f"CGA agreement rate between predicted social orientation model and GPT-4 social orientation tags: {agree_conversations.value_counts()[True]}/{merged_df['conversation_id'].nunique()}={agreement_rate:.4f}")
-
-        # identify conversations where the models disagree
-        disagree_conversations = agree_conversations[agree_conversations == False].index
-
-        # further breakdown by predicted model thinks it's an attack and gpt4 model thinks it's not an attack
-        pred_attack_df = merged_df[merged_df['conversation_id'].isin(disagree_conversations) & (merged_df['prediction_pred'] == 1) & (merged_df['prediction_gpt4'] == 0)]
-
-        # create a confusion matrix for the disagreeing conversations
-        # rows are gpt4 labels, columns are predicted labels
-        plot_confusion_matrix(pred_attack_df['social_orientation_gpt4'], pred_attack_df['social_orientation_pred'], list(SOCIAL_ORIENTATION_LABEL2ID.keys()), model_name='Predicted Attack (columns) vs. GPT-4 No Attack (rows) Social Orientation', output_dir='./logs/analysis')
-
-        # and vice versa
-        gpt4_attack_df = merged_df[merged_df['conversation_id'].isin(disagree_conversations) & (merged_df['prediction_pred'] == 0) & (merged_df['prediction_gpt4'] == 1)]
-
-        # create a confusion matrix for the disagreeing conversations
-        # rows are gpt4 labels, columns are predicted labels
-        plot_confusion_matrix(gpt4_attack_df['social_orientation_gpt4'], gpt4_attack_df['social_orientation_pred'], list(SOCIAL_ORIENTATION_LABEL2ID.keys()), model_name='Predicted No Attack (columns) vs. GPT-4 Attack (rows) Social Orientation', output_dir='./logs/analysis')
-
-        # counts of both scenarios
-        logging.info(f"Number of conversations where predicted model thinks it's an attack and GPT-4 model thinks it's not an attack: {pred_attack_df['conversation_id'].nunique()}")
-        logging.info(f"Number of conversations where predicted model thinks it's not an attack and GPT-4 model thinks it's an attack: {gpt4_attack_df['conversation_id'].nunique()}")
-        assert (pred_attack_df['conversation_id'].nunique() + gpt4_attack_df['conversation_id'].nunique()) == len(disagree_conversations)
-        # among the disagreeing conversations, counts when gpt4 model thinks it's an attack and predicted model thinks it's not an attack, and vice versa
-        # could create a plot here to make things easier to visualize
-        merged_df[merged_df['conversation_id'].isin(disagree_conversations)].groupby(['conversation_id'])['prediction_gpt4'].max().value_counts()
-
-        # load annotated data to merge in manual annotations, where available
-        todd_annotated_df = pd.read_csv(os.path.join('./logs/analysis', 'Circumplex Annotation - Todd.csv'))
-        todd_annotated_df.rename(columns={'social orientation': 'social_orientation_todd'}, inplace=True)
-        pred_attack_df = pred_attack_df.merge(todd_annotated_df[['id', 'social_orientation_todd']], on='id', how='left')
-
-        # in pred_attack_df, examine conversations that contain the following patterns:
-        # pred model predicts ['Cold', 'Arrogant-Calculating'] while the gpt4
-        # model predicts ['Unassuming-Ingenuous', 'Unassured-Submissive', 'Warm-Agreeable', 'Gregarious-Extraverted']
-        pred_attack_df['gpt_4_correct'] = pred_attack_df['prediction_gpt4'] == pred_attack_df['cga_awry']
-        logging.info(f"Disagreeing conversations where the GPT-4 supported model correctly predicts no attack:\n{pred_attack_df.groupby('conversation_id')['gpt_4_correct'].max().value_counts()}")
-
-        conversation_ids = pred_attack_df[(pred_attack_df['social_orientation_pred'].isin(['Cold', 'Arrogant-Calculating'])) & (pred_attack_df['social_orientation_gpt4'].isin(['Unassuming-Ingenuous', 'Unassured-Submissive', 'Warm-Agreeable', 'Gregarious-Extraverted']))]['conversation_id'].unique()
-        # get the conversations
-        pred_attack_issue_conversations_df = pred_attack_df[pred_attack_df['conversation_id'].isin(conversation_ids)]
-        # organize the columns
-        cols = ['id', 'conversation_id', 'speaker', 'original_text', 'social_orientation_pred', 'social_orientation_gpt4', 'social_orientation_todd', 'prediction_pred', 'prediction_gpt4', 'cga_awry', 'text']
-        pred_attack_issue_conversations_df = pred_attack_issue_conversations_df[cols]
-        # save to disk for manual inspection
-        pred_attack_issue_conversations_df.to_csv(os.path.join('./logs/analysis', 'pred_attack_issue_conversations.csv'), index=False)
-
-        # gpt4_attack_df
-        gpt4_attack_df = gpt4_attack_df.merge(todd_annotated_df[['id', 'social_orientation_todd']], on='id', how='left')
-        gpt4_attack_df['gpt_4_correct'] = gpt4_attack_df['prediction_gpt4'] == gpt4_attack_df['cga_awry']
-        logging.info(f"Disagreeing conversations where the GPT-4 supported model correctly predicts attack:\n{gpt4_attack_df.groupby('conversation_id')['gpt_4_correct'].max().value_counts()}")
-        # in gpt4_attack_df, examine conversations that contain the following patterns:
-        # pred model predicts ['Unassuming-Ingenuous', 'Unassured-Submissive', 'Warm-Agreeable'] while the gpt4
-        # model predicts ['Cold', 'Arrogant-Calculating', 'Assured-Dominant']
-        conversation_ids = gpt4_attack_df[(gpt4_attack_df['social_orientation_pred'].isin(['Unassuming-Ingenuous', 'Unassured-Submissive', 'Warm-Agreeable'])) & (gpt4_attack_df['social_orientation_gpt4'].isin(['Cold', 'Arrogant-Calculating', 'Assured-Dominant']))]['conversation_id'].unique()
-        # get the conversations
-        gpt4_attack_issue_conversations_df = gpt4_attack_df[gpt4_attack_df['conversation_id'].isin(conversation_ids)]
-        # organize the columns
-        cols = ['id', 'conversation_id', 'speaker', 'original_text', 'social_orientation_pred', 'social_orientation_gpt4', 'social_orientation_todd', 'prediction_pred', 'prediction_gpt4', 'cga_awry', 'text']
-        gpt4_attack_issue_conversations_df = gpt4_attack_issue_conversations_df[cols]
-        # save to disk for manual inspection
-        gpt4_attack_issue_conversations_df.to_csv(os.path.join('./logs/analysis', 'gpt4_attack_issue_conversations.csv'), index=False)
-        exit(0)
-    elif args.analysis_mode == 'human-eval':
-        # load GPT-4 social orientation predictions and optionally load model predictions
-        # TODO: fix this hack: currently using args.prediction_filepaths in a hardcoded order
-        # assume cga with GPT-4 predicted social tags is first, then cga with predicted social tags, optionally
-        cga_gpt4_df = pd.read_csv(args.prediction_filepaths[0])
-        rename_gpt4_cols = {'prediction': 'prediction_gpt4', 'social_orientation': 'social_orientation_gpt4'}
-        cga_gpt4_df.rename(columns=rename_gpt4_cols, inplace=True)
-        pred_df = cga_gpt4_df
-        if len(args.prediction_filepaths) > 1:
-            cga_pred_df = pd.read_csv(args.prediction_filepaths[1])
-            # rename columns to keep track of which model is which
-            rename_pred_cols = {'prediction': 'prediction_pred', 'social_orientation': 'social_orientation_pred'}
-            cga_pred_df.rename(columns=rename_pred_cols, inplace=True)
-
-            # merge dfs
-            cols = rename_gpt4_cols.values()
-            pred_df = pd.concat([cga_pred_df, pred_df[cols]], axis=1)
-
-        # load human annotations and merge with predictions
-        human_dfs = {}
-        for p in args.human_annotation_filepaths:
-            annotator = p.split(' - ')[-1].split('.')[0]
-            temp_df = pd.read_csv(p)
-            social_col_name = f'social_orientation_{annotator}'
-            temp_df.rename(columns={'social orientation': social_col_name}, inplace=True)
-            # merge with predictions
-            # NB: we're dropping some additional columns here
-            temp_df = pred_df.merge(temp_df[['id', social_col_name]], on='id', how='inner')
-            human_dfs[social_col_name] = temp_df
-
-
-        # compute accuracy for each human annotator
-        for key in human_dfs:
-            temp_df = human_dfs[key]
-            # print classification report
-            logging.info(f"Classification report for GPT-4 against {key}\n{classification_report(temp_df[key], temp_df['social_orientation_gpt4'], zero_division=0)}")
-            if 'prediction_pred' in temp_df.columns:
-                logging.info(f"Classification report for predicted against {key}\n{classification_report(temp_df[key], temp_df['social_orientation_pred'], zero_division=0)}")
-
-            # create/save confusion matrix
-            # plot confusion matrix
-            plot_confusion_matrix(temp_df[key], temp_df['social_orientation_gpt4'], list(SOCIAL_ORIENTATION_LABEL2ID.keys()), model_name=f'GPT-4 vs. {key}', output_dir='./logs/analysis')
-
-        # compute inter-annotator agreement
-        # merge all human_dfs on id
-        merged_df = human_dfs['social_orientation_Todd']
-        for key in human_dfs:
-            if key != 'social_orientation_Todd':
-                merged_df = merged_df.merge(human_dfs[key], on='id', how='inner')
-
-        # human_dfs['social_orientation_Todd']['social_orientation_Amith'] = random.choices(list(SOCIAL_ORIENTATION_LABEL2ID.keys()), k=len(human_dfs['social_orientation_Todd']))
-        # human_dfs['social_orientation_Todd']['social_orientation_Yanda'] = random.choices(list(SOCIAL_ORIENTATION_LABEL2ID.keys()), k=len(human_dfs['social_orientation_Todd']))
-        # Fleiss' kappa
-        # aggregate ratings
-        formatted_labels = aggregate_raters(merged_df[['social_orientation_Todd', 'social_orientation_Amith', 'social_orientation_Yanda']].applymap(lambda x: SOCIAL_ORIENTATION_LABEL2ID[x]), len(SOCIAL_ORIENTATION_LABEL2ID))
-        # compute Fleiss' kappa
-        kappa = fleiss_kappa(formatted_labels[0])
-        logging.info(f"Fleiss' kappa for social orientation: {kappa:.4f}")
-
-        # compute pairwise agreement
-        # get all pairwise combinations of annotators
-        annotators = ['social_orientation_Todd', 'social_orientation_Amith', 'social_orientation_Yanda']
-        pairs = list(itertools.combinations(annotators, 2))
-        for pair in pairs:
-            annotator1, annotator2 = pair
-            # compute pairwise agreement
-            agreement = merged_df[annotator1] == merged_df[annotator2]
-            agreement_rate = agreement.mean()
-            logging.info(f"Pairwise agreement between {annotator1} and {annotator2}: {agreement_rate:.4f}")
-
-            # value_counts where agreement is True and False
-            # NB: we're implicitly assuming that annotator1 is the "correct" annotator
-            agreement_True = merged_df[agreement][annotator1].value_counts().to_frame()
-            agreement_True['agreement_rate'] = agreement_True['count'] / agreement_True['count'].sum()
-            agreement_False = merged_df[~agreement][annotator1].value_counts().to_frame()
-            agreement_False['disagreement_rate'] = agreement_False['count'] / agreement_False['count'].sum()
-            logging.info(f"Value counts for {annotator1} and {annotator2} where agreement is True:\n{agreement_True}")
-            logging.info(f"Value counts for {annotator1} and {annotator2} where agreement is False:\n{agreement_False}")
-
-            # create/save confusion matrix
-            # plot confusion matrix
-            plot_confusion_matrix(merged_df[annotator1], merged_df[annotator2], list(SOCIAL_ORIENTATION_LABEL2ID.keys()), model_name=f'{annotator1} vs. {annotator2}', output_dir='./logs/analysis', xlabel=annotator2, ylabel=annotator1)
-
-        exit(0)
     elif args.analysis_mode == 'data-ablation':
+        # this analysis mode is for analyzing the effect of varying the percentage of the training data
+        # and plots the learning curves for different methods
         df = load_experiments(args)
         # aggregate results across seeds and perform t-test
         subset = 'test' # 'val'
@@ -1030,10 +389,6 @@ def main(args):
 
         method_names = {'distilbert': 'DistilBERT', 'logistic_tfidf': 'Logistic (TF-IDF)', 'logistic_social_counts': 'Logistic (Social Counts)', 'logistic_valence_counts': 'Logistic (Valence Counts)', 'logistic_sentiment': 'Logistic (Sentiment)', 'logistic_distilbert': 'Logistic (DistilBERT)'}
         sources = {'GPT-4': 'GPT-4', 'winsize_2_model_distilbert-base-uncased': 'Predicted'}
-        # print(plt.rcParams['axes.prop_cycle'].by_key()['color'])
-        # breakpoint()
-        # establish consistent color scheme
-        # colors = {'DistilBERT': 'orange', 'DistilBERT - GPT-4': 'red', 'DistilBERT - Predicted': 'blue', 'Logistic (DistilBERT)': 'purple', 'Logistic (Sentiment)': 'brown', 'Logistic (Social Counts) - Predicted': 'green', 'Logistic (TF-IDF)': 'pink'}
         colors = {'DistilBERT': '#ff7f0e', 'DistilBERT - GPT-4': '#d62728', 'DistilBERT - Predicted': '#1f77b4', 'Logistic (DistilBERT)': '#9467bd', 'Logistic (Sentiment)': '#8c564b', 'Logistic (Social Counts) - Predicted': '#2ca02c', 'Logistic (TF-IDF)': '#e377c2'}
 
         for method in methods:
@@ -1067,37 +422,6 @@ def main(args):
         plt.savefig(os.path.join(args.analysis_dir, f'subset_ablation_{args.dataset}_{subset}.png'), dpi=300, bbox_inches='tight')
         plt.clf()
         exit(0)
-    elif args.analysis_mode == 'explainability':
-        # TODO: refactor the logistic regression pipeline into train.py
-        df, corpus = load_data(args.data_dir, include_speakers=args.include_speakers, social_orientation_filepaths=args.social_orientation_filepaths, include_social_orientation=args.include_social_orientation)
-        # wrap this in a loop so we can specify subset_pct
-        args.subset_pcts = [1.0] if args.subset_pcts is None else args.subset_pcts
-        # method,window_size,social_orientation,seed,subset_pct,social_orientation_filepaths,val_acc,val_loss
-        results = []
-        original_seed = args.seed
-        for offset in range(args.num_runs):
-            seed = original_seed + offset
-            args.seed = seed
-            for subset_pct in args.subset_pcts:
-                set_random_seed(args.seed)
-                args.subset_pct = subset_pct
-                social_source = 'gpt4' if 'gpt4' in args.social_orientation_filepaths[0] else 'predicted'
-                train_df, val_df, test_df, _ = get_data_splits(df, args.data_dir, subset_pct=subset_pct)
-                # if args.dataset == 'cga':
-                #     cga_explainability(train_df, val_df, corpus, args, social_source=social_source)
-                # elif args.dataset == 'casino-satisfaction' or args.dataset == 'casino-opponent-likeness':
-                #     explainability(train_df, val_df, corpus, args, social_source=social_source)
-                # elif args.dataset == 'cga-cmv':
-                count_val_acc, first_2_val_acc = explainability(train_df, val_df, corpus, args, social_source=social_source)
-                results.append(('logistic', 'all', np.nan, seed, subset_pct, args.social_orientation_filepaths, count_val_acc, np.nan))
-                results.append(('logistic', 2, np.nan, seed, subset_pct, args.social_orientation_filepaths, first_2_val_acc, np.nan))
-
-        # save results
-        results_df = pd.DataFrame(results, columns=['method', 'window_size', 'social_orientation', 'seed', 'subset_pct', 'social_orientation_filepaths', 'val_acc', 'val_loss'])
-        filename = f'subset_{args.dataset}_logistic_clf.csv'
-        filepath = os.path.join(args.exp_dir, filename)
-        results_df.to_csv(filepath, index=False)
-        exit(0)
     elif args.analysis_mode == 'gpt-4-preds':
         # load GPT-4 social orientation predictions and analyze label distribution
         # TODO: refactor the logistic regression pipeline into train.py
@@ -1114,6 +438,75 @@ def main(args):
         plt.savefig(os.path.join(args.analysis_dir, 'social_orientation_label_distribution.png'), dpi=300, bbox_inches='tight')
         plt.clf()
         exit(0)
+    elif args.analysis_mode == 'outcome-analysis':
+        # plot outcome rates by predicted social orientation label on the CGA CMV dataset
+        df, corpus = load_data(args.data_dir, include_speakers=args.include_speakers, social_orientation_filepaths=args.social_orientation_filepaths, include_social_orientation=args.include_social_orientation)
+
+        target_name = 'cga_label'
+        label_name = 'has_removed_comment'
+        df[target_name] = df['conversation_id'].apply(lambda x: corpus.get_conversation(x).meta[label_name])
+        social_splits = df.groupby(target_name)['social_orientation'].value_counts()
+        social_splits = social_splits.unstack(level=0)
+        social_splits = social_splits.loc[SOCIAL_ORIENTATION_LABEL2ID.keys()]
+        social_splits.columns.name = None
+        social_splits.columns = ['Success', 'Failure']
+        # exclude 'Not Available' label
+        social_splits = social_splits.drop('Not Available', errors='ignore')
+        social_splits = social_splits.div(social_splits.sum(axis=0))
+        # multiply by 100 to get percentage
+        social_splits = social_splits * 100
+        social_splits.plot(kind='bar')
+        plt.xlabel('Social Orientation')
+        plt.xticks(rotation=45, ha='right')
+        plt.ylabel('Percentage')
+        # plt.title(f'Percentage of Social Orientation Labels by Conversation Outcome')
+        plt.tight_layout()
+        plt.savefig('logs/analysis/cga_cmv_social_orientation_by_class.png', dpi=300)
+        plt.clf()
+
+        # examine co-occurrence rate of social orientation labels with outcome labels
+        # get social orientiation tags for each speaker in each conversation
+        speakers_to_labels = df.groupby(['conversation_id', 'speaker'])['social_orientation'].apply(set)
+        speakers_to_labels = speakers_to_labels.to_frame().reset_index()
+
+        # get co-occurrence counts for each conversation
+        co_occurrence_counts = speakers_to_labels.groupby('conversation_id').apply(count_co_occurrences)
+        co_occurrence_counts = co_occurrence_counts.to_frame().reset_index().rename(columns={0: 'co_occurrence_counts'})
+        co_occurrence_counts['cga_label'] = co_occurrence_counts['conversation_id'].apply(lambda x: corpus.get_conversation(x).meta[label_name])
+        # group by outcome label and merge Counter objects
+        co_occurence_by_outcome = co_occurrence_counts.groupby('cga_label')['co_occurrence_counts'].apply(lambda x: x.sum())
+        civil_df = co_occurence_by_outcome.loc[False].reset_index().rename(columns={'index': 'co_occurrence'})
+        civil_df[['speaker', 'other_speakers']] = pd.DataFrame(civil_df['co_occurrence'].tolist())
+        civil_df.drop(columns=['co_occurrence'], inplace=True)
+        civil_df = civil_df.pivot(index='speaker', columns='other_speakers', values='co_occurrence_counts')
+        civil_df.fillna(0, inplace=True)
+        # normalize entire matrix
+        civil_df = civil_df.div(civil_df.values.sum())
+
+        uncivil_df = co_occurence_by_outcome.loc[True].reset_index().rename(columns={'index': 'co_occurrence'})
+        uncivil_df[['speaker', 'other_speakers']] = pd.DataFrame(uncivil_df['co_occurrence'].tolist())
+        uncivil_df.drop(columns=['co_occurrence'], inplace=True)
+        uncivil_df = uncivil_df.pivot(index='speaker', columns='other_speakers', values='co_occurrence_counts')
+        uncivil_df.fillna(0, inplace=True)
+        uncivil_df = uncivil_df.div(uncivil_df.values.sum())
+        
+        # divide uncivil by civil
+        ratio_df = uncivil_df / civil_df
+        # exclude not available
+        ratio_df.drop(columns=['Not Available'], index=['Not Available'], inplace=True, errors='ignore')
+        # order index and columns
+        order = list(SOCIAL_ORIENTATION_LABEL2ID.keys())
+        order.remove('Not Available')
+        ratio_df = ratio_df.loc[order, order]
+        # plot as heatmap
+        sns.heatmap(ratio_df, annot=True)
+        plt.xlabel('Other Speakers')
+        plt.xticks(rotation=45, ha='right')
+        plt.ylabel('Speaker')
+        # plt.title(f'Ratio of Social Orientation Co-occurrences for {"cga"} {target_name}')
+        plt.tight_layout()
+        plt.savefig('logs/analysis/cga_cmv_social_orientation_co_occurrence_ratio.png', dpi=300)
+        plt.clf()
     elif args.analysis_mode == 'social-eval':
         df, corpus = load_data(args.data_dir, include_speakers=args.include_speakers, social_orientation_filepaths=args.social_orientation_filepaths, include_social_orientation=args.include_social_orientation)
 

@@ -28,26 +28,60 @@ def parse_window_size(values):
         return final_values
     else:
         return final_values[0]
-    
+
+
 def parse_args(args=None):
     """Parse command line arguments."""
     if args is None:
         args = sys.argv[1:]
-    
+
     parser = argparse.ArgumentParser()
 
     # train.py related arguments
+    parser.add_argument('--experiment',
+                        default=None,
+                        type=str,
+                        help='Which experiment to run (e.g. subset, etc.).')
     parser.add_argument(
-        '--experiment',
+        '--window-sizes',
+        nargs='+',
+        type=parse_window_size,
         default=None,
-        type=str,
-        help='Which experiment to run (e.g. subset, etc.).')
-    parser.add_argument('--window-sizes', nargs='+', type=parse_window_size, default=None, help='The window sizes to use for the window-size experiment. If None, then default to the window sizes specified in train.py.')
-    parser.add_argument('--dont-compare-social-orientation', action='store_true', default=False, help='If passed, the code will not compare social orientations and instead will default to the --include-social-orientation argument. This is useful for the window-size experiment, where we want to compare the effect of window size while holding social orientation constant (e.g. when evaluating the effectiveness of GPT annotations).')
-    parser.add_argument('--num-runs', type=int, default=1, help='The number of runs to perform. If > 1, the experiment will be repeated with random seeds --seed through --seed + --num-runs - 1.')
-    parser.add_argument('--use-multiprocessing', action='store_true', default=False, help='If passed, the code will use multiprocessing to parallelize experiment runs.')
-    parser.add_argument('--use-cache', action='store_true', default=False, help='If passed, the code will use cached experimental results, where possible.')
-    parser.add_argument('--exp-dir', type=str, default='./logs/experiments', help='The directory to save experimental results to.')
+        help=
+        'The window sizes to use for the window-size experiment. If None, then default to the window sizes specified in train.py.'
+    )
+    parser.add_argument(
+        '--dont-compare-social-orientation',
+        action='store_true',
+        default=False,
+        help=
+        'If passed, the code will not compare social orientations and instead will default to the --include-social-orientation argument. This is useful for the window-size experiment, where we want to compare the effect of window size while holding social orientation constant (e.g. when evaluating the effectiveness of GPT annotations).'
+    )
+    parser.add_argument(
+        '--num-runs',
+        type=int,
+        default=1,
+        help=
+        'The number of runs to perform. If > 1, the experiment will be repeated with random seeds --seed through --seed + --num-runs - 1.'
+    )
+    parser.add_argument(
+        '--use-multiprocessing',
+        action='store_true',
+        default=False,
+        help=
+        'If passed, the code will use multiprocessing to parallelize experiment runs.'
+    )
+    parser.add_argument(
+        '--use-cache',
+        action='store_true',
+        default=False,
+        help=
+        'If passed, the code will use cached experimental results, where possible.'
+    )
+    parser.add_argument('--exp-dir',
+                        type=str,
+                        default='./logs/experiments',
+                        help='The directory to save experimental results to.')
     parser.add_argument('--model-dir', type=str, default=None)
     parser.add_argument(
         '--checkpoint',
@@ -56,6 +90,7 @@ def parse_args(args=None):
         help=
         'Resume training from a checkpoint. Optionally specify, "best", "last", or a path to a checkpoint.'
     )
+    parser.add_argument('--hf-cache-dir', type=str, default=None)
     parser.add_argument(
         '--fast-dev-run',
         action='store_true',
@@ -94,10 +129,11 @@ def parse_args(args=None):
                         type=float,
                         default=100,
                         help='The number of training steps to warmup for.')
-    parser.add_argument('--epochs',
-                        type=int,
-                        default=100, # trust early stopping will take over
-                        help='The number of training epochs.')
+    parser.add_argument(
+        '--epochs',
+        type=int,
+        default=100,  # trust early stopping will take over
+        help='The number of training epochs.')
     parser.add_argument('--wandb-project',
                         type=str,
                         help='The name of the wandb project to log to.')
@@ -187,21 +223,54 @@ def parse_args(args=None):
                         type=str,
                         default='torch',
                         help='The trainer to use. Must be one of {torch, hf}.')
-    parser.add_argument('--gradient-accumulation-steps',
-                        type=int,
-                        default=1,
-                        help='The number of gradient accumulation steps before applying gradients to update the weights.')
-    parser.add_argument('--add-tokens', action='store_true', default=False, help='If passed, a <sep> special token and class label tokens (e.g. Gregarious-Extraverted, Unassuming-Ingenuous, etc.) will be added to the tokenizer.')
-    parser.add_argument('--max-seq-length', type=int, default=512, help='The maximum sequence length to use for the model, particularly for the encoder.')
-    parser.add_argument('--fp16', action='store_true', default=False, help='If passed, the model will mixed precision.')
-    parser.add_argument('--jobs-per-gpu', type=int, default=1, help='The number of jobs to run per GPU. If you know the memory footprint of your model, you can stack multiple jobs per GPU.')
-    parser.add_argument(f'--eval-test', action='store_true', default=False, help='If passed, the model will evaluate on the test set at each evaluation step.')
+    parser.add_argument(
+        '--gradient-accumulation-steps',
+        type=int,
+        default=1,
+        help=
+        'The number of gradient accumulation steps before applying gradients to update the weights.'
+    )
+    parser.add_argument(
+        '--add-tokens',
+        action='store_true',
+        default=False,
+        help=
+        'If passed, a <sep> special token and class label tokens (e.g. Gregarious-Extraverted, Unassuming-Ingenuous, etc.) will be added to the tokenizer.'
+    )
+    parser.add_argument(
+        '--max-seq-length',
+        type=int,
+        default=512,
+        help=
+        'The maximum sequence length to use for the model, particularly for the encoder.'
+    )
+    parser.add_argument('--fp16',
+                        action='store_true',
+                        default=False,
+                        help='If passed, the model will mixed precision.')
+    parser.add_argument(
+        '--jobs-per-gpu',
+        type=int,
+        default=1,
+        help=
+        'The number of jobs to run per GPU. If you know the memory footprint of your model, you can stack multiple jobs per GPU.'
+    )
+    parser.add_argument(
+        f'--eval-test',
+        action='store_true',
+        default=False,
+        help=
+        'If passed, the model will evaluate on the test set at each evaluation step.'
+    )
 
     # data.py related arguments
-    parser.add_argument('--tokenizer-name-or-path',
-                        type=str,
-                        default=None,
-                        help='The name or path of the tokenizer to use. If not passed, will default to --model-name-or-path.')
+    parser.add_argument(
+        '--tokenizer-name-or-path',
+        type=str,
+        default=None,
+        help=
+        'The name or path of the tokenizer to use. If not passed, will default to --model-name-or-path.'
+    )
     parser.add_argument(
         '--dataset',
         type=str,
@@ -220,13 +289,19 @@ def parse_args(args=None):
         action='store_true',
         default=False,
         help='If passed, train/val/test splits will be defined in data.py.')
+    parser.add_argument('--social-orientation-filepaths',
+                        type=os.path.expanduser,
+                        nargs='+',
+                        default=None,
+                        help='The filepaths to the social orientation data.')
     parser.add_argument(
-        '--social-orientation-filepaths',
+        '--predicted-social-orientation-filepaths',
         type=os.path.expanduser,
         nargs='+',
         default=None,
-        help='The filepaths to the social orientation data.')
-    parser.add_argument('--predicted-social-orientation-filepaths', type=os.path.expanduser, nargs='+', default=None, help='The filepaths to the predicted social orientation data. Note that this can be specified if --social-orientation-filepaths is already being used by say GPT-4 annotations and we want to run a window-size or subset experiment.')
+        help=
+        'The filepaths to the predicted social orientation data. Note that this can be specified if --social-orientation-filepaths is already being used by say GPT-4 annotations and we want to run a window-size or subset experiment.'
+    )
     parser.add_argument(
         '--include-speakers',
         action='store_true',
@@ -254,17 +329,56 @@ def parse_args(args=None):
         help=
         'Subsets the dataset by the specified percent (e.g. 0.1) for rapid development. Defaults to 1.0.'
     )
-    parser.add_argument('--subset-pcts', type=float, nargs='+', default=None, help='Specifies a range of subsets to explore for a data ablation study. If passed, --subset-pct will be ignored. E.g. --subset-pcts 0.1 0.2 0.3 0.4 0.5 will train on 10%, 20%, 30%, 40%, and 50% of the data.')
-    parser.add_argument('--disable-train-shuffle',
-                        action='store_true',
-                        default=False,
-                        help='If passed, the training data loader will not shuffle data.')
-    parser.add_argument('--casino-speaker', type=str, default='mturk_agent_1', help='Which speaker to model: {mturk_agent_1, mturk_agent_2, both}.')
-    parser.add_argument('--return-utterances', action='store_true', default=False, help='If passed, the (CaSiNo) datasets will return utterances instead of entire conversations. This is useful when predicting social orientation tags for utterances in a conversation.')
-    parser.add_argument('--load-best-model-at-end', action='store_true', default=False, help='If passed, the best model will be loaded at the end of training.')
-    parser.add_argument('--make-predictions', action='store_true', default=False, help='If passed, the model will make predictions on the train and val sets at the end of training.')
-    parser.add_argument('--dont-return-labels', action='store_true', default=False, help='If passed, the data loader will not return labels.')
-    parser.add_argument('--disable-prepared-inputs', action='store_true', default=False, help='If passed, we don\'t cache any of the prepared examples in the dataset class. This is useful when you want to modify the data on the fly (e.g., for the explainability/corruption experiment).')
+    parser.add_argument(
+        '--subset-pcts',
+        type=float,
+        nargs='+',
+        default=None,
+        help=
+        'Specifies a range of subsets to explore for a data ablation study. If passed, --subset-pct will be ignored. E.g. --subset-pcts 0.1 0.2 0.3 0.4 0.5 will train on 10%, 20%, 30%, 40%, and 50% of the data.'
+    )
+    parser.add_argument(
+        '--disable-train-shuffle',
+        action='store_true',
+        default=False,
+        help='If passed, the training data loader will not shuffle data.')
+    parser.add_argument(
+        '--casino-speaker',
+        type=str,
+        default='mturk_agent_1',
+        help='Which speaker to model: {mturk_agent_1, mturk_agent_2, both}.')
+    parser.add_argument(
+        '--return-utterances',
+        action='store_true',
+        default=False,
+        help=
+        'If passed, the (CaSiNo) datasets will return utterances instead of entire conversations. This is useful when predicting social orientation tags for utterances in a conversation.'
+    )
+    parser.add_argument(
+        '--load-best-model-at-end',
+        action='store_true',
+        default=False,
+        help='If passed, the best model will be loaded at the end of training.'
+    )
+    parser.add_argument(
+        '--make-predictions',
+        action='store_true',
+        default=False,
+        help=
+        'If passed, the model will make predictions on the train and val sets at the end of training.'
+    )
+    parser.add_argument(
+        '--dont-return-labels',
+        action='store_true',
+        default=False,
+        help='If passed, the data loader will not return labels.')
+    parser.add_argument(
+        '--disable-prepared-inputs',
+        action='store_true',
+        default=False,
+        help=
+        'If passed, we don\'t cache any of the prepared examples in the dataset class. This is useful when you want to modify the data on the fly (e.g., for the explainability/corruption experiment).'
+    )
 
     # gpt_prompts.py related arguments
     parser.add_argument(
@@ -307,7 +421,11 @@ def parse_args(args=None):
         type=int,
         default=2,
         help='Minimum number of utterances to include in GPT calls.')
-    parser.add_argument('--calculate-cost', action='store_true', default=False, help='If passed, the total cost GPT calls will be calculated.')
+    parser.add_argument(
+        '--calculate-cost',
+        action='store_true',
+        default=False,
+        help='If passed, the total cost GPT calls will be calculated.')
 
     # parse.py related arguments
     parser.add_argument('--gpt-outputs-filepaths',
@@ -315,10 +433,11 @@ def parse_args(args=None):
                         nargs='+',
                         default=None,
                         help='Paths to the GPT output files to be parsed.')
-    parser.add_argument('--parse-output-dir',
-                        type=os.path.expanduser,
-                        default='data/gpt-4-cga-social-orientation-labels',
-                        help='Path to the output directory where parsed files will be stored.')
+    parser.add_argument(
+        '--parse-output-dir',
+        type=os.path.expanduser,
+        default='data/gpt-4-cga-social-orientation-labels',
+        help='Path to the output directory where parsed files will be stored.')
 
     # annotation.py related arguments
     parser.add_argument('--annotation-samples',
@@ -339,14 +458,40 @@ def parse_args(args=None):
     )
 
     # analyze.py related arguments
-    parser.add_argument('--analysis-dir', type=str, default='logs/analysis', help='Directory where tables, figures, and data will be saved.')
-    parser.add_argument('--analysis-mode', type=str, default=None, help='Which analysis to perform. See analyze.py for options.')
-    parser.add_argument('--experiment-filepath', type=str, nargs='+', default=None, help='Path to the experiment file to be analyzed.')
-    parser.add_argument('--prediction-filepaths', type=str, nargs='+', default=None, help='Paths to the prediction files to be analyzed.')
-    parser.add_argument('--human-annotation-filepaths', type=str, nargs='+', default=None, help='Paths to the human annotation files to be analyzed.')
-    
+    parser.add_argument(
+        '--analysis-dir',
+        type=str,
+        default='logs/analysis',
+        help='Directory where tables, figures, and data will be saved.')
+    parser.add_argument(
+        '--analysis-mode',
+        type=str,
+        default=None,
+        help='Which analysis to perform. See analyze.py for options.')
+    parser.add_argument('--experiment-filepath',
+                        type=str,
+                        nargs='+',
+                        default=None,
+                        help='Path to the experiment file to be analyzed.')
+    parser.add_argument('--prediction-filepaths',
+                        type=str,
+                        nargs='+',
+                        default=None,
+                        help='Paths to the prediction files to be analyzed.')
+    parser.add_argument(
+        '--human-annotation-filepaths',
+        type=str,
+        nargs='+',
+        default=None,
+        help='Paths to the human annotation files to be analyzed.')
+
     # classic.py related arguments
-    parser.add_argument('--features', type=str, nargs='+', default=['social_counts', 'distilbert', 'tfidf'], help='The feature sets to use for the classic model.') # sentiment, VAD
+    parser.add_argument('--features',
+                        type=str,
+                        nargs='+',
+                        default=['social_counts', 'distilbert', 'tfidf'],
+                        help='The feature sets to use for the classic model.'
+                        )  # sentiment, VAD
     # parse arguments
     args = parser.parse_args(args)
 

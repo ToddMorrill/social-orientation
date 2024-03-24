@@ -9,6 +9,37 @@ This repository implements the experiments presented in the paper, Social Orient
 
 [![Figure 1](assets/circumplex-figure1.png)](https://arxiv.org/abs/2403.04770)
 
+## Published Models & Datasets
+- [Social Orientation Dataset](https://huggingface.co/datasets/tee-oh-double-dee/social-orientation) - A dataset of social orientation labels for the Conversations Gone Awry (CGA) dataset collected using OpenAI GPT-4. See `examples/evaluate.py` for how to merge these labels with the CGA dataset.
+- [Social Orientation Model](https://huggingface.co/tee-oh-double-dee/social-orientation) - A DistilBERT model trained on the CGA dataset with social orientation labels collected using GPT-4. This model can be used to predict social orientation labels for new conversations. See `examples/single_prediction.py` or `examples/predict.py` for how to use this model.
+- [Social Orientation Model (XLM-R)](https://huggingface.co/tee-oh-double-dee/social-orientation-multilingual) - An XLM-R model trained on the CGA dataset with social orientation labels collected using GPT-4. This model can be used to predict social orientation labels for new conversations in up to 100 languages. The usage is the same as the DistilBERT model.
+- Chinese language Wikipedia outcome dataset - A dataset of Wikipedia page edits in Chinese language Wikipedia with success/failure outcome labels. This dataset is used to evaluate the performance of the social orientation tags in a second language beyond English. Coming soon.
+
+## Social Orientation Model Usage
+You can make social orientation predictions for dialog utterances as show below.
+```python
+import pprint
+
+from transformers import AutoModelForSequenceClassification, AutoTokenizer
+
+sample_input = 'Speaker 1: This is really terrific work!'
+model = AutoModelForSequenceClassification.from_pretrained(
+        'tee-oh-double-dee/social-orientation')
+model.eval()
+tokenizer = AutoTokenizer.from_pretrained(
+    'tee-oh-double-dee/social-orientation')
+model_input = tokenizer(sample_input, return_tensors='pt')
+output = model(**model_input)
+output_probs = output.logits.softmax(dim=1)
+id2label = model.config.id2label
+pred_dict = {
+    id2label[i]: output_probs[0][i].item()
+    for i in range(len(id2label))
+}
+pprint.pprint(pred_dict)
+```
+---
+# Experiment Reproduction Instructions
 ## Environment setup
 With a virtual environment:
 ```bash
@@ -176,7 +207,7 @@ python -m train \
     --subset-pcts 0.01 0.1 0.2 0.5 1.0 \
     --use-cache \
     --seed 42 \
-    --jobs-per-gpu 3 \
+    --jobs-per-gpu 8 \
     --eval-test \
 > logs/runs/subset-cga.log 2>&1 &
 ```
@@ -200,48 +231,51 @@ python classic.py \
 ```
 
 Plot results:
-```
+```bash
 python analyze.py \
     --analysis-mode data-ablation \
     --experiment-filepath \
         logs/experiments/subset_cga_distilbert-base-uncased.csv \
-        logs/experiments/subset_cga_logistic_clf.csv
+        logs/experiments/subset_cga_logistic_clf.csv \
+    --analysis-dir logs/analysis
 ```
 
 Run t-test:
-```
+```bash
 python analyze.py \
     --analysis-mode t-test \
     --experiment subset \
     --experiment-filepath \
         logs/experiments/subset_cga_distilbert-base-uncased.csv \
         logs/experiments/subset_cga_logistic_clf.csv
+    --analysis-dir logs/analysis
 ```
 
 ## Run data ablation experiment for CGA CMV subset
 First make social orientation predictions.
-```
+```bash
 python predict.py \
     --model-dir model/distilbert-social-winsize-2 \
+    --hf-cache-dir .hf-cache \
     --window-size 2 \
     --checkpoint best \
     --dataset cga-cmv \
-    --data-dir ~/Documents/data/convokit/conversations-gone-awry-cmv-corpus \
+    --data-dir data/convokit/conversations-gone-awry-cmv-corpus \
     --include-speakers \
-    --prediction-dir predictions \
+    --prediction-dir data/predictions \
     --batch-size 256 \
-    --add-tokens \
     --return-utterances \
     --disable-train-shuffle \
     --dont-return-labels
 ```
 Then train CGA CMV models with predicted social orientation tags, varying the subset size.
-```
+```bash
 nohup \
 python -m train \
     --dataset cga-cmv \
-    --data-dir ~/Documents/data/convokit/conversations-gone-awry-cmv-corpus \
+    --data-dir data/convokit/conversations-gone-awry-cmv-corpus \
     --model-name-or-path distilbert-base-uncased \
+    --hf-cache-dir .hf-cache \
     --batch-size 32 \
     --lr 5e-6 \
     --val-steps 50 \
@@ -249,9 +283,9 @@ python -m train \
     --include-speakers \
     --include-social-orientation \
     --social-orientation-filepaths \
-        predictions/cga-cmv-social/distilbert-base-uncased/train_winsize_2_model_distilbert-base-uncased.csv \
-        predictions/cga-cmv-social/distilbert-base-uncased/val_winsize_2_model_distilbert-base-uncased.csv \
-        predictions/cga-cmv-social/distilbert-base-uncased/test_winsize_2_model_distilbert-base-uncased.csv \
+        data/predictions/cga-cmv-social/distilbert-base-uncased/train_winsize_2_model_distilbert-base-uncased.csv \
+        data/predictions/cga-cmv-social/distilbert-base-uncased/val_winsize_2_model_distilbert-base-uncased.csv \
+        data/predictions/cga-cmv-social/distilbert-base-uncased/test_winsize_2_model_distilbert-base-uncased.csv \
     --fp16 \
     --add-tokens \
     --window-size all \
@@ -260,25 +294,22 @@ python -m train \
     --experiment subset \
     --subset-pcts 0.01 0.1 0.2 0.5 1.0 \
     --use-cache \
-    --jobs-per-gpu 4 \
+    --jobs-per-gpu 8 \
     --eval-test \
 > logs/runs/subset-cga-cmv.log 2>&1 &
 ```
-Or run CGA & CGA CMV experiments together:
-```
-nohup ./subset.sh > logs/runs/subset-cga-cga-cmv.log 2>&1 &
-```
 
 Run experiments with logistic regression model.
-```
+```bash
 python classic.py \
     --dataset cga-cmv \
-    --data-dir ~/Documents/data/convokit/conversations-gone-awry-cmv-corpus \
+    --data-dir data/convokit/conversations-gone-awry-cmv-corpus \
+    --hf-cache-dir .hf-cache \
     --include-speakers \
     --social-orientation-filepaths \
-        predictions/cga-cmv-social/distilbert-base-uncased/train_winsize_2_model_distilbert-base-uncased.csv \
-        predictions/cga-cmv-social/distilbert-base-uncased/val_winsize_2_model_distilbert-base-uncased.csv \
-        predictions/cga-cmv-social/distilbert-base-uncased/test_winsize_2_model_distilbert-base-uncased.csv \
+        data/predictions/cga-cmv-social/distilbert-base-uncased/train_winsize_2_model_distilbert-base-uncased.csv \
+        data/predictions/cga-cmv-social/distilbert-base-uncased/val_winsize_2_model_distilbert-base-uncased.csv \
+        data/predictions/cga-cmv-social/distilbert-base-uncased/test_winsize_2_model_distilbert-base-uncased.csv \
     --num-runs 5 \
     --subset-pcts 0.01 0.1 0.2 0.5 1.0 \
     --window-size all \
@@ -287,34 +318,96 @@ python classic.py \
 ```
 
 Plot results:
-```
+```bash
 python analyze.py \
     --analysis-mode data-ablation \
     --dataset cga-cmv \
     --experiment-filepath \
         logs/experiments/subset_cga-cmv_distilbert-base-uncased.csv \
-        logs/experiments/subset_cga-cmv_logistic_clf.csv
+        logs/experiments/subset_cga-cmv_logistic_clf.csv \
+    --analysis-dir logs/analysis
 ```
 
 Run t-test:
-```
+```bash
 python analyze.py \
     --analysis-mode t-test \
     --experiment subset \
     --dataset cga-cmv \
-    --data-dir ~/Documents/data/convokit/conversations-gone-awry-cmv-corpus \
+    --data-dir data/convokit/conversations-gone-awry-cmv-corpus \
     --experiment-filepath \
         logs/experiments/subset_cga-cmv_distilbert-base-uncased.csv \
-        logs/experiments/subset_cga-cmv_logistic_clf.csv
+        logs/experiments/subset_cga-cmv_logistic_clf.csv \
+    --analysis-dir logs/analysis
 ```
 
-## Train a single CGA CMV model with predicted social orientation tags
+## Train a social orientation tagger using XLMR
+```bash
+CUDA_VISIBLE_DEVICES=4 nohup \
+python -m train \
+    --dataset social-orientation \
+    --model-name-or-path xlm-roberta-base \
+    --hf-cache-dir .hf-cache \
+    --batch-size 32 \
+    --lr 1e-6 \
+    --val-steps 50 \
+    --early-stopping-patience 10 \
+    --include-speakers \
+    --social-orientation-filepaths \
+        data/gpt-4-cga-social-orientation-labels/train_results_gpt4_parsed.csv \
+        data/gpt-4-cga-social-orientation-labels/val_results_gpt4_parsed.csv \
+        data/gpt-4-cga-social-orientation-labels/train-long_results_gpt4_parsed.csv \
+        data/gpt-4-cga-social-orientation-labels/val-long_results_gpt4_parsed.csv \
+        data/gpt-4-cga-social-orientation-labels/test_results_gpt4_parsed.csv \
+        data/gpt-4-cga-social-orientation-labels/test-long_results_gpt4_parsed.csv \
+    --fp16 \
+    --window-size 2 \
+    --save-steps 50 \
+    --num-checkpoints 2 \
+    --model-dir model/xlmr-social-winsize-2 \
+    --eval-test \
+    --weighted-loss \
+> logs/runs/xlmr-social-winsize-2.log 2>&1 &
+```
+
+<!-- ```bash
+CUDA_VISIBLE_DEVICES=2 nohup \
+python -m train \
+    --dataset social-orientation \
+    --model-name-or-path xlm-roberta-base \
+    --hf-cache-dir .hf-cache \
+    --batch-size 32 \
+    --lr 1e-6 \
+    --val-steps 50 \
+    --early-stopping-patience 10 \
+    --include-speakers \
+    --social-orientation-filepaths \
+        data/gpt-4-cga-social-orientation-labels/train_results_gpt4_parsed.csv \
+        data/gpt-4-cga-social-orientation-labels/val_results_gpt4_parsed.csv \
+        data/gpt-4-cga-social-orientation-labels/train-long_results_gpt4_parsed.csv \
+        data/gpt-4-cga-social-orientation-labels/val-long_results_gpt4_parsed.csv \
+        data/gpt-4-cga-social-orientation-labels/test_results_gpt4_parsed.csv \
+        data/gpt-4-cga-social-orientation-labels/test-long_results_gpt4_parsed.csv \
+    --fp16 \
+    --window-size 2 \
+    --save-steps 50 \
+    --num-checkpoints 2 \
+    --model-dir model/xlmr-social-winsize-2-hf \
+    --trainer hf \
+    --eval-test \
+    --weighted-loss \
+> logs/runs/xlmr-social-winsize-2-hf.log 2>&1 &
+``` -->
+
+## Explainability experiments
+Train a single CGA CMV model with predicted social orientation tags
 ```bash
 nohup \
 python -u -m train \
     --dataset cga-cmv \
-    --data-dir ~/Documents/data/convokit/conversations-gone-awry-cmv-corpus \
+    --data-dir data/convokit/conversations-gone-awry-cmv-corpus \
     --model-name-or-path distilbert-base-uncased \
+    --hf-cache-dir .hf-cache \
     --batch-size 32 \
     --lr 1e-6 \
     --val-steps 50 \
@@ -322,43 +415,86 @@ python -u -m train \
     --include-speakers \
     --include-social-orientation \
     --social-orientation-filepaths \
-        predictions/cga-cmv-social/distilbert-base-uncased/train_winsize_2_model_distilbert-base-uncased.csv \
-        predictions/cga-cmv-social/distilbert-base-uncased/val_winsize_2_model_distilbert-base-uncased.csv \
-        predictions/cga-cmv-social/distilbert-base-uncased/test_winsize_2_model_distilbert-base-uncased.csv \
+        data/predictions/cga-cmv-social/distilbert-base-uncased/train_winsize_2_model_distilbert-base-uncased.csv \
+        data/predictions/cga-cmv-social/distilbert-base-uncased/val_winsize_2_model_distilbert-base-uncased.csv \
+        data/predictions/cga-cmv-social/distilbert-base-uncased/test_winsize_2_model_distilbert-base-uncased.csv \
     --fp16 \
     --add-tokens \
     --window-size all \
     --eval-test \
     --save-steps 50 \
     --num-checkpoints 2 \
-    --model-dir ./model/distilbert-cga-cmv-distilbert-winsize-2 \
+    --model-dir model/distilbert-cga-cmv-distilbert-winsize-2 \
 > logs/runs/distilbert-cga-cmv-distilbert-winsize-2.log 2>&1 &
 ```
 
-## Train a social orientation tagger using XLMR
-```CUDA_VISIBLE_DEVICES=1 nohup \
-python -m train \
-    --dataset social-orientation \
-    --model-name-or-path xlm-roberta-base \
-    --batch-size 32 \
-    --lr 1e-6 \
-    --val-steps 50 \
-    --early-stopping-patience 10 \
-    --include-speakers \
+Run explainability experiments
+```bash
+python explain.py \
+    --model-dir model/distilbert-cga-cmv-distilbert-winsize-2 \
+    --window-size all \
+    --checkpoint best \
+    --dataset cga-cmv \
+    --data-dir data/convokit/conversations-gone-awry-cmv-corpus \
+    --analysis-dir logs/analysis \
     --social-orientation-filepaths \
-        ~/Documents/data/circumplex/transformed/train_results_gpt4_parsed.csv \
-        ~/Documents/data/circumplex/transformed/val_results_gpt4_parsed.csv \
-        ~/Documents/data/circumplex/transformed/train-long_results_gpt4_parsed.csv \
-        ~/Documents/data/circumplex/transformed/val-long_results_gpt4_parsed.csv \
-        ~/Documents/data/circumplex/transformed/test_results_gpt4_parsed.csv \
-        ~/Documents/data/circumplex/transformed/test-long_results_gpt4_parsed.csv \
-    --fp16 \
+        data/predictions/cga-cmv-social/distilbert-base-uncased/train_winsize_2_model_distilbert-base-uncased.csv \
+        data/predictions/cga-cmv-social/distilbert-base-uncased/val_winsize_2_model_distilbert-base-uncased.csv \
+        data/predictions/cga-cmv-social/distilbert-base-uncased/test_winsize_2_model_distilbert-base-uncased.csv \
+    --include-speakers \
+    --include-social-orientation \
+    --batch-size 256 \
     --add-tokens \
-    --window-size 2 \
-    --save-steps 50 \
-    --num-checkpoints 2 \
-    --model-dir ./model/xlmr-social-winsize-2-weighted \
-    --eval-test \
-    --weighted-loss \
-> logs/runs/xlmr-social-winsize-2.log 2>&1 &
+    --disable-train-shuffle \
+    --disable-prepared-inputs
+```
+
+## Qualitative analysis
+The following commands produce the qualitative analysis plots presented in the paper.
+
+Plot the distribution of social orientation labels.
+```bash
+python analyze.py \
+    --analysis-mode gpt-4-preds \
+    --dataset cga \
+    --social-orientation-filepaths \
+        data/gpt-4-cga-social-orientation-labels/train_results_gpt4_parsed.csv \
+        data/gpt-4-cga-social-orientation-labels/train-long_results_gpt4_parsed.csv \
+        data/gpt-4-cga-social-orientation-labels/val_results_gpt4_parsed.csv \
+        data/gpt-4-cga-social-orientation-labels/val-long_results_gpt4_parsed.csv \
+        data/gpt-4-cga-social-orientation-labels/test_results_gpt4_parsed.csv \
+        data/gpt-4-cga-social-orientation-labels/test-long_results_gpt4_parsed.csv \
+    --analysis-dir logs/analysis
+```
+
+Confusion matrix of social orientation predictions vs. GPT-4 predictions
+```bash
+python analyze.py \
+    --analysis-mode social-eval \
+    --dataset cga \
+    --social-orientation-filepaths \
+        data/gpt-4-cga-social-orientation-labels/train_results_gpt4_parsed.csv \
+        data/gpt-4-cga-social-orientation-labels/train-long_results_gpt4_parsed.csv \
+        data/gpt-4-cga-social-orientation-labels/val_results_gpt4_parsed.csv \
+        data/gpt-4-cga-social-orientation-labels/val-long_results_gpt4_parsed.csv \
+        data/gpt-4-cga-social-orientation-labels/test_results_gpt4_parsed.csv \
+        data/gpt-4-cga-social-orientation-labels/test-long_results_gpt4_parsed.csv \
+    --predicted-social-orientation-filepaths \
+        data/predictions/social-orientation-social/distilbert-base-uncased/train_winsize_2_model_distilbert-base-uncased.csv \
+        data/predictions/social-orientation-social/distilbert-base-uncased/val_winsize_2_model_distilbert-base-uncased.csv \
+        data/predictions/social-orientation-social/distilbert-base-uncased/test_winsize_2_model_distilbert-base-uncased.csv \
+    --analysis-dir logs/analysis
+```
+
+Plot the conversation outcomes by social orientation labels and look at conversation outcomes by co-occurrence of social orientation labels.
+```bash
+python analyze.py \
+    --analysis-mode outcome-analysis \
+    --dataset cga-cmv \
+    --data-dir data/convokit/conversations-gone-awry-cmv-corpus \
+    --social-orientation-filepaths \
+        data/predictions/cga-cmv-social/distilbert-base-uncased/train_winsize_2_model_distilbert-base-uncased.csv \
+        data/predictions/cga-cmv-social/distilbert-base-uncased/val_winsize_2_model_distilbert-base-uncased.csv \
+        data/predictions/cga-cmv-social/distilbert-base-uncased/test_winsize_2_model_distilbert-base-uncased.csv \
+    --analysis-dir logs/analysis
 ```

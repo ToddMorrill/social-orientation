@@ -179,6 +179,10 @@ def main(args):
     # the current approach is to transform the tokenizer in the exact same way
     # as was done during training, but this this is error-prone
     label2id, id2label = get_labels(args)
+    # TODO: revisit if we're ever going to need to run inference for the
+    # downstream classifiers (e.g., cga-cmv) versus just the social orientation
+    label2id = SOCIAL_ORIENTATION_LABEL2ID
+    id2label = SOCIAL_ORIENTATION_ID2LABEL
     added_tokens = SOCIAL_ORIENTATION_LABEL2ID.keys(
     ) if args.add_tokens else []
     tokenizer, tokens2ids = get_tokenizer(args, added_tokens)

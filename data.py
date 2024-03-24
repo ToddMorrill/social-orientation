@@ -51,6 +51,17 @@ SOCIAL_ORIENTATION_ID2LABEL = {
     for k, v in SOCIAL_ORIENTATION_LABEL2ID.items()
 }
 
+SOCIAL_ORIENTATION2VALENCE = {
+    'Cold': 'Negative',
+    'Arrogant-Calculating': 'Negative',
+    'Aloof-Introverted': 'Negative',
+    'Assured-Dominant': 'Neutral',
+    'Unassuming-Ingenuous': 'Neutral',
+    'Unassured-Submissive': 'Neutral',
+    'Not Available': 'Neutral',
+    'Warm-Agreeable': 'Positive',
+    'Gregarious-Extraverted': 'Positive',
+}
 
 def get_labels(args):
     if args.dataset == 'cga' or args.dataset == 'cga-cmv':
@@ -250,9 +261,6 @@ class CGACMVDataset(DialogueDataset):
         self.return_labels = return_labels
         self.disable_prepared_inputs = disable_prepared_inputs
         self.convo_ids = df['conversation_id'].unique().tolist()
-
-        self.tokenized_prompt = self.tokenizer(
-            self.prompt, add_special_tokens=False)['input_ids']
 
     def __len__(self):
         if self.return_utterances:
@@ -527,7 +535,7 @@ def get_data_splits(df, data_dir, subset_pct=1.0, corpus=None):
 def get_tokenizer(args, labels=[]):
     # specifying model_max_length=args.max_seq_length to avoid HF warning about T5's max length
     tokenizer = AutoTokenizer.from_pretrained(
-        args.tokenizer_name_or_path, model_max_length=args.max_seq_length)
+        args.tokenizer_name_or_path, model_max_length=args.max_seq_length, cache_dir=args.hf_cache_dir)
     # if we load an existing tokenizer, return it
     if os.path.exists(args.tokenizer_name_or_path):
         return tokenizer

@@ -164,9 +164,6 @@ wandb
 # data/*
 output.log
 
-model/*
-predictions/*
-
 *.DS_Store
 
 # latex
@@ -179,12 +176,15 @@ predictions/*
 *.out
 *.synctex.gz
 
-
-train_val_winsize_2_model_distilbert-base-uncased_social_orientation.csv
-train_val_winsize_6_model_microsoft_deberta-v3-large_social_orientation.csv
+model/
 
 logs/analysis/
 logs/experiments/
+logs/runs/
+
+data/convokit/
+data/gpt-4-input/
+data/predictions
 
 hf_token.txt
-data/
+.hf-cache/

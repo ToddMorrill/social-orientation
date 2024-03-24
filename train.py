@@ -64,6 +64,7 @@ def get_model(args, label2id=None, id2label=None, tokenizer=None, tokens2ids=Non
         num_labels=len(label2id),
         id2label=id2label,
         label2id=label2id,
+        cache_dir=args.hf_cache_dir,
     )
 
     # if specified, add new tokens to embedding layer

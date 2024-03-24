@@ -290,11 +290,11 @@ def run_classifier_subset_experiments(args):
 
     # load models once
     if 'distilbert' in args.features:
-        model = DistilBertModel.from_pretrained('distilbert-base-uncased')
+        model = DistilBertModel.from_pretrained('distilbert-base-uncased', cache_dir=args.hf_cache_dir)
         model.eval()
         model.to(args.device)
         tokenizer = DistilBertTokenizer.from_pretrained(
-            'distilbert-base-uncased')
+            'distilbert-base-uncased', cache_dir=args.hf_cache_dir)
     if 'sentiment' in args.features:
         device = torch.device(
             "cpu"
@@ -302,7 +302,8 @@ def run_classifier_subset_experiments(args):
         sentiment_pipeline = pipeline(
             'sentiment-analysis',
             model="cardiffnlp/twitter-roberta-base-sentiment-latest",
-            device=device)
+            device=device,
+            model_kwargs={"cache_dir": args.hf_cache_dir})
 
     args.subset_pcts = [1.0] if args.subset_pcts is None else args.subset_pcts
     # method,window_size,social_orientation,seed,subset_pct,social_orientation_filepaths,val_acc,val_loss

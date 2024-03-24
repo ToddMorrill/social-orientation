@@ -224,7 +224,6 @@ class SocialOrientationDataset(DialogueDataset):
             label_id = SOCIAL_ORIENTATION_LABEL2ID[label]
             input_dict = {'input_ids': input_ids, 'label': label_id}
         else:
-            breakpoint()
             # inference mode
             input_dict = {'input_ids': input_ids}
         self.prepared_inputs[idx] = input_dict
@@ -233,8 +232,12 @@ class SocialOrientationDataset(DialogueDataset):
 
 def main():
     data_dir = '../data/convokit/conversations-gone-awry-corpus'  # cache directory for convokit data
+    hf_cache_dir = '../.hf-cache'  # cache directory for HF models
+    model_name = 'tee-oh-double-dee/social-orientation'
     df, corpus = load_data(data_dir)
     convo_df = corpus.get_conversations_dataframe()
+    df['split'] = df['conversation_id'].apply(
+        lambda x: corpus.get_conversation(x).meta['split'])
     # use official train, val, test splits
     train_convo_ids = convo_df[convo_df['meta.split'] ==
                                'train'].index.tolist()
@@ -243,8 +246,7 @@ def main():
     train_df = df[df['conversation_id'].isin(train_convo_ids)]
     val_df = df[df['conversation_id'].isin(val_convo_ids)]
     test_df = df[df['conversation_id'].isin(test_convo_ids)]
-    tokenizer = AutoTokenizer.from_pretrained(
-        'tee-oh-double-dee/social-orientation')
+    tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=hf_cache_dir)
     train_dataset = SocialOrientationDataset(train_df, tokenizer)
     val_dataset = SocialOrientationDataset(val_df, tokenizer)
     test_dataset = SocialOrientationDataset(test_df, tokenizer)
@@ -265,7 +267,7 @@ def main():
                              shuffle=False,
                              collate_fn=data_collator)
     model = AutoModelForSequenceClassification.from_pretrained(
-        'tee-oh-double-dee/social-orientation')
+        model_name, cache_dir=hf_cache_dir)
     # push to GPU, if available
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     model.to(device)

@@ -1,0 +1,13 @@
+aiohttp
+tiktoken
+pandas
+tqdm
+convokit
+torch
+transformers[torch]
+matplotlib
+openai
+scikit-learn
+gpustat
+evaluate
+wandb

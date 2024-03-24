@@ -1,0 +1,94 @@
+Social orientation (from circumplex theory) is a social theory that characterizes interactions between speakers. The social orientation tagset includes: {Assured-Dominant, Gregarious-Extraverted, Warm-Agreeable, Unassuming-Ingenuous, Unassured-Submissive, Aloof-Introverted, Cold, Arrogant-Calculating}, which are defined below in more detail.
+
+Assured-Dominant - Demands to be the center of interest, demands attention, does most of the talking, speaks loudly, is firm, is self-confident, is forceful, is ambitious, is assertive, is persistent, is domineering, not self-conscious
+
+Gregarious-Extraverted - Feels comfortable around people, starts conversations, talks to a lot of different people, loves large groups, is friendly, is enthusiastic, is warm, is extraverted, is good-natured, is cheerful / happy, is pleasant, is outgoing, is approachable, is not shy, is "lively"
+
+Warm-Agreeable - is interested in people, reassures others, inquires about others' well-being, gets along well with others, is kind, is polite and courteous, is sympathetic, is respectful, is tender-hearted, is cooperative, is appreciative, is accommodating, is gentle, is charitable
+
+Unassuming-Ingenuous - Tolerates a lot from others, takes things as they come, tells the truth, thinks of others first, does not brag or boast, seldom stretches the truth, does not scheme or plot, is modest, is trustworthy, is unassuming, is honest, not self-centered, is sincere, not demanding, is straightforward
+
+Unassured-Submissive - Speaks softly, lets others finish what they are saying, dislikes being the center of attention, doubts themselves, not especially thorough, doesn't like to work too hard / will give up easily, is impractical, is timid, is inconsistent, is weak, is disorganized, is not authoritative, is a bit lazy, is not forceful
+
+Aloof-Introverted - Is quiet, especially around strangers, is a very private person, doesn't talk a lot / has little to say, doesn't smile much, doesn't reveal much about themselves, is not demonstrative (verbally or non-verbally), is distant, is shy, is impersonal, is introverted, is disinterested in others, is bashful, is not very social, is focused inward
+
+Cold - Believes people should fend for themselves, doesn't fall for sob-stories, is not interested in other people's problems, not warm toward others, is cruel, is ruthless, is cold-hearted, is hard-hearted, is unsympathetic, is uncharitable
+
+Arrogant-Calculating - Flaunts what they have, boasts and brags, will plot and scheme to get ahead, willing to exploit others for own benefit, is big-headed, is tricky, is boisterous, is conniving / calculating, is conceited, is crafty / cunning, is cocky, is manipulative of others
+
+In the following conversations drawn from Wikipedia discussion forums, each row corresponds to an Utterance ID, a Speaker ID, and the Text spoken. For each utterance, assign a social orientation tag. Identify the utterance by its Utterance ID and Speaker ID. Here are a few examples.
+---
+| Utterance ID | Speaker ID | Text |
+| --- | --- | --- |
+| 1 | Tryptofish | == Good work! == '''The Admin's Barnstar''' For the apparently thankless task of drafting a suggested closing summary at the RfC/U. |
+| 2 | The Wordsmith | Thank you for your kindness. I do make an effort to be even-handed, no matter what people wiki_link about me. |
+| 3 | Lar | I was just popping by to offer some words of encouragement. Glad to see Tryp beat me to it. ++: / |
+
+| Utterance ID | Speaker ID | Label |
+| --- | --- | --- |
+| 1 | Tryptofish | Warm-Agreeable |
+| 2 | The Wordsmith | Unassuming-Ingenuous |
+| 3 | Lar | Warm-Agreeable |
+---
+| Utterance ID | Speaker ID | Text |
+| --- | --- | --- |
+| 1 | Gritzko | ==  is under a criminal investigation]] == I am rather pleased to relay that here: Sergey Rublyov aka Ssr who was rather active in curating this article is currently under an actual criminal investigation as his PR services to Mr. Misharin were illegally paid. Namely, 66.ru and politsovet.ru report that Mr Rublyov was provided with a mock employment at a regional energy company as an "engineer" (being a journalist by education). The regional prosecutor's office investigates the incident. [EXTERNA_LINK: http://politsovet.ru/40903-delo-o-mertvyh-dushah-rabota-formanchuka-mozhet-zakonchitsya-ugolovnym-delom.html] [EXTERNA_LINK: http://66.ru/news/society/131688/] Regional MP Alshevskikh confirms on Twitter: [EXTERNA_LINK: https://twitter.com/Alshevskix/status/299147903560204289] Well, it was really stupid from Mr Rublyov to do drunk posts on LiveJournal insulting his past employers. |
+| 2 | Ssr | Any relation of this info to work on current Wikipedia article? You personally are not recommended to appear here by independent mediators, don't you remember? (because of your and your friends' persistent attempts to violently use Wikipedia for political attacks—while I was acting correctly according to rules, see also Russian article/talk—and your edits to both were totally wiped out) No "past employers" were insulted BTW.  |
+| 3 | 2A02:6B8:0:107:D83D:EE04:EA8D:1553 | How unfortunate, I am not illegally employed full-time to whitewash reputations of corrupted politicians. Hence, I do not have that much time to defend my edits. But maybe, I will make another attempt. |
+| 4 | Ssr | I doubt you are able (if this long number is you) because _several_ independent mediators in ru end en after many long-time investigations decided that you and your friends try to violate wikipedia for political purposes so no luck for you here (read posts above including links to mediations—don't forget!). Such posts as this particular your post are not welcome here because it's unrelated to work on the article and may be deleted as off-topic (in ru this is widely practiced). |
+| 5 | Gritzko | I am pretty sure you are not talking to me now because you certainly know that I certainly know that you are lying. I'll make my edits this Saturday, be prepared. |
+| 6 | Ssr | No need for me to be prepared, I am, as you, a COI party, am not going to edit, and mediators will do their job well as they did before (many thanks again to them for their great work). |
+| 7 | Ssr | *Also, there's an arbitraiton warning for other Gritzko's violations: wiki_link, so he must be under strict control, as his "warnings" most probably indicate further violations. |
+| 8 | Gritzko | You have a COI cause you were paid to doctor this article. I have no COI. You are a liar. Clear enough? |
+
+| Utterance ID | Speaker ID | Label |
+| --- | --- | --- |
+| 1 | Gritzko | Cold |
+| 2 | Ssr | Unassuming-Ingenuous |
+| 3 | 2A02:6B8:0:107:D83D:EE04:EA8D:1553 | Arrogant-Calculating |
+| 4 | Ssr | Warm-Agreeable |
+| 5 | Gritzko | Arrogant-Calculating |
+| 6 | Ssr | Unassuming-Ingenuous |
+| 7 | Ssr | Unassuming-Ingenuous |
+| 8 | Gritzko | Cold |
+---
+| Utterance ID | Speaker ID | Text |
+| --- | --- | --- |
+| 1 | DarkHero | check the sig. Leaked Info? |
+| 2 | Sukecchi | I highly doubt those are real. - I doubt it too...but I still wonder |
+| 3 | BrydoF1989 | Fat chance. These appear to be the creatures from Telefang O_o |
+| 4 | Joizashmo | I think they look more like Digimon than Pokémon. |
+| 5 | Rat235478683 | The middle one looks like the evolved form of Heracross.Rat235478683 |
+| 6 | 68.65.113.160 | Hi, I'm Kojiro who had that sig. They were indeed Telefang, I just wanted too see how many people believed it. XD I didn't mean to cause any trouble. |
+| 7 | Rat235478683 | You stink!Rat235478683 |
+
+| Utterance ID | Speaker ID | Label |
+| --- | --- | --- |
+| 1 | DarkHero | Aloof-Introverted |
+| 2 | Sukecchi | Unassured-Submissive |
+| 3 | BrydoF1989 | Arrogant-Calculating |
+| 4 | Joizashmo | Unassuming-Ingenuous |
+| 5 | Rat235478683 | Unassuming-Ingenuous |
+| 6 | 68.65.113.160 | Unassured-Submissive |
+| 7 | Rat235478683 | Cold |
+---
+| Utterance ID | Speaker ID | Text |
+| --- | --- | --- |
+| 1 | Jack1234567891011121314151617 | Multiculturalism So i think it's false to say that the alt right opposes multiculturalism. Because from what i've understood they basically want an white ethno state where all europeans would be welcome. How would they have an white ethno state without many cultures? The alt right might say they are against it but they don't seem to  understand that they basically advocate for a multicultural state |
+| 2 | Lukacris | While race and culture aren't exactly the same thing, I think it's fair to conceptualize white nationalism as antithetical to multiculturalism. |
+| 3 | Jack1234567891011121314151617 | @Lukacris I know that race and culture aren't the same thing obviously, but what i meant is that ultimate goal for the alt right is the ethno state where ALL whites would be welcome. If all whites with many different cultures  are welcome then they're for multiculturalism.  — Preceding unsigned comment added by |
+| 4 | Beyond My Ken | This is general discussion of the topic  i.e. WP:NOTAFORUM  and not about how to improve the article.  If Jack123... has a reliable source that says that the alt-right is not opposed to mutliculturalism. he should provide it. |
+| 5 | Jack1234567891011121314151617 | @Beyond My Ken Don't you think that the alt right advocating for an ethno state is evidence enough? |
+| 6 | Beyond My Ken | Nope, nowhere near enough. In fact, your stretching of their position strains credulity, since it's completely bullshit. |
+
+| Utterance ID | Speaker ID | Label |
+| --- | --- | --- |
+| 1 | Jack1234567891011121314151617 | Gregarious-Extraverted |
+| 2 | Lukacris | Warm-Agreeable |
+| 3 | Jack1234567891011121314151617 | Arrogant-Calculating |
+| 4 | Beyond My Ken | Unassuming-Ingenuous |
+| 5 | Jack1234567891011121314151617 | Unassured-Submissive |
+| 6 | Beyond My Ken | Cold |
+---
+| Utterance ID | Speaker ID | Label |
+| --- | --- | --- |
